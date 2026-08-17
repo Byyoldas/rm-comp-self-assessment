@@ -1,0 +1,1520 @@
+{
+  "meta": {
+    "name": "European Competence Framework for Research Managers (RM Comp)",
+    "source": "RM_Comp_Assesment.pdf",
+    "publisher": "European Commission, Research and Innovation",
+    "copyright": "© European Union, 2025",
+    "levels": ["Foundational", "Intermediate", "Advanced", "Expert"],
+    "extractionNote": "Domain, competency, and descriptor text is transcribed verbatim (or with only trivial whitespace/OCR normalisation) from the source PDF. Where the source PDF has no descriptor bullets for a given level of a given competency, the level array is left empty and flagged rather than invented.",
+    "domains": [
+      { "id": "COG", "name": "Cognitive Abilities/Personal Attributes" },
+      { "id": "TECH", "name": "Technical Proficiency" },
+      { "id": "RPO", "name": "Research Project Oversight" },
+      { "id": "STK", "name": "Stakeholder Engagement" },
+      { "id": "LMT", "name": "Line Management and Talent Development" },
+      { "id": "COM", "name": "Communication" },
+      { "id": "SME", "name": "Subject Matter Expertise/Specialised Knowledge" }
+    ]
+  },
+  "competencies": [
+    {
+      "id": "creativity", "domain": "COG", "name": "Creativity", "page": 2,
+      "description": "Foster innovative approaches and solutions to aid problem-solving, designing methodologies and/or procedures which encourage a dynamic research environment.",
+      "levels": {
+        "Foundational": [
+          "Basic understanding of the importance of creativity in research and its critical role in problem solving.",
+          "Shows promise in ability to generate and express new ideas coherently.",
+          "Acknowledges the relationship between creativity and risk.",
+          "Can analyse information and identify key components to aid creativity."
+        ],
+        "Intermediate": [
+          "Ability to problem solve using methodologies and or procedures to enhance and nuance the solution.",
+          "Experiments with ideas and collaborates to provide solutions and ascertain risk.",
+          "Explores ideas from different discipline and domain perspectives demonstrating genuine curiosity.",
+          "Challenges own personal and cognitive biases that would deter creativity."
+        ],
+        "Advanced": [
+          "Cultivates a culture of solution-oriented thinking by fostering creativity within research teams and/or the organisation.",
+          "Introduces new or improved methodology, policy, or practice to enhance research progress and problem solve.",
+          "Uses cross-disciplinary collaborations and combined competence to address and solve organisational or systemic issues.",
+          "Considers ethical issues in creative solution decision-making."
+        ],
+        "Expert": [
+          "Provides leadership and facilitates creative problem solving at team, organisational and national/international level.",
+          "Designs and executes comprehensive processes and strategies in various domains addressing challenging and complex issues creatively.",
+          "Creates a long-lasting positive footprint in the organisation through the introduction of various policies and practice which create novel and long reaching positive impact.",
+          "Consistently demonstrates creativity in evaluating complex problems and generating innovative solutions."
+        ]
+      }
+    },
+    {
+      "id": "critical-thinking", "domain": "COG", "name": "Critical Thinking", "page": 2,
+      "description": "Able to systematically analyse information, assess the validity of research methodologies and make informed decisions. Identify potential biases, evaluate evidence objectively, and strategically navigate complex research management challenges.",
+      "levels": {
+        "Foundational": [
+          "Understands the importance of critical thinking and its significance in decision making.",
+          "Can analyse information and identify key components and issues.",
+          "Is aware of challenges surrounding personal and cognitive biases in critical thinking.",
+          "Demonstrates foundational proficiency in critical thinking by analyzing information, identifying logical connections, and making well-reasoned decisions."
+        ],
+        "Intermediate": [
+          "Evaluates the credibility and relevance of information provided.",
+          "Considers diverse perspectives when evaluating information to formulate decisions and consequences of these decisions.",
+          "Challenges own personal and cognitive biases in critical thinking.",
+          "Identifies and evaluates connections between complex linked data/information/policy."
+        ],
+        "Advanced": [
+          "Considers the long-term consequences of decisions made bearing in mind potential legacy issues.",
+          "Collaboratively engages in brainstorming sessions with colleagues to investigate the unforeseen consequences of potential decisions.",
+          "Considers ethical issues at an advanced level in critical decision-making.",
+          "Uses cross-disciplinary collaborations to identify potential systemic biases and evaluate issues objectively."
+        ],
+        "Expert": [
+          "Provides expert level advice to senior management and organisational leadership to enable informed decision making.",
+          "Designs and executes comprehensive strategies to inform organisational decision making.",
+          "Consistently demonstrates proficiency by systematically evaluating complex problems, synthesizing diverse information, and generating innovative solutions, thereby contributing to advanced decision-making processes.",
+          "Creates a long-lasting legacy in the organisation/nationally/internationally through improved policies and practice."
+        ]
+      }
+    },
+    {
+      "id": "cultural-sensitivity", "domain": "COG", "name": "Cultural Sensitivity", "page": 3,
+      "description": "Awareness and respect for diverse cultural perspectives, values, and norms. Fostering an inclusive work environment, acknowledging the impact of cultural nuances on research design and implementation.",
+      "levels": {
+        "Foundational": [
+          "Basic understanding of the importance of cultural sensitivity in diverse research environments.",
+          "Has a fundamental awareness of cultural differences, customs and traditions.",
+          "Communicates respectfully through all forms of communication.",
+          "Exhibits understanding towards individuals from different cultural backgrounds."
+        ],
+        "Intermediate": [
+          "Plans and delivers effective cross-cultural communication in all interactions with collaborators, partners, and team.",
+          "Exhibits cultural intelligence and awareness whilst working with diverse research teams and/or other teams.",
+          "Recognises and addresses any issues through unintended behaviours.",
+          "Demonstrates the ability to navigate and communicate effectively in diverse cultural contexts, displaying awareness, respect, and adaptability towards varying cultural norms and practices."
+        ],
+        "Advanced": [
+          "Fosters a culturally diverse and inclusive environment within the research team and/or other teams.",
+          "Successfully interacts in cross-cultural research collaborations and partner consortiums.",
+          "Empowers cultural differences via the establishment of procedures and strategies within the research team and/or other teams.",
+          "Exhibits the ability to seamlessly navigate diverse cultural environments, fostering inclusive interactions, and contributing positively to crosscultural collaborations with a high degree of cultural awareness and empathy."
+        ],
+        "Expert": [
+          "Provides expert level advice to senior management and organisational leadership to enhance researchand organisational cultural sensitivity.",
+          "Develop and implement cultural sensitivity strategies at team, organisation, national, and or international level.",
+          "Displays advanced skills in fostering cross-cultural understanding, resolving cultural conflicts, and serving as a catalyst for inclusive environments through insightful leadership and mentorship.",
+          "Demonstrates exceptional proficiency in understanding, respecting, and navigating complex cultural dynamics."
+        ]
+      }
+    },
+    {
+      "id": "problem-solving", "domain": "COG", "name": "Problem Solving", "page": 3,
+      "description": "Develop and implement solutions to practical, operational or conceptual problems which arise in the execution of work in a wide range of contexts.",
+      "levels": {
+        "Foundational": [
+          "Understands the concept of problem-solving and its importance in various contexts.",
+          "Ability to recognise and define problems, also using analytical skills to break them down into their component parts.",
+          "Understands the principle of collaborating to solve a problem.",
+          "Is open to learning new skills and approaches to identify and analyse issues clearly."
+        ],
+        "Intermediate": [
+          "Following a review of the issue, is able to identify the root cause of a problem.",
+          "Assesses the effectiveness of any proposed solutions.",
+          "Uses networking contacts and colleagues to discuss, address and resolve problems.",
+          "Engages in training and professional development to enhance problem solving skills and navigate unexpected issues."
+        ],
+        "Advanced": [
+          "Guide and facilitate teams through complex problem-solving processes.",
+          "Challenge existing resolutions to issues if no longer fit for purpose and propose alternative approaches.",
+          "Address interconnected and complex organisational or (research) team challenges.",
+          "Exhibits the capability to analyse intricate issues systematically, synthesize information from various sources, and devise innovative solutions."
+        ],
+        "Expert": [
+          "Provide expert-level thought leadership in designing and executing problem-solving strategies at leadership and organisational level.",
+          "Develop and implement policy and practice that addresses and solves problems at the organisational, national and or international level.",
+          "Exhibits leadership in guiding others through intricate problem-solving processes, showcasing the ability to anticipate, navigate, and resolve multifaceted issues with a profound understanding of organisational, research, and international dynamics.",
+          "Ability to address highly complex challenges by employing advanced analytical techniques, synthesizing interdisciplinary knowledge, and innovatively devising solutions."
+        ]
+      }
+    },
+    {
+      "id": "strategic-planning", "domain": "COG", "name": "Strategic Planning", "page": 4,
+      "description": "The ability to envision and execute a comprehensive research plan aligned with agreed goals and broader organisational and or national/international strategies. Develop a vision to turn ideas into action. Obtain and synthesize information to identify and explore trends, opportunities, threats (also based on intuition and creativity) to achieve a long-term goal and to thrive in a competitive, changing environment. Identify alternative paths to turn ideas into action, select the most appropriate approach and adjust where necessary.",
+      "levels": {
+        "Foundational": [
+          "Understands the fundamental principles of strategic planning and its contribution to the success of a research project.",
+          "Is able to conduct basic strategic planning analyses utilising tools such as SWOT analysis.",
+          "Understands how research project objectives align with organisational strategy.",
+          "Basic understanding of the strategic role of stakeholders both internal and external to the organisation."
+        ],
+        "Intermediate": [
+          "Is able to identify trends and threats within the research endeavour.",
+          "Ensures that the research project is aligned to organisational strategy and goals.",
+          "Effectively allocates approved resources to facilitate the strategy of the research.",
+          "Implements strategies and procedure that increase research impact."
+        ],
+        "Advanced": [
+          "Demonstrates the ability to formulate comprehensive and forward-thinking strategic initiatives.",
+          "Utilises networks and expertise to connect in with national and or international research strategies.",
+          "Exhibits proficiency in conducting thorough analysis, identifying key opportunities and challenges, and developing implementation plans that align with organisational goals.",
+          "Connects with internal and external stakeholders to devise strategies that increase the impact of the research."
+        ],
+        "Expert": [
+          "Demonstrates the capacity to integrate insight, analyse global trends, and anticipate emerging challenges, resulting in the creation of agile and adaptive strategic plans.",
+          "Recognised as a thought leader in the field, guiding organisations through complex strategic decisionmaking processes and consistently achieving positive outcomes.",
+          "Develops and executes strategies that drive organisational success.",
+          "Works closely with stakeholders both internal and external to the organisation to advance the long-term value and strategic impact of the research."
+        ]
+      }
+    },
+    {
+      "id": "decision-making", "domain": "COG", "name": "Decision Making", "page": 4,
+      "description": "Effective decision-making in this context is crucial for maintaining project momentum, achieving objectives, and navigating the complexities inherent in the research process.",
+      "levels": {
+        "Foundational": [
+          "Exhibits basic skills in gathering relevant information to inform decision-making.",
+          "Understands fundamental risk assessment principles to consider potential outcomes of decisions.",
+          "Understands the basic principle of monitoring decisions and their outcomes.",
+          "Understands the basic principle of collaboration when coming to informed decisions."
+        ],
+        "Intermediate": [
+          "Demonstrates the ability to critically analyse complex situations and information.",
+          "Analyses multiple scenarios prior to decision being made.",
+          "Collaborates with others to ensure a unified approach to decision making process.",
+          "Understands risks attached to all potential scenarios prior to making the decision."
+        ],
+        "Advanced": [
+          "Employs innovative strategies to navigate ambiguous situations.",
+          "Uses complex linked data and information to inform decision making.",
+          "Assesses the potential impact of the decision within the organisation.",
+          "Critically assesses the impact of critical decisions made within the organisation during a pre-defined period of time."
+        ],
+        "Expert": [
+          "Provides expert-level thought leadership to decision making strategies at leadership and organisational level.",
+          "Introduces innovative models and methodologies for expert-level decision making.",
+          "Works closely with stakeholders both internal and external to the organisation to assess the impact of critical decisions made at organisational, national and international level.",
+          "Demonstrates astute judgment in order to consistently achieve positive results and strategic objectives for the organisation."
+        ]
+      }
+    },
+    {
+      "id": "stress-management", "domain": "COG", "name": "Stress Management", "page": 5,
+      "description": "Stress management involves developing coping mechanisms and strategies, prioritizing tasks, and maintaining a healthy work-life balance.",
+      "levels": {
+        "Foundational": [
+          "Handles unfamiliar and uncomfortable situations with limited facilitation and supervision.",
+          "Perseveres and moves forward in stressful and pressed situations with limited assistance.",
+          "Is aware of what stress is and how to access further supports and resources to manage own stress.",
+          "Learning and applying relaxation techniques such as deep breathing, meditation, and mindfulness."
+        ],
+        "Intermediate": [
+          "Identifies signs of stress at an early stage.",
+          "Endures setbacks and failures.",
+          "Manages challenges and makes decisions under uncertainty.",
+          "Applying principles of positive psychology to enhance well-being and resilience. Applying cognitive-behavioural strategies to manage stress-related thoughts and behaviours."
+        ],
+        "Advanced": [
+          "Develops strategies for dealing with uncertainty and adversity.",
+          "Develops proactive responses to stressful situations.",
+          "Is aware of the importance of action planning and taking steps as soon as possible to reduce the risk of stress.",
+          "Teaching and implementing techniques for setting boundaries between work and personal life."
+        ],
+        "Expert": [
+          "Is recognised as confident decision-maker in uncertain and adverse situations.",
+          "Assists others in challenging and adverse situations.",
+          "Is able to create the right climate of psychological safety to encourage open discussion about stress.",
+          "Implementing effective time management strategies to reduce stress."
+        ]
+      }
+    },
+    {
+      "id": "prioritisation-time-management", "domain": "COG", "name": "Prioritisation, Time Management and Multitasking", "page": 5,
+      "description": "Involves identifying the most critical tasks and focusing on them first. This skill helps individuals focus on what is most crucial, manage their time and resources efficiently to achieve their goals.",
+      "levels": {
+        "Foundational": [
+          "Identifies tasks and prioritise them in order to develop an individual schedule and perform the work efficiently.",
+          "Works autonomously but actively seeks guidance when necessary.",
+          "Is able to assess personal strengths and weaknesses in time management."
+        ],
+        "Intermediate": [
+          "Establishes own time management system.",
+          "Has the ability to break down mangeable tasks into manageable task plans. Is forward thinking.",
+          "Recognizing common distractions and learning strategies to minimize them."
+        ],
+        "Advanced": [
+          "Identifies synergies between projects to use own time efficiently and productively.",
+          "Aligning daily tasks and projects with long-term strategic goals and manages several complex projects to time.",
+          "Understanding and applying techniques to manage personal energy levels to match tasks with optimal times of day."
+        ],
+        "Expert": [
+          "Integrating time management practices into all aspects of personal and professional life.",
+          "Developing and using advanced metrics to measure productivity and efficiency.",
+          "Functions as role model and a coach in questions about time management."
+        ]
+      }
+    },
+    {
+      "id": "adaptability-flexibility", "domain": "COG", "name": "Adaptability and Professional Flexibility", "page": 5,
+      "description": "Involves adjusting to new situations, technologies, and workflows. Adaptable individuals can thrive in dynamic environments, handle unexpected challenges, and maintain a competitive edge.",
+      "levels": {
+        "Foundational": [
+          "Identifies potential risks associated with change and developing mitigation strategies and is able to ask for clarification during transitions or seek out additional information or resources.",
+          "Be aware of changes in your environment, accepts them and is ready to make adjustments.",
+          "Is committed to continuous learning and professional development in the field of adaptability."
+        ],
+        "Intermediate": [
+          "Develops a growth mindset to positively take on new challenges, find new opportunities during transition.",
+          "Understands the dynamics of change and transitions.",
+          "Is able to observe and analyse how to make adjustments or improvements in case of changes or during transition."
+        ],
+        "Advanced": [
+          "Demonstrates readiness to embrace change and inspires others to do the same.",
+          "Request opportunities to work on tasks that may be new or offer to take on responsibilities that require creative approaches.",
+          "Finds and develops new ways and approaches to adapt to new situations and challenges."
+        ],
+        "Expert": [
+          "Creates a safe and supportive environment for colleagues to share thoughts, concerns, and ideas.",
+          "Discusses own learning experiences and is transparent about the journey and challenges experienced in adapting to change.",
+          "Provides support through mentoring or coaching for individuals who may struggle with adapting to change."
+        ]
+      }
+    },
+    {
+      "id": "conflict-management", "domain": "COG", "name": "Conflict Management", "page": 6,
+      "description": "The practice of handling or resolving disputes and disagreements in a constructive manner. It involves identifying and addressing the underlying issues, employing strategies such as negotiation, mediation, and problem-solving to achieve mutually acceptable solutions.",
+      "levels": {
+        "Foundational": [
+          "Identifies positive and negative conflicts, learns and practices the skills necessary to uncover with conflict.",
+          "Understands the key questioning and listening skills needed to conduct high quality conversations with members of their team.",
+          "Assesses a range of responses to conflict situations and understand the importance of early intervention."
+        ],
+        "Intermediate": [
+          "Learns and practices the skills necessary to deal with conflict.",
+          "Utilises the key questioning and listening skills needed to conduct high quality conversations with members of their team.",
+          "Understands various theories and models of conflict, including structural, functional, and process theories."
+        ],
+        "Advanced": [
+          "Develops personal action plans for conflict situations back at work.",
+          "Develops proactive responses to stressful situations.",
+          "Prepares and conducts difficult conversations, using a collaborative approach to move towards a positive outcome.",
+          "Analyses the underlying causes, actors, and stages of conflict."
+        ],
+        "Expert": [
+          "Develops and uses different conflict management strategies.",
+          "Enable others to develop strategies for dealing with conflict when it happens.",
+          "Assesses successfully the effectiveness of conflict management interventions."
+        ]
+      }
+    },
+    {
+      "id": "reliability-trustfulness", "domain": "COG", "name": "Reliability and Trustfulness", "page": 6,
+      "description": "Involves being dependable and trustworthy in one's work. Reliable individuals consistently deliver high-quality results, meet deadlines, and maintain a strong reputation. It involves demonstrating honesty, integrity, and transparency in actions and communications. Trustfulness is a foundational element in building and maintaining relationships, whether personal or professional.",
+      "levels": {
+        "Foundational": [
+          "Understands the basic elements of building trust, such as reliability, openness, and consistency.",
+          "Examines the personal capacity to trust and to generate trust.",
+          "Is familiar with ethical standards and guidelines in management, including honesty, integrity, and transparency.",
+          "Maintains consistent and thorough documentation of processes, decisions, and communications."
+        ],
+        "Intermediate": [
+          "Identifies behaviours that build trust or mistrust.",
+          "Developing trustful relations with colleagues.",
+          "Develops and adheres to standard operating procedures to maintain consistency and reliability.",
+          "Producing detailed and comprehensive reports that provide a clear and accurate account of operations and decisions."
+        ],
+        "Advanced": [
+          "Develop strategies for building or rebuilding trust.",
+          "Engaging with stakeholders to build trust and ensure transparency and accountability.",
+          "Implementing continuous improvement processes to enhance reliability and trust in operations.",
+          "Effectively resolving conflicts in a manner that maintains and builds trust."
+        ],
+        "Expert": [
+          "Creates a high-trust environment where people are more willing to accept change and work together toward successfully integrating the effects of change.",
+          "Developing constructive relationships with other stakeholders to ensure effective cooperation.",
+          "Establishing systems and processes that ensure the highest levels of reliability and trustworthiness in all aspects of operations.",
+          "Developing and promoting innovative practices that enhance reliability and trustworthiness."
+        ]
+      }
+    },
+    {
+      "id": "data-collection-collation", "domain": "TECH", "name": "Research Data Collection and Collation", "page": 7,
+      "description": "Implement (and develop) robust data collection methodologies, coordinate data acquisition efforts among team members, and oversee the organised collation of diverse research datasets leading to evidence-based decision-making.",
+      "levels": {
+        "Foundational": [
+          "Understands and applies basic data collection techniques such as surveys, interviews, and observations.",
+          "Demonstrates proficiency in accurately entering data into spreadsheets or databases.",
+          "Understands basic statistical concepts to describe and summarise data.",
+          "Recognises the importance of data quality and applies basic data validation and cleaning techniques."
+        ],
+        "Intermediate": [
+          "Develops structured instruments for data collection, such as surveys and questionnaires.",
+          "Effectively manages and organises data using databases, ensuring data integrity and security.",
+          "Applies coding schemes and other tools to categorise and organise qualitative data.",
+          "Is aware of data management policies at organisational, national and international level (i.e. GDPR)."
+        ],
+        "Advanced": [
+          "Conducts advanced statistical analyses of complex linked data.",
+          "Integrates and analyses data from various sources, including qualitative and quantitative data.",
+          "Uses cross-disciplinary collaborations and combined competence to address and solve organisational or systemic issues.",
+          "Designs and implements databases tailored to specific research project needs, considering scalability and data relationships."
+        ],
+        "Expert": [
+          "Ability to apply advanced analytical techniques to large datasets, utilising tools like machine learning and artificial intelligence.",
+          "Establishes and leads data governance practices, ensuring ethical and responsible data management.",
+          "Creates a long-lasting positive footprint in the organisation through the introduction of policies and practices concerning the responsible use and management of research data.",
+          "Understands and addresses challenges related to interoperability and diverse data formats."
+        ]
+      }
+    },
+    {
+      "id": "data-statistical-analysis", "domain": "TECH", "name": "Data and Statistical Analysis", "page": 7,
+      "description": "Apply rigorous statistical methods to ensure the accuracy and reliability of data and its interpretation.",
+      "levels": {
+        "Foundational": [
+          "Understands basic concepts related to data, variables, and datasets.",
+          "Computes and interprets basic descriptive statistics, such as mean, median, mode, and standard deviation.",
+          "Able to create simple data visualizations, including bar charts, histograms, and scatter plots.",
+          "Is eager to learn and engage with methods of data and statistical analysis."
+        ],
+        "Intermediate": [
+          "Conducts and interprets simple linear regression analysis.",
+          "Utilises statistical software (e.g., R, Python, SPSS) to perform analyses and generate reports.",
+          "Able to apply basic multivariate analysis techniques, such as multiple regression or factor analysis.",
+          "Understands and designs basic experimental and observational study designs."
+        ],
+        "Advanced": [
+          "Applies advanced regression techniques, such as logistic regression or hierarchical linear modelling.",
+          "Conducts time series analysis to model and interpret temporal data patterns.",
+          "Applies machine learning algorithms for predictive modelling and classification tasks.",
+          "Understands and conducts meta-analyses, synthesizing findings from multiple studies."
+        ],
+        "Expert": [
+          "Can apply advanced multivariate techniques like structural equation modelling or cluster analysis.",
+          "Can apply Bayesian statistical methods to complex research questions.",
+          "Designs and implements strategies for causal inference in observational studies.",
+          "Provides expert-level statistical consultation, including study design, data analysis planning, and interpretation."
+        ]
+      }
+    },
+    {
+      "id": "legal-skills", "domain": "TECH", "name": "Legal Skills", "page": 8,
+      "description": "A nuanced understanding of legal concepts, ethical considerations, and a keen awareness of the legal landscape as it pertains to the research ecosystem.",
+      "levels": {
+        "Foundational": [
+          "Understands foundational concepts of legal principles and their application.",
+          "Develops knowledge of basic legal terminology.",
+          "Understands the basic principles of contract analysis and interpretation.",
+          "Ability to draft basic legal documents."
+        ],
+        "Intermediate": [
+          "Analyses and drafts complex contracts.",
+          "Conducts legal due diligence in various situations.",
+          "Uses negotiation within legal contexts.",
+          "Communicates legal nuances clearly and precisely."
+        ],
+        "Advanced": [
+          "Identifies and manages legal risks within research project or at organisational level.",
+          "Ability to draft legal pleadings or documents.",
+          "Manages multiple legal cases simultaneously, overseeing timelines, resources, and collaboration with research team members.",
+          "Diagnoses and troubleshoots complex legal issues."
+        ],
+        "Expert": [
+          "Introduces innovative legal techniques and methodologies, contributing to advancements in the field.",
+          "Integrates legal processes and ethical considerations into the broader research landscape, collaborating with interdisciplinary teams.",
+          "Contributes to the publication of research findings, effectively communicating methodologies and results.",
+          "Provides mentorship to junior researchers and research managers, guiding them in legal procedures and troubleshooting."
+        ]
+      }
+    },
+    {
+      "id": "it-for-research", "domain": "TECH", "name": "IT for Research Activities", "page": 8,
+      "description": "Leveraging Information Technology (IT) and overseeing the integration of advanced technologies to enhance data management, analysis, security and collaboration. Implementation of robust IT infrastructure, such as data storage solutions, analytical tools, AI and collaborative platforms, to optimise research processes.",
+      "levels": {
+        "Foundational": [
+          "Demonstrates basic computer literacy, including proficiency in operating systems, file management, and software installation.",
+          "Conducts basic internet research to gather information relevant to research topics.",
+          "Uses word processing software for basic document creation and formatting.",
+          "Inputs and manages research data using spreadsheets or basic database applications."
+        ],
+        "Intermediate": [
+          "Utilises specialised research software or data analysis, statistical calculations, and visualisation.",
+          "Designs and manages databases for organising and storing research data.",
+          "Develops proficiency in a programming language (e.g., Python, R) for automation and data manipulation.",
+          "Uses bibliographic management tools for literature review and citation management."
+        ],
+        "Advanced": [
+          "Conducts complex data analyses using advanced statistical methods and machine learning techniques.",
+          "Develops and implements scripts or workflows for automating repetitive research tasks.",
+          "Uses collaborative platforms and version control systems for team-based research projects.",
+          "Demonstrates awareness of cybersecurity best practices to protect research data and systems."
+        ],
+        "Expert": [
+          "Develops custom software applications tailored to specific research needs.",
+          "Applies advanced techniques for handling and analysing large datasets (big data).",
+          "Manages and optimises IT infrastructure for largescale research projects.",
+          "Stays abreast of and integrates emerging technologies, such as artificial intelligence or blockchain, into research workflows."
+        ]
+      }
+    },
+    {
+      "id": "artificial-intelligence", "domain": "TECH", "name": "Artificial Intelligence", "page": 9,
+      "description": "Ability to leverage AI technologies and algorithms to optimize research processes, analyse complex datasets, and derive meaningful insights for informed decision-making.",
+      "levels": {
+        "Foundational": [
+          "Understands what AI is and its basic applications in research management.",
+          "Knows about basic AI tools and how they can be used in research.",
+          "Recognizes ethical concerns related to AI use in research.",
+          "Demonstrates a willingness to learn about AI and its integration into research workflows."
+        ],
+        "Intermediate": [
+          "Can assess different AI technologies for research tasks.",
+          "Applies basic AI tools (e.g., data visualization, predictive analytics) to facilitate research management.",
+          "Data Interpretation: Understands how to interpret AI-generated insights for decisionmaking.",
+          "Can identify where AI can be helpful in research tasks."
+        ],
+        "Advanced": [
+          "Can create customized AI solutions for complex research challenges.",
+          "Critically evaluates AI solutions and vendors, making informed decisions about which technologies to adopt.",
+          "Establishes rules for responsible AI use in research management.",
+          "Works with AI experts and teams to integrate AI effectively."
+        ],
+        "Expert": [
+          "Develops and enforces comprehensive policies and ethical guidelines for AI use, ensuring responsible and fair AI practices.",
+          "Identifies and facilitates innovative AI solutions that can transform research practices and drive significant advancements.",
+          "Guides others in using AI effectively for research management.",
+          "Shows how AI can make a real difference in research management. (Acts as a leader in the integration of AI in research management, sharing knowledge through industry forums, publications, and workshops)"
+        ]
+      }
+    },
+    {
+      "id": "research-project-management", "domain": "RPO", "name": "Research Project Management", "page": 10,
+      "description": "Overseeing the entire lifecycle of research projects. Defining objectives, developing timelines, allocating resources including Human Resources, and ensuring the project stays on course. Coordinating diverse aspects of project execution, fostering collaboration, and adapting strategies to overcome challenges.",
+      "levels": {
+        "Foundational": [
+          "Grasps foundational concepts and principles of project management within a research context.",
+          "Understands the basics of initiating a research project, including defining objectives, scope, and stakeholders.",
+          "Develops basic skills in creating project timelines and managing research project tasks.",
+          "Demonstrates foundational communication skills for project updates, coordination and dissemination."
+        ],
+        "Intermediate": [
+          "Develops and refines project plans, including detailed task lists, resource allocation, and risk assessment.",
+          "Administers project budgets, including tracking expenses, forecasting, and financial reporting.",
+          "Engages with stakeholders effectively, including research teams, funders, and collaborators.",
+          "Administers quality assurance processes to ensure the integrity and reliability of research project outcomes."
+        ],
+        "Advanced": [
+          "Identifies, assesses, and manages risks proactively, implementing strategies to mitigate potential issues.",
+          "Navigates and manages changes in project scope, timeline, or objectives, ensuring minimal disruption.",
+          "Provide guidance to senior management on strategic opportunities, project and portfolio design, and risk management for large-scale projects and portfolios.",
+          "Utilises advanced project management tools and software for collaborative project planning and tracking."
+        ],
+        "Expert": [
+          "Contributes to strategic planning for multiple research projects, aligning them with organisational goals.",
+          "Provides leadership within project teams, fostering a collaborative and innovative project culture.",
+          "Manages a portfolio of research projects, optimising resource allocation and project synergies.",
+          "Implements continuous improvement strategies, incorporating lessons learned from previous projects into current practices."
+        ]
+      }
+    },
+    {
+      "id": "managing-deliverables", "domain": "RPO", "name": "Managing Research Project Deliverables", "page": 10,
+      "description": "Ensure that project milestones and outcomes align with established goals. Establish clear deliverables, monitor progress, and address any deviations from the project plan promptly.",
+      "levels": {
+        "Foundational": [
+          "Basic understanding of the project's objectives and how they align with broader research goals.",
+          "Demonstrates basic skills in executing individual tasks according to project plans.",
+          "Develops foundational documentation skills for recording progress and outcomes.",
+          "Understands and adheres to the project timeline for timely deliverable delivery."
+        ],
+        "Intermediate": [
+          "Coordinates and manages multiple tasks simultaneously, ensuring they align with project objectives.",
+          "Assists with the production of deliverables with a focus on quality, accuracy, and adherence to project requirements.",
+          "Using a portfolio of competencies, develops problem-solving skills to address challenges that may arise during the project.",
+          "Communicates progress and challenges effectively with research team members and stakeholders."
+        ],
+        "Advanced": [
+          "Ensures that project deliverables align strategically with the overarching research objectives.",
+          "Can identify and proactively address potential risks that could impact the achievement of deliverables.",
+          "Collaborates with cross-functional teams, integrating various perspectives and expertise into deliverable execution.",
+          "Using a portfolio of competencies, introduces innovative approaches or methods to enhance the quality or impact of project deliverables."
+        ],
+        "Expert": [
+          "Provides leadership in the delivery of highimpact deliverables, guiding the team to excellence.",
+          "Contributes strategically to the development of deliverables, ensuring they contribute to broader research and organisational goals.",
+          "Ensures that project deliverables have an impact beyond the immediate project, contributing to the broader scientific community or society.",
+          "Leads initiatives for continuous improvement in the processes and methodologies used to achieve research project deliverables."
+        ]
+      }
+    },
+    {
+      "id": "monitoring-evaluation", "domain": "RPO", "name": "Monitoring and Evaluation Frameworks and Indicators", "page": 11,
+      "description": "Administering systematic processes to assess the progress and impact of research projects and initiatives. Define key performance indicators, establish data collection methods, and implement evaluation frameworks to measure project success. Ensure the effective tracking of research outcomes, facilitating data-driven decision-making and continuous improvement in the research process.",
+      "levels": {
+        "Foundational": [
+          "Understands the foundational concepts of M&E and their importance in research project results.",
+          "Identifies and understands the key components of a monitoring and evaluation framework.",
+          "Develops foundational skills in creating basic indicators that align with research project goals.",
+          "Understands basic methods for data collection relevant to monitoring and evaluation."
+        ],
+        "Intermediate": [
+          "Selects and refines indicators based on relevance, feasibility, and measurability.",
+          "Develops plans for systematic data collection, considering methods, frequency, and responsible parties.",
+          "Implements agreed quality assurance measures to ensure the reliability and validity of collected data.",
+          "Participates in the implementation of M&E governance frameworks and policies."
+        ],
+        "Advanced": [
+          "Implements results-based management approaches, aligning M&E with project outcomes and impact.",
+          "Administers advanced performance measurement frameworks to track progress and achievements.",
+          "Implements evaluations, including impact assessments and formative evaluations.",
+          "Demonstrates the ability to design, implement, and critically assess comprehensive monitoring and evaluation plans for complex research programs."
+        ],
+        "Expert": [
+          "Able to select and refine performance indicators and apply sophisticated methodologies to assess the effectiveness, efficiency, and impact of these indicators.",
+          "Engage stakeholders in the design and implementation of M&E frameworks, ensuring their perspectives are considered.",
+          "Lead complex evaluations involving multiple variables, methodologies, and data sources.",
+          "Contribute to building the capacity of research teams and organisations through the implementation of advanced M&E practices and methodologies."
+        ]
+      }
+    },
+    {
+      "id": "establishing-project-plans", "domain": "RPO", "name": "Establishing Research Project Plans", "page": 11,
+      "description": "Outline project objectives, timelines, and resource allocation. Collaborate with research team members to define clear goals, delineate tasks, and establish milestones. Develop comprehensive project plans to provide a roadmap for successful execution of the project. Facilitate effective coordination among research team members.",
+      "levels": {
+        "Foundational": [
+          "Understands the foundational concepts of project planning, including its importance in research.",
+          "Assists with defining the scope and objectives of a research project at a basic level.",
+          "Develops a simple work breakdown structure to outline project tasks.",
+          "Identifies basic resources required for a research project."
+        ],
+        "Intermediate": [
+          "Can develop a detailed and comprehensive project scope, considering all relevant aspects.",
+          "Can create a realistic project timeline, including milestones and deadlines.",
+          "Allocates resources effectively, considering personnel, equipment, travel and budget constraints.",
+          "Using a portfolio of competencies, identifies and documents potential risks that may impact the project."
+        ],
+        "Advanced": [
+          "Aligns the project plan with broader research and organisational strategies.",
+          "Engages with stakeholders to gather input and ensure their perspectives are considered in the project plan.",
+          "Utilises project management tools and methodologies to enhance planning and tracking.",
+          "Assists with the development of a detailed and accurate budget, considering all project costs and funding sources."
+        ],
+        "Expert": [
+          "Provides leadership in developing research project plans that contribute to organisational goals.",
+          "Using a portfolio of competencies, introduces innovative approaches and methodologies into project planning to enhance efficiency and effectiveness.",
+          "Manages complex resource allocations, including human, financial, and technical resources.",
+          "Facilitates collaboration among diverse teams and stakeholders in the establishment of project plans."
+        ]
+      }
+    },
+    {
+      "id": "research-outreach", "domain": "STK", "name": "Research Outreach", "page": 12,
+      "description": "Develop strategies to disseminate research findings and engage with diverse stakeholders. Create outreach plans that encompass effective communication channels, collaborations with external partners, and the dissemination of research outcomes to relevant audiences. Foster meaningful connections and promote the visibility of research initiatives thereby contributing to the broader impact and relevance of the research within the research community and beyond.",
+      "levels": {
+        "Foundational": [
+          "Demonstrates knowledge of the foundational concepts of research outreach and its significance in dissemination.",
+          "Implements basic oral and written communication skills for engaging with diverse audiences.",
+          "Can identify and understand needs of target audiences for research outreach.",
+          "Familiarises oneself with basic outreach channels, including social media, presentations, and written materials."
+        ],
+        "Intermediate": [
+          "Develops skills in tailoring communication messages to different audiences, considering their interests, knowledge levels and backgrounds.",
+          "Plans and coordinates intermediatelevel research outreach events, such as workshops, webinars, or seminars.",
+          "Engages with multiple media channels for dissemination of research findings.",
+          "Uses online platforms effectively for outreach, e.g. blogs, podcasts, and web content."
+        ],
+        "Advanced": [
+          "Using a portfolio of competencies inclusive of EDI and Ethical principles, develops and implements strategic plans for research outreach, aligning them with organisational goals.",
+          "Collaborates with external organisations for outreach initiatives.",
+          "Implements metrics and assessment strategies to measure the impact of research outreach activities.",
+          "Engages in policy outreach, influencing decision-makers and contributing to policy discussions."
+        ],
+        "Expert": [
+          "Provides thought leadership in the field through influencing trends and leading discussions on importance of outreach.",
+          "Develops and implements outreach strategies at the organisational level, considering cultural nuances and international contexts.",
+          "Leads collaborative initiatives that bring together diverse stakeholders for impactful research outreach.",
+          "Using a portfolio of competencies, introduces innovative techniques and technologies for research outreach, whilst staying at the forefront of communication trends."
+        ]
+      }
+    },
+    {
+      "id": "academic-community-collaboration", "domain": "STK", "name": "Academic Community Relationship Collaboration", "page": 12,
+      "description": "Building and maintaining strong relationships with academic institutions, scholars, and researchers. Facilitate partnerships, joint initiatives, and knowledge exchange, to enhance the research ecosystem. Contribute to a collaborative environment, fostering innovation, resource sharing, and the advancement of research agendas within and beyond the academic community.",
+      "levels": {
+        "Foundational": [
+          "Understands the importance of collaboration within academic and community contexts.",
+          "Exhibits communication skills for engaging with academic peers and community stakeholders.",
+          "Establishes foundational relationships with academic partners, recognising mutual interests.",
+          "Develops an awareness of basic academic community needs and challenges through initial engagement."
+        ],
+        "Intermediate": [
+          "Initiates collaborative programs that align with academic and community goals.",
+          "Engages with diverse stakeholders, including academic faculty, students, and community leaders, in collaborative projects.",
+          "Using a portfolio of competencies, develops a productive relationship with the academic community.",
+          "Liaises with relevant research associations, also attends conferences and networking events."
+        ],
+        "Advanced": [
+          "Leads the development of strategic partnerships with the academic community.",
+          "Measures and assesses the impact of collaborative initiatives.",
+          "Co-designs and/or collaborates to produce methods and practice that address academic community needs.",
+          "Takes on representative roles within research associations, contributing to the development of research culture and communities."
+        ],
+        "Expert": [
+          "Establishes and leads collaborative networks involving academia, research associations and research communities.",
+          "Develops and implements strategies for collaborations that address complex research and societal challenges.",
+          "Introduces innovative models and approaches to academiccommunity collaboration, contributing to the field's advancement.",
+          "Demonstrates the ability to strategically cultivate and sustain robust collaborations, leveraging extensive networks to foster interdisciplinary research initiatives, secure grant funding, and facilitate knowledge exchange."
+        ]
+      }
+    },
+    {
+      "id": "community-engagement", "domain": "STK", "name": "Community Engagement with Research", "page": 13,
+      "description": "Establish meaningful connections with diverse communities affected by or interested in the research. Develop strategies for inclusive communication, solicit community input, and ensure the research aligns with community needs and values. Foster open dialogue and collaboration, contribute to the ethical and socially impactful conduct of research, promote community participation and the translation of research outcomes into tangible benefits for the broader community.",
+      "levels": {
+        "Foundational": [
+          "Understands the foundational concepts of community engagement in the context of research.",
+          "Exhibits the communication skills for engaging with various communities about research.",
+          "Employs and practices cultural sensitivity when engaging with diverse community groups.",
+          "Understands the potential impact of research on communities and vice versa."
+        ],
+        "Intermediate": [
+          "Develops coherent plans for community engagement in research and research projects.",
+          "Identifies develops links, and engages with diverse stakeholders within communities for research collaboration.",
+          "Establishes feedback mechanisms and channels for community input into research design and implementation.",
+          "Contributes to efforts to build community capacity for research participation."
+        ],
+        "Advanced": [
+          "Able to apply sophisticated participatory techniques that engage communities throughout the research process.",
+          "Using a portfolio of competencies, empowers communities through research partnerships.",
+          "Is aware of policy trends and frameworks concerning community engagement and research impact more broadly.",
+          "Fosters transparent and bidirectional communication, ensuring community input is integral to study design, implementation, and dissemination of findings."
+        ],
+        "Expert": [
+          "Aligns community engagement frameworks with research strategy, contributing to the advancement of socially impactful research.",
+          "Engages stakeholders in the design and implementation of community engagement frameworks, ensuring all perspectives are considered.",
+          "Leads complex engagements involving multiple variables, methodologies, and data sources.",
+          "Uses ethical considerations, cultural sensitivity, and collaborative approaches, contributing to the establishment of sustainable, mutually beneficial relationships between researchers and the communities they serve."
+        ]
+      }
+    },
+    {
+      "id": "key-stakeholder-engagement", "domain": "STK", "name": "Engagement with Key Stakeholders", "page": 13,
+      "description": "Build and sustain collaborative relationships with influential partners, including academic institutions, industry leaders, policymakers, funders, industry, and community representatives.",
+      "levels": {
+        "Foundational": [
+          "Understands fundamental concepts of stakeholder engagement and its importance to the research ecosystem.",
+          "Develops skills in identifying and mapping key stakeholders.",
+          "Understands basic principles of effective communication with stakeholders.",
+          "Develops an awareness of the interests and concerns of different stakeholder groups."
+        ],
+        "Intermediate": [
+          "Develops skills in strategic stakeholder mapping, considering power dynamics and influence.",
+          "Works to foster collaborative decisionmaking processes involving key stakeholders.",
+          "Can negotiate with and address the interests of a multitude of stakeholders.",
+          "Applies conflict resolution skills to address issues that may arise during stakeholder engagement."
+        ],
+        "Advanced": [
+          "Builds and sustains strategic relationships with key stakeholders.",
+          "Facilitates cross-functional collaboration among diverse stakeholder groups.",
+          "Using a portfolio of competencies, utilises data and analytics for stakeholder engagement strategies.",
+          "Implements complex communication strategies tailored to diverse stakeholder needs."
+        ],
+        "Expert": [
+          "Provides leadership in designing and executing stakeholder engagement strategies that align with organisational goals.",
+          "Introduces innovative models and approaches for expertlevel stakeholder engagement.",
+          "Ensures the sustainability of stakeholder engagement efforts and leaves a positive legacy in stakeholder relationships.",
+          "Drives transformative impact by leveraging extensive networks, facilitating dialogue, and fostering long-term relationships that advance the organisation's mission and objectives."
+        ]
+      }
+    },
+    {
+      "id": "building-trust-partnerships", "domain": "STK", "name": "Building Trust within Relevant Research and Strategic Partnerships", "page": 14,
+      "description": "Build trust within relevant research and strategic partnerships for successful collaboration. Deliver on commitments, foster transparent communication, and prioritise the mutual interests of partners.",
+      "levels": {
+        "Foundational": [
+          "Demonstrates a basic understanding of the importance of trust in professional relationships with key stakeholders in research, including strategic partners.",
+          "Shows promise in ability to network and build positive professional relationships.",
+          "Shows awareness of the importance of reliability and consistency in partnerships.",
+          "Understands the research landscape and the importance of effective communication."
+        ],
+        "Intermediate": [
+          "Demonstrates the ability to identify strategic partnerships that align with organisational and research goals.",
+          "Cultivates meaningful partnerships with organisations and funders aligned with research goals and outcomes.",
+          "Understands the importance of open and transparent communication to build trust.",
+          "Coherently conveys mutual benefits of a proposed partnership."
+        ],
+        "Advanced": [
+          "Develops strategies for fostering strategic collaborations that enhance trust.",
+          "Employs risk mitigation strategies to maintain trust in complex partnerships.",
+          "Resolves conflicts and challenges while preserving trust.",
+          "Using a portfolio of competencies, utilises all forms of communication for informed trust building."
+        ],
+        "Expert": [
+          "Provides leadership and direct relationship management initiatives for enable trust within strategic partnerships.",
+          "Ensures the organisation delivers on commitments made in agreements with partners.",
+          "Creates a long-lasting positive footprint in the organisation through the introduction of good practice which has a long reaching positive impact.",
+          "Employs advanced interpersonal and negotiation skills to navigate complex dynamics, cultivating a culture of mutual respect and shared goals."
+        ]
+      }
+    },
+    {
+      "id": "diplomacy-negotiation-mediation", "domain": "STK", "name": "Diplomacy, Negotiation, and Mediation Skills", "page": 14,
+      "description": "Employ tactful communication, adept negotiation strategies, and effective mediation to reconcile differing perspectives and align interests among research team members or stakeholders.",
+      "levels": {
+        "Foundational": [
+          "Has foundational concepts of diplomacy, negotiation, and mediation.",
+          "Has foundational communication skills for effective interaction in diplomatic and negotiation settings.",
+          "Has an awareness of conflicts and the need for mediation in various contexts.",
+          "Understands basic principles of active listening as a skill in negotiations."
+        ],
+        "Intermediate": [
+          "Is skilled in planning and executing tactful communication strategies within research teams.",
+          "Utilises a variety of negotiation techniques with ability to compromise.",
+          "Uses mediation processes and techniques.",
+          "Exhibits cultural sensitivity for effective diplomacy in diverse settings."
+        ],
+        "Advanced": [
+          "Aligns interests among research team members and stakeholders.",
+          "Resolves through diplomacy and mediation unforeseen differing perspectives within the research team.",
+          "Inspires others in the use of effective and organisationcompliant negotiation and mediation strategies.",
+          "Navigates complex negotiations, employing advanced tactics to achieve mutually beneficial outcomes."
+        ],
+        "Expert": [
+          "Introduce innovative conflict resolution models and approaches.",
+          "Executes strategies at organisational level to mitigate the effect of differing perspectives within the research team, organisation or with stakeholders.",
+          "Exhibits a sophisticated understanding of cultural nuances, power dynamics, and psychological factors that influence negotiations.",
+          "Demonstrates a track record of successfully resolving multifaceted disputes and negotiating agreements that advance organisational objectives."
+        ]
+      }
+    },
+    {
+      "id": "difficult-conversations", "domain": "STK", "name": "Handling Difficult Conversations and Partnerships", "page": 15,
+      "description": "Navigate challenging discussions with tact, empathy, and problem-solving skills. Address conflicts, manage expectations, and seek resolutions to maintain positive relationships within the research team/ organisation and or external partners.",
+      "levels": {
+        "Foundational": [
+          "Demonstrates a basic understanding of the importance of having structured difficult conversations and their importance to partnerships.",
+          "Adapts communication skills for navigating difficult conversations.",
+          "Communicates respectfully and ethically through all forms of communication.",
+          "Demonstrates evidence of emotional intelligence when managing difficult conversations."
+        ],
+        "Intermediate": [
+          "Anticipates and prepares ahead of time for challenging discussions with members of the research team.",
+          "Employs conflict resolution techniques to navigate challenges.",
+          "Negotiates to find common ground in addressing conflict, managing expectations and seeking resolutions.",
+          "Escalates to conflict resolution procedures and policy when needed."
+        ],
+        "Advanced": [
+          "Implements strategies to maintain trust and collaboration within the team and with external partners.",
+          "Using a portfolio of competencies, manages expectations and seeks conflict resolution within the team.",
+          "Engages with diverse stakeholders and partners to address complex issues and resolve differences.",
+          "Demonstrates the ability to navigate challenging discussions with sensitivity, tact, and respect for others."
+        ],
+        "Expert": [
+          "Provides leadership in designing and executing comprehensive strategies for difficult partnerships.",
+          "Introduces innovative conflict resolution models and approaches at the organisational level.",
+          "Creates a long-lasting positive footprint through open and transparent practice and the maintenance of positive relationships.",
+          "Demonstrates an unparalleled ability to navigate highly complex and sensitive discussions with finesse and strategic acumen."
+        ]
+      }
+    },
+    {
+      "id": "business-commercial-liaison", "domain": "STK", "name": "Business and Commercial Liaison Management", "page": 15,
+      "description": "Facilitate collaborations between the research team and industry partners or commercial entities. Navigate the intersection of academia and business, identifying opportunities for knowledge valorisation, licensing, or joint ventures.",
+      "levels": {
+        "Foundational": [
+          "Understands the importance of business and commercial liaison within the research agenda.",
+          "Develops communication skills for effective collaboration with business partners.",
+          "Understands basic principles of negotiation for business-related interactions.",
+          "Gains proficiency in identifying and establishing initial connections with commercial partners, understanding basic contractual considerations, and participating in introductory discussions."
+        ],
+        "Intermediate": [
+          "Demonstrates proficiency in planning and structuring strategic business partnerships.",
+          "Engages in cross-functional collaboration to align business and research goals effectively.",
+          "Employs negotiation techniques for navigating complex business and research interactions.",
+          "Uses data and insights to guide decisionmaking with business and commercial partners."
+        ],
+        "Advanced": [
+          "Cultivates strategies to promote and nurture strategic commercial collaborations.",
+          "Executes partnership strategies with industry considering diverse and international perspectives.",
+          "Introduces forward-thinking liaison models and approaches to elevate and enrich industry relationships within the context of research dissemination and output.",
+          "Demonstrates a nuanced understanding of complex business dynamics, market trends, and strategic partnership development."
+        ],
+        "Expert": [
+          "Demonstrates leadership skills overseeing the design and execution of comprehensive business liaison strategies.",
+          "Pioneers' commercial collaboration models and approaches driving innovation and effectiveness in partnerships.",
+          "Formulates and implement business liaison strategies considering the shifting landscape of global business and research trends.",
+          "Able to navigate intricate business landscapes, formulate and execute highly sophisticated strategies for partnership development, and foster long-term commercial relationships."
+        ]
+      }
+    },
+    {
+      "id": "people-management", "domain": "LMT", "name": "People Management and Managing Team Performance", "page": 16,
+      "description": "Effectively leading and coordinating a team, providing guidance, and fostering a collaborative environment to ensure the successful execution of research projects. Includes setting clear expectations, monitoring progress, offering constructive feedback, and implementing strategies to enhance individual and collective productivity within the context of the research objectives.",
+      "levels": {
+        "Foundational": [
+          "Understands the concepts of teams and their role in research success.",
+          "Able to identify common sources of conflict within a team.",
+          "Able to set and communicate clear and achievable goals for the team.",
+          "Ability to monitor and report on basic performance metrics."
+        ],
+        "Intermediate": [
+          "Plans and executes team building activities.",
+          "Adapts communication styles to different team members and situations.",
+          "Proactively addresses and seeks to resolve conflict within the team.",
+          "Implements organisational reward and recognition policies."
+        ],
+        "Advanced": [
+          "Anticipates and plans for future challenges within the team.",
+          "Fosters adaptability and resilience within the team.",
+          "Uses organisational performance analytics tools and methodologies for tracking team and individual performance.",
+          "Fosters a learning culture within the team or organisation."
+        ],
+        "Expert": [
+          "Manages culturally diverse and geographically dispersed teams.",
+          "Navigates complex global research environments.",
+          "Demonstrates resilience and adaptability in challenging team and or organisational circumstances.",
+          "Pioneer and implement cuttingedge leadership practices inclusive of training initiatives."
+        ]
+      }
+    },
+    {
+      "id": "team-building", "domain": "LMT", "name": "Team Building", "page": 16,
+      "description": "Cultivating a collaborative and high-performing research team by fostering a positive work culture, aligning team members with common goals, and recognising and utilising individual strengths.",
+      "levels": {
+        "Foundational": [
+          "Demonstrates knowledge of the foundational concepts of team building and its importance to the research agenda of the organisation.",
+          "Shows awareness of basic team dynamics.",
+          "Understands basic conflict resolution practices.",
+          "Has basic communication skills for effective team interaction."
+        ],
+        "Intermediate": [
+          "Understands and applies team development models e.g., Tuckman Team Development Model.",
+          "Clarifies roles and responsibilities within the research team for better coordination.",
+          "Implements communication strategies to enable and foster collaboration within the research team.",
+          "Works to develop and encourage problem-solving skills within the research team."
+        ],
+        "Advanced": [
+          "Aligns team goals with that of the organisation.",
+          "Fosters cultural competence within the team, considering diverse perspectives.",
+          "Able to address and resolve complex issues within the research team.",
+          "Empowers team members to take ownership of research tasks and contribute to decision-making."
+        ],
+        "Expert": [
+          "Develops and leads collaborative strategies for teams working across multi-partner projects within multinational contexts.",
+          "Develops and implements positive work culture strategies at the organisational level, considering cultural nuances and international contexts.",
+          "Leads collaborative initiatives that bring together diverse stakeholders for impactful research within common goals.",
+          "Using a portfolio of competencies, introduces innovative techniques for recognising and utilising individual strengths to enhance research team output."
+        ]
+      }
+    },
+    {
+      "id": "change-management", "domain": "LMT", "name": "Change Management", "page": 17,
+      "description": "Navigating and facilitating transitions within the research environment/organisation. Effectively communicate changes, address concerns, and facilitation the research team/organisation in adapting to new methodologies or project directions.",
+      "levels": {
+        "Foundational": [
+          "Understands the context of change management and its potential impact on the research or the organisation.",
+          "Develops an awareness of basic change models and frameworks.",
+          "Understands common concerns during change in the workplace or within the research team.",
+          "Able to identify key stakeholders and their roles in the change process."
+        ],
+        "Intermediate": [
+          "Develops plans for managing team and or organisational change.",
+          "Engages with diverse stakeholders to garner support for proposed change initiatives.",
+          "Communicates proposed changes simply and effectively to the team or the organisation.",
+          "Able to identify potential obstacles, and develop strategies to mitigate resistance to change."
+        ],
+        "Advanced": [
+          "Leads cultural transformation efforts to embed change within the organisational culture.",
+          "Provides leadership in executing and overseeing change initiatives.",
+          "Using a portfolio of competencies, utilises advanced data analysis to inform and enhance change management strategies.",
+          "Develops advanced strategies for mitigating resistance to change at individual and organisational levels."
+        ],
+        "Expert": [
+          "Introduces innovative change models and methodologies for senior level change management.",
+          "Develops and implements strategies that address complex changes within the research ecosystem.",
+          "Introduces innovative models and approaches to change management contributing to the field's advancement.",
+          "Exhibits advanced proficiency in analyzing complex organisational dynamics, identifying potential challenges, and designing tailored interventions to address resistance effectively."
+        ]
+      }
+    },
+    {
+      "id": "coaching-skills", "domain": "LMT", "name": "Coaching Skills", "page": 17,
+      "description": "Guide and develop the professional capabilities of research team members and or research leadership.",
+      "levels": {
+        "Foundational": [
+          "Understands the foundational concepts of coaching and its importance in researcher or team member development.",
+          "Provides constructive feedback to facilitate peer growth.",
+          "Develops trust-building skills essential for effective coaching.",
+          "Works towards a positive impact of coaching on the individual researcher and peers."
+        ],
+        "Intermediate": [
+          "Understands and applies coaching models and frameworks e.g., GROW model.",
+          "Assists team members and/or employees in setting and achieving performance and development goals.",
+          "Uses effective questioning techniques to guide employee reflection.",
+          "Develops the ability to conduct insightful assessments of individuals' strengths and areas for growth, providing constructive feedback and guidance."
+        ],
+        "Advanced": [
+          "Develops coaching plans aligned with organisational and individual goals.",
+          "Applies cultural sensitivity in coaching to accommodate diverse perspectives.",
+          "Conducts in-depth assessments, providing nuanced feedback that inspires self-reflection and meaningful change.",
+          "Adapts coaching approaches to diverse individuals and complex situations."
+        ],
+        "Expert": [
+          "Introduces innovative coaching approaches and methodologies at team and organisational level.",
+          "Engages organisation and research leaders in the implementation of organisation wide coaching frameworks to build capabilities.",
+          "Navigates organisational complexities to facilitate researchers, research managers and teams effectively.",
+          "Contributes to the advancement of coaching as a discipline through the development of new methodologies, the publication of influential work, and the mentorship of other coaching professionals."
+        ]
+      }
+    },
+    {
+      "id": "talent-identification-development", "domain": "LMT", "name": "Research Talent Identification and Development", "page": 18,
+      "description": "Recognise and nurture the potential of individual researchers. Implement strategies for identifying key skills, provide targeted training, and create opportunities for professional growth within the team/organisation.",
+      "levels": {
+        "Foundational": [
+          "Understands the importance of talent identification, acquisition and development in the research context.",
+          "Develops skills to assess the potential of individual researchers.",
+          "Shows awareness of various research career trajectories both within and beyond the research ecosystem.",
+          "Understands basic principles of creating development plans for early-career researchers and peers."
+        ],
+        "Intermediate": [
+          "Develops skills in strategic talent mapping for research teams and projects.",
+          "Identifies and nurtures individuals with the potential for leadership roles in research and research management.",
+          "Contributes to mentoring programs to facilitate research talent.",
+          "Assists researchers and research managers to create individual development plans based on career goals."
+        ],
+        "Advanced": [
+          "Develops strategies for succession planning in research teams and within the organisation.",
+          "Develops and implements programs, including mentoring programs, that enable research talent and facilitate cross-disciplinary skill development.",
+          "Provides leadership development opportunities for emerging research leaders.",
+          "Applies various metrics for evaluating the impact of talent development initiatives within the team or organisation."
+        ],
+        "Expert": [
+          "Designs and executes talent management strategies for researchers and research managers within the organisation.",
+          "Using a portfolio of competencies introduces innovative models and approaches for talent development and professional growth.",
+          "Contributes to building the overall research capacity of the organisation through the identification of key skills and targeted training initiatives.",
+          "Demonstrates a sophisticated understanding of diverse research skill sets and potential at the individual and organisational level."
+        ]
+      }
+    },
+    {
+      "id": "funder-partner-relationships", "domain": "COM", "name": "Building and Maintaining Relationships with Research Funders, Partners, or other Stakeholders", "page": 19,
+      "description": "Cultivate strong connections by ensuring clear communication, delivering on commitments, and understanding the needs of collaborators. Foster trust, secure ongoing support, and contribute to a collaborative research environment.",
+      "levels": {
+        "Foundational": [
+          "Demonstrates basic understanding of the importance of key stakeholders in research, including funders and partners.",
+          "Shows promise in ability to network and initiate and sustain professional relationships.",
+          "Is able to clearly convey research agendas and results.",
+          "Understands the research landscape inclusive of funding and collaborations."
+        ],
+        "Intermediate": [
+          "Provides evidence of skills in strategically engaging with research funders, partners, and stakeholders.",
+          "Cultivates meaningful partnerships with organisations and funders aligned with research goals.",
+          "Discusses and negotiates agreements with stakeholders.",
+          "Coherently conveys complex and nuanced research policy/prioritisation/trends etc."
+        ],
+        "Advanced": [
+          "Aligns research goals with the building of strategic partnerships inclusive of funding opportunities.",
+          "Facilitates cross-sector collaboration, engaging with diverse stakeholders.",
+          "Resolves conflicts and negotiates agreements with research partners and funders.",
+          "Using a portfolio of competencies, utilises data and analytics for informed relationship management and decisionmaking."
+        ],
+        "Expert": [
+          "Provides leadership and direct relationship management initiatives for research success.",
+          "Develops and implements strategies for managing relationships and collaborations on a national and international level.",
+          "Creates a long-lasting positive footprint in the organisation through the introduction of good practice which has a long reaching positive impact.",
+          "Demonstrates an unparalleled ability to navigate complex dynamics and foster longterm collaborations."
+        ]
+      }
+    },
+    {
+      "id": "communication-plans", "domain": "COM", "name": "Designing and Implementing Research Communication Plans", "page": 19,
+      "description": "Design and implement research communication plans by crafting strategies to effectively disseminate research findings. Identify target audiences, select appropriate communication channels, and tailor messaging to maximise impact. Create clear and engaging communication, to enhance the visibility of research outcomes, foster collaboration, and contribute to the broader understanding and application of research within academic, research, professional, and public/private spheres.",
+      "levels": {
+        "Foundational": [
+          "Understands the importance of communicating research.",
+          "Can identify target audiences for research communication.",
+          "Shows awareness of basic communication channels, including traditional and digital media.",
+          "Has an overall awareness of ethical considerations in research communication."
+        ],
+        "Intermediate": [
+          "Crafts strategic communication plans aligned with research objectives.",
+          "Uses traditional and digital media to amplify research messages.",
+          "Implements strategies to engage with a multitude of stakeholders.",
+          "Considers and uses data visualization techniques for effective communication of research findings."
+        ],
+        "Advanced": [
+          "Develops integrated communication strategies that align with overall organisational goals.",
+          "Develops crisis communication plans for addressing unforeseen challenges.",
+          "Innovates in the use of available communication strategies to maximise research impact.",
+          "Fosters long-term relationships through open and transparent communication practices."
+        ],
+        "Expert": [
+          "Designs and executes communication strategies that drive research impact.",
+          "Introduces innovative communication models and approaches at an expert level.",
+          "Develops and implements strategies for managing overall organisational research communication on a national and international level.",
+          "Consistently demonstrates a sophisticated understanding of diverse communication strategies and channels."
+        ]
+      }
+    },
+    {
+      "id": "media-liaison", "domain": "COM", "name": "Media Liaison and Associated Activities", "page": 20,
+      "description": "Establish and manage relationships with the media to promote research activities and results. Engage with journalists, facilitate interviews, and strategically communicate research findings to the public. Contribute to the dissemination of accurate information, enhance the visibility of research projects, and foster a positive public perception of the research group, institution, or organisation.",
+      "levels": {
+        "Foundational": [
+          "Demonstrates a basic understanding of the importance of liaising with the media and its role in disseminating research results.",
+          "Demonstrates an understanding and awareness of the online and offline media landscape.",
+          "Communicates respectfully and ethically through all forms of communication.",
+          "Has a good grasp of the basic principles of effective research communication with media representatives."
+        ],
+        "Intermediate": [
+          "Crafts strategic approaches for engaging with the media.",
+          "Creates and adapts key messages for effective communication with the media.",
+          "Engages with a variety of media channels, including print, broadcast, and online.",
+          "Able to effectively and accurately respond to media inquiries and requests related to the research."
+        ],
+        "Advanced": [
+          "Develops plans for crisis communication with the media.",
+          "Implements media training programs for researchers, research managers and others.",
+          "Using a portfolio of competencies utilises data and analytics for informed media engagement strategies.",
+          "Engages with diverse stakeholders at an advanced level through media channels."
+        ],
+        "Expert": [
+          "Provides leadership in designing and executing media engagement strategies that align with organisational needs and goals.",
+          "Develops and implements media engagement strategies at team, organisation, national and or international level.",
+          "Creates a long-lasting positive footprint with the media through open and transparent practice.",
+          "Excels in cultivating relationships with media outlets, positioning oneself as a trusted source for accurate and insightful information."
+        ]
+      }
+    },
+    {
+      "id": "reports-writing", "domain": "COM", "name": "Preparing and Writing Reports (Including Evaluation Reports and Funder Reports)", "page": 20,
+      "description": "Synthesize complex research findings into clear and compelling narratives. Ensure reports align with guidelines, effectively communicate project outcomes, and demonstrate the impact of research initiatives.",
+      "levels": {
+        "Foundational": [
+          "Understands the importance of writing clear and compelling narratives to disseminate research to various audiences.",
+          "Can present research results effectively and coherently to funders and other stakeholders.",
+          "Has an awareness of guidelines and standards for various types of reports.",
+          "Presents compelling research narratives to diverse audiences."
+        ],
+        "Intermediate": [
+          "Uses citation and referencing techniques for accuracy and credibility.",
+          "Is able to plan and outline reports quickly and accurately.",
+          "Uses data analysis skills for meaningful data presentation within reports and narratives.",
+          "Effectively presents complex research project outcomes and narratives to diverse audiences."
+        ],
+        "Advanced": [
+          "Able to synthesize complex information clearly and accurately in reports.",
+          "Uses visual elements for enhanced data communication in reports.",
+          "Effectively incorporates stakeholder feedback into reports.",
+          "Employs an ethical and quality assurance approach for all reports and narratives."
+        ],
+        "Expert": [
+          "Provides expert-level thought leadership in designing and executing narration techniques and strategies at leadership and organisational level.",
+          "Provides clear steps and guidelines to assist all researchers and research managers within the organisation to align reports and research outcome narratives with organisational goals.",
+          "Demonstrates skills in strategic report design, ensuring alignment with audience expectations and effectively communicating research outcomes, impact, and recommendations.",
+          "Demonstrates the ability to distill intricate research findings into clear reports that not only meet the highest professional standards but also contribute to strategic decisionmaking."
+        ]
+      }
+    },
+    {
+      "id": "social-media-engagement", "domain": "COM", "name": "Social Media Engagement", "page": 21,
+      "description": "Leverage digital platforms to disseminate research findings, engage with the public, and build a broader audience. Develop and implement strategies for effective communication on social media, including creating compelling content, participating in relevant discussions, and fostering connections with diverse stakeholders.",
+      "levels": {
+        "Foundational": [
+          "Understands the importance of utilising different social media platforms.",
+          "Creates and manages social media profiles for the research project.",
+          "Demonstrates ability to identify, understand and target specific audiences on social media."
+        ],
+        "Intermediate": [
+          "Plans and schedules social media content strategically.",
+          "Implements strategies to engage and interact with audiences on social media.",
+          "Uses analytical tools to measure and analyse social media performance.",
+          "Maximises social media impact through links and content references in multiple platforms."
+        ],
+        "Advanced": [
+          "Develops and executes social media campaigns aligned with organisational goals.",
+          "Collaborates with influencers and key stakeholders for enhanced social media reach.",
+          "Implements crisis management strategies in handling challenging issues on social media.",
+          "Uses advanced data and insights for informed decision-making in social media strategies."
+        ],
+        "Expert": [
+          "Designs and executes comprehensive social media strategies at the organisational level.",
+          "Develops and executes highly sophisticated and targeted social media campaigns that effectively communicate research findings to diverse audiences.",
+          "Defines and or creates codes of conduct and ethical guidelines for the use of social media by members of the organisation.",
+          "Demonstrates a deep understanding of evolving digital landscapes, algorithms, and audience behaviors."
+        ]
+      }
+    },
+    {
+      "id": "pre-award", "domain": "SME", "name": "Pre-Award", "page": 22,
+      "description": "Identify and disseminate funding opportunities; develop and implement funding optimisation strategies; facilitate the writing of funding proposals, including alignment with stakeholder requirements, budgeting and costing and review; coordination of approvals and submissions.",
+      "levels": {
+        "Foundational": [
+          "Demonstrates a basic understanding of the research landscape and ecosystem as well as understands the foundational aspects of regulatory and funder compliance related to research proposals and grant applications.",
+          "Comprehends the main components of the research proposal, i.e. including the research statement, objectives, and budget and is familiar with online and eplatforms used for the submission of research proposals.",
+          "Handles efficiently the basic administrative tasks related to the development and submission of research proposal and maintains the documentation in an accurate manner.",
+          "Adheres basic communication skills for interacting with researchers, stakeholders and team members.",
+          "Is familiar with the financial requirements of funding programmes, including the main budget lines and eligibility of costs."
+        ],
+        "Intermediate": [
+          "Analysis regularly research funding opportunities, is aware of the current calls and disseminates information to relevant researchers and research groups.",
+          "Has in-depth knowledge of the grant application, can advise on its own or knows, who should be contacted for specific expertise.",
+          "Facilitates and assesses the development of grant proposals which could include identifying research team members, preparing the budget, writing and reviewing text.",
+          "Engages with stakeholders to gather necessary information and facilitate for the proposal.",
+          "Is able to proactively facilitate the preparation of the budget of the grant proposal at partner levels and manages complex budgets."
+        ],
+        "Advanced": [
+          "Aligns organisational research opportunities and priorities with funding opportunities, develops individual plans for researchers and research teams to enable applicant grant success.",
+          "Develops and facilitates consecutive proposals of individuals and team in a coordinated manner to maximise the absorbed funding, benchmarks funding mobilisation best practices.",
+          "Analyses competing proposals and funding trends to enhance the competitiveness of the proposal.",
+          "Leads and/or represents the organisation in discussions with funding agencies, government bodies, industry partners and other relevant stakeholders.",
+          "Is able to proactively facilitate the preparation of the budget of the grant proposal at consortium level and manages complex budgets."
+        ],
+        "Expert": [
+          "Contributes to the development of institutional research funding strategies, aligning them with organisational, national and international objectives.",
+          "Leads the development and implementation of innovative approaches to proposal development, set standards and targets for grant proposal submission.",
+          "Design financial and other incentives/research income allocation models to promote excellence and delivery against strategies.",
+          "Builds and manages strategic partnerships with key stakeholders and organisations to facilitate proposal development and funding mobilisation.",
+          "Secures a balanced and diversified funding portfolio in order to secure strategic, sustainable and predictable organisational funding inclusive of third stream income."
+        ]
+      }
+    },
+    {
+      "id": "post-award", "domain": "SME", "name": "Post-Award", "page": 23,
+      "description": "Negotiate contracts, manages amendments, as well as the internal setup of the project, the consortium and communication within, liaises with funders, provides administrative facilitate, progress management, accounting, carries out project evaluation, funder reporting, legal advice.",
+      "levels": {
+        "Foundational": [
+          "Demonstrates a basic understanding of the processes involved in research management, including planning, execution, monitoring and closing.",
+          "Demonstrates a basic understanding of post-award processes and requirements, understands types of contracts, clauses and implications.",
+          "Handles administrative tasks efficiently related to research project management and maintains accurate and organized documentation of project activities and milestones, is able to contribute to progress and final reporting.",
+          "Has basic communication skills for interacting with team members, consortium partners, stakeholders, and funding agencies.",
+          "Understands the basics of budgeting and financial management for research projects and is able to document project costs."
+        ],
+        "Intermediate": [
+          "Develops detailed research project plans, including tasks' timelines, milestones, and deliverables and manages resources efficiently to meet project objectives.",
+          "Ensures compliance with applicable regulations and guidelines throughout the research lifecycle and prepares progress and final reports.",
+          "Uses information to generate organisational reports including progress updates on the research portfolio.",
+          "Demonstrates ability to liaise with colleagues from other units in the management of research awards and interact with team members, consortium partners, stakeholders.",
+          "Ensures compliance with financial requirements of funding programmes and manages detailed project budgets, including forecasting and financial reporting."
+        ],
+        "Advanced": [
+          "Ensures that research projects align with the strategic goals and priorities of the organisation, benchmarks and implements good practices in post-award.",
+          "Negotiates and finalises grant agreements with funding agencies, addressing terms, conditions, and budgetary considerations.",
+          "Prepares and presents comprehensive research project reports to senior management and funding agencies.",
+          "Manages partner and consortium relationships effectively, including agreements, compliance, and reporting.",
+          "Manages complex project budgets, conducts financial analysis to prepare decisions and improve financial performance."
+        ],
+        "Expert": [
+          "Provides expert guidance in research project management and leads the development and implementation of innovative project management practices and solutions.",
+          "Oversees multi-institutional or multi-disciplinary research projects with diverse funding sources, influences research policies and standards at institutional, national, or international levels.",
+          "Initiates and implements processes to enhance research project outcomes and efficiency, articulates and rewards key performance indicators/metrics for managing funded research.",
+          "Leads and/or represents the organisation in discussions with funding agencies, government bodies, industry partners and other relevant stakeholders.",
+          "Masters the allocation and management of resources to maximize efficiency and effectiveness in project management."
+        ]
+      }
+    },
+    {
+      "id": "edi-management", "domain": "SME", "name": "Managing Equality, Diversity and Inclusion (Including Gender, Disability and Racism)", "page": 24,
+      "description": "Promote diversity in research teams, value varied perspectives, and ensure equal opportunities for all members. Champion EDI principles and contribute to a more inclusive research culture.",
+      "levels": {
+        "Foundational": [
+          "Understands foundational concepts related to equality, diversity, and inclusion (EDI), including key terms and definitions.",
+          "Recognises and acknowledges personal biases and stereotypes and understands their potential impact on workplace dynamics.",
+          "Gains awareness of relevant laws and policies related to equality, diversity, and inclusion in the workplace.",
+          "Develops basic communication skills that promote inclusivity and avoid unintentional biases."
+        ],
+        "Intermediate": [
+          "Enhances cultural competence, understanding and appreciating differences in backgrounds, experiences, and perspectives.",
+          "Able to apply comprehensive practices to foster a more inclusive and respectful workplace environment.",
+          "Works exclusively in teams and collaboration partnerships that respect inclusiveness and diversity.",
+          "Exhibits the ability to analyze and assess diversity-related challenges and propose inclusive solutions."
+        ],
+        "Advanced": [
+          "Develops inclusive leadership skills, actively promoting diversity and inclusion within teams and the organisation.",
+          "Implements diverse and advanced strategies to mitigate biases in decision-making processes.",
+          "Assists with the delivery and organisation of training programs on diversity and inclusion for employees at various levels of the organisation.",
+          "Advises less experienced colleagues about working with diversity."
+        ],
+        "Expert": [
+          "Leads and drives organisational change initiatives to embed diversity, equality, and inclusion in the culture and practices of research within the organisation.",
+          "Contributes to the development and implementation of comprehensive diversity and inclusion policies and practices.",
+          "Engages with external communities and all research stakeholders to promote diversity, equality, and inclusion at national and international level.",
+          "Contributes to thought leadership in the field of diversity and inclusion, influencing practices and standards."
+        ]
+      }
+    },
+    {
+      "id": "data-stewardship", "domain": "SME", "name": "Data Stewardship", "page": 24,
+      "description": "Responsible and ethical handling of research data throughout its lifecycle. Robust data management practices, data security, compliance with privacy regulations, and transparent documentation.",
+      "levels": {
+        "Foundational": [
+          "Can define Research Data Management (RDM) and describe its relevant and benefits. Is familiar with data management plans.",
+          "Is aware of the policy and legislative landscape in relation to research data. (data protection, HRR, FOI, FAIR, CARE, IP, copyright, licensing).",
+          "Recognises basic principles of data quality and the impact of poor data quality on outcomes.",
+          "Understands basic data compliance requirements and their implications for stewardship."
+        ],
+        "Intermediate": [
+          "Understands the research data lifecycle and what RDM measures are taken at different stages of research. Contribute to the development of a Data Management Plan.",
+          "Applies or outlines compliance requirement with legislation and policy across a unit or project.",
+          "Ability to run reports and capture metrics using available dashboards and data sources.",
+          "Able to describe how to identify data quality and how to implement quality control methods such as reproducible workflows."
+        ],
+        "Advanced": [
+          "Confident in applying RDM principles and practices to a project or unit.",
+          "Can identify and capture relevant metrics in relation to research data. Ability to advise on the responsible use of metrics.",
+          "Validates data models schemas and standards, with the ability to verify data quality and integrity.",
+          "Recognises a DMP is a living document to be updated throughout a project."
+        ],
+        "Expert": [
+          "Can develop and implement a data management plan across a unit or project with reference to funder requirements and mandates, relevant legislation and polices nationally and internationally (GDPR, DPIA, Ethics, IP etc).",
+          "Can evaluate and analysis compliance and can solve them in consultation with relevant experts.",
+          "Provides leadership in establishing and leading organisational data governance initiatives and develops strategies to successfully embed data governance in an organisation.",
+          "Introduces innovative approaches to data management, including the integration of emerging technologies machine readable data and metadata."
+        ]
+      }
+    },
+    {
+      "id": "knowledge-valorisation", "domain": "SME", "name": "Knowledge Valorisation (Technology Transfer)", "page": 25,
+      "description": "Facilitate the successful transition of research innovations from the academic, research or laboratory setting to practical applications in the market. Identify commercialisation opportunities, establish collaborations with industry partners, and navigate the legal and regulatory aspects of transferring technologies leading to societal impact and the economic value of research outcomes.",
+      "levels": {
+        "Foundational": [
+          "Grasps foundational concepts and principles of knowledge valorisation, including its role in research and innovation.",
+          "Understands the basics of intellectual property (IP) rights, including patents, copyrights, and trademarks.",
+          "Gains awareness of legal and regulatory frameworks related to knowledge valorisation activities.",
+          "Develops basic documentation skills for recording and managing knowledge valorisation processes."
+        ],
+        "Intermediate": [
+          "Evaluates the commercial potential of intellectual property assets and technologies.",
+          "Understands the process of negotiating and drafting licensing agreements for knowledge valorisation.",
+          "Advises on the implementation of market analysis to assess the feasibility and potential of transferring a technology to specific industries.",
+          "Interacts with industry stakeholders to understand their needs and facilitate successful knowledge valorisation."
+        ],
+        "Advanced": [
+          "Develops and implements strategic plans for knowledge valorisation within an organisation or institution.",
+          "Uses developed negotiation skills to address complex issues in knowledge valorisation agreements.",
+          "Can identify and pursue new opportunities for technology commercialisation.",
+          "Able to implement risk management strategies for knowledge valorisation projects, addressing legal, financial, and technical risks."
+        ],
+        "Expert": [
+          "Provides leadership in developing and executing comprehensive technology commercialisation strategies for the organisation.",
+          "Contributes to the development of institutional and national policies related to knowledge valorisation.",
+          "Navigates and facilitates knowledge valorisation on an international scale, considering cultural and legal differences.",
+          "Contributes to building innovation ecosystems and policy that facilitate seamless knowledge valorisation and commercialisation."
+        ]
+      }
+    },
+    {
+      "id": "hr-research", "domain": "SME", "name": "HR Research – Employment, Training and Terms & Conditions", "page": 25,
+      "description": "Ensure the effective functioning of the HR aspects facilitating research teams groups and/or organisations. This may include contract administration, salary administration, talent acquisition, performance management, training and development and fostering a positive work environment through initiatives aligning with HR Excellence in Research and others. Align organisational and research goals, optimise individual and research team dynamics, and facilitate the professional development of researchers.",
+      "levels": {
+        "Foundational": [
+          "Grasps foundational concepts of human resources, including employment laws and organisational policies as they pertain to research staff.",
+          "Understands the basics of the recruitment process, including job postings, applicant screening, and interview coordination.",
+          "Demonstrates basic skills in onboarding new research staff, including orientation and introduction to policies.",
+          "Maintains personnel records and ensure compliance with HR and institutional regulations."
+        ],
+        "Intermediate": [
+          "Issues contracts of employment and enables salary placement. Updates internal organisational HR IT systems accordingly.",
+          "Develops skills in resolving conflicts within research teams and or staff, promoting a positive work environment.",
+          "Facilitates training and development opportunities for research staff to enhance their skills and career growth.",
+          "Addresses routine and non-routine queries relating to the employment cycle of researchers in the organisation."
+        ],
+        "Advanced": [
+          "Using a portfolio of competences, works to resolve non-routine issues relating to the employment cycle of research staff in the organisation.",
+          "Contributes to strategic workforce planning, aligning human resources with research goals and organisational strategy.",
+          "Implements agreed strategies to enhance employee engagement and job satisfaction within the research context using initiatives such as HR Excellence in Research.",
+          "Contributes to career development programs for researchers and research managers."
+        ],
+        "Expert": [
+          "Leads initiatives to shape and cultivate a positive organisational person culture within the research environment.",
+          "Contributes to the development and refinement of HR policies tailored to the unique needs of research staff.",
+          "Possesses expertise in navigating legal and ethical considerations in HR management, particularly within research contexts.",
+          "Contributes to thought leadership in the field of HR Research nationally and internationally influencing policy, practices and standards."
+        ]
+      }
+    },
+    {
+      "id": "research-finance", "domain": "SME", "name": "Research Finance", "page": 26,
+      "description": "Oversee budgetary aspects, financial planning, and compliance within research projects and or at organisational level. Effective allocation of funds, monitor expenditure, and adhere to financial regulations, funding guidelines, having overall fiscal responsibility within research projects at local and or organisational level.",
+      "levels": {
+        "Foundational": [
+          "Grasps foundational concepts in finance, including budgeting, financial statements, and cost accounting.",
+          "Understands basic types of research funding sources and their implications for financial management.",
+          "Comprehends foundational financial compliance requirements related to research grants and projects.",
+          "Develops basic skills in financial documentation and record-keeping for research projects."
+        ],
+        "Intermediate": [
+          "Manages research project budgets, considering both direct and indirect costs.",
+          "Generates and interprets financial reports for research projects, ensuring accuracy and compliance.",
+          "Contributes to budget development for grant proposals, aligning financial plans with project goals.",
+          "Understands the financial aspects of partners and collaborations within research projects."
+        ],
+        "Advanced": [
+          "Develops advanced financial forecasting models for research projects, considering long-term financial implications.",
+          "Implements advanced cost accounting methodologies to allocate costs accurately across research projects.",
+          "Prepares for and participates in audits, ensuring compliance with financial regulations and funder requirements.",
+          "Assesses and advises on mitigation for financial risks associated with research projects."
+        ],
+        "Expert": [
+          "Develops advanced financial forecasting models for the organisation, considering long-term financial implications.",
+          "Contributes to the development of financial policies tailored to the unique needs of research finance.",
+          "Contributes to the finalising of complex financial agreements, including terms and conditions of research funders and collaborating partners and organisations.",
+          "Provides organisational leadership in research finance, including mentoring and guiding junior research finance professionals."
+        ]
+      }
+    },
+    {
+      "id": "clinical-research-management", "domain": "SME", "name": "Clinical Research Management", "page": 26,
+      "description": "Oversee and coordinate clinical research activities within a healthcare or pharmaceutical setting. Ensure the successful implementation of research protocols, managing study budgets, and maintaining compliance with regulatory guidelines. Facilitate communication with stakeholders and contribute to the ethical and efficient execution of clinical trials.",
+      "levels": {
+        "Foundational": [
+          "Demonstrates basic knowledge in understanding clinical research protocols, including key components such as inclusion/exclusion criteria and study endpoints.",
+          "Understands basic ethical considerations in clinical research, including the importance of informed consent and protecting participant confidentiality.",
+          "Develops foundational skills in maintaining accurate and organised study documentation, such as participant records and regulatory submissions.",
+          "Able to collaborate effectively with research teams, learning to communicate study updates and addressing routine operational challenges."
+        ],
+        "Intermediate": [
+          "Exhibits a nuanced understanding of regulatory requirements, ensuring that all aspects of clinical research adhere to relevant guidelines and standards.",
+          "Demonstrates proficiency in coordinating multiple aspects of clinical trials, including participant recruitment, data collection, and study timelines.",
+          "Able to provide guidance in the day-to-day management of clinical studies.",
+          "Gains skills in budget management, ensuring that clinical trials are conducted within financial constraints and policy whilst maintaining study quality."
+        ],
+        "Advanced": [
+          "Develops advanced capabilities in designing and planning complex clinical research studies, considering scientific, regulatory, and logistical factors.",
+          "Engages with key stakeholders, including principal investigators, sponsors, and regulatory authorities, contributing to strategic decision-making.",
+          "Oversees quality control measures, assists with thorough internal audits and ensures high standards of data integrity throughout the research process.",
+          "Contributes to the implementation of innovative research protocols, incorporating the latest methodologies and technologies into study design."
+        ],
+        "Expert": [
+          "Serves as an expert in regulatory affairs, developing and executing comprehensive strategies for obtaining approvals and ensuring ongoing compliance.",
+          "Oversees multiple clinical studies and aligns them with broader organisational goals.",
+          "Contributes to disseminating research findings through publication in reputable journals and/or presentations at conferences, contributing to the advancement of scientific knowledge.",
+          "Serves as a mentor to junior colleagues, actively contributing to the professional development of the team and influencing the broader clinical research community through educational initiatives."
+        ]
+      }
+    },
+    {
+      "id": "research-ethics-integrity", "domain": "SME", "name": "Research Ethics and Integrity", "page": 27,
+      "description": "Ensure that all research activities adhere to ethical standards, protecting the rights and well-being of participants. Promote transparency, honesty and accountability whilst fostering a culture of integrity within the research team.",
+      "levels": {
+        "Foundational": [
+          "Upholds integrity in data collection and analysis, and adheres to established ethical guidelines in research practices.",
+          "Understands the basic principles of research ethics and educates oneself to prevent forms of research misconduct, including plagiarism and fabrication of data.",
+          "Grasps the importance of honesty, transparency, and confidentiality in research practices.",
+          "Fosters a commitment to responsible conduct throughout the research process."
+        ],
+        "Intermediate": [
+          "Can identify and manage conflicts of interest that may arise in the course of research activities.",
+          "Implements practices for secure data management and storage, ensuring the confidentiality and integrity of research data.",
+          "Understand issues related to authorship, intellectual property, and publication ethics, including proper citation practices.",
+          "Can apply ethical principles to diverse research scenarios."
+        ],
+        "Advanced": [
+          "Ability to analyse and address complex ethical dilemmas that may arise during the course of the research.",
+          "Develop expertise in managing research involving vulnerable populations, ensuring additional safeguards and considerations.",
+          "Able to propose informed solutions that uphold integrity and compliance with ethical standards in a research context.",
+          "Demonstrates a sophisticated understanding of the ethical implications of various research methodologies and apply this insight to design and conduct ethically robust studies."
+        ],
+        "Expert": [
+          "Exhibits leadership in promoting a culture of research integrity, including mentoring others, and contributes to the advancement of ethical standards in the broader research community.",
+          "Contribute to the development of institutional, national and international polices and practice on research integrity and ethical matters.",
+          "Contribute to the advancement of ethical knowledge through scholarship, presentations, and leadership.",
+          "Exhibits a profound understanding of the ethical implications in interdisciplinary and cutting-edge research, influencing policy development and implementation."
+        ]
+      }
+    },
+    {
+      "id": "research-infrastructure-management", "domain": "SME", "name": "Research Infrastructure Management", "page": 27,
+      "description": "Responsible for security and risk management, plans research infrastructure & develops sustainable funding model, infrastructure, and resource management, as well as business development and innovation in research infrastructure.",
+      "levels": {
+        "Foundational": [
+          "Understands the fundamental concepts and importance of research infrastructures. Is familiar with different types of research infrastructures (physical, virtual, and data infrastructures).",
+          "Identifies key components and functions of research infrastructures and understands basic maintenance and operational procedures for research infrastructures. Is familiar with basic safety protocols and procedures.",
+          "Understands basic regulatory and compliance requirements relevant to research infrastructure and is familiar with the documentation and reporting requirements of research infrastructure and related activities.",
+          "Provides efficient support to the researchers, innovators and other users of research infrastructures."
+        ],
+        "Intermediate": [
+          "Manages resources (human, financial, and material) efficiently within research infrastructures, as well as develops and implements operational plans for the effective functioning of research infrastructures.",
+          "Implements quality control measures to ensure high standards in infrastructure operations and processes for continuous improvement of infrastructure management.",
+          "Ensures compliance with regulatory requirements and industry standards, as well as identifies and manages risks associated with the operation of research infrastructures.",
+          "Engages with stakeholders to understand their needs and ensure the infrastructure meets their requirements. Enhancing collaboration within the infrastructure management team."
+        ],
+        "Advanced": [
+          "Approves resource allocations for funded research including research infrastructure, develops and implements strategic plans for the long-term development and sustainability of research infrastructures.",
+          "Develops and monitors the planning and oversight of research facilities and infrastructure.",
+          "Develops and applies advanced metrics to measure and improve the performance of research infrastructures.",
+          "Builds and manages strategic partnerships with key stakeholders and organisations."
+        ],
+        "Expert": [
+          "Leads the development and implementation of innovative practices in infrastructure management by applying European/ global standards and best practices in the management of research infrastructures.",
+          "Initiates and implements strategic plans for evaluation of research infrastructure management services to ensure their continuous improvement and alignment with institutional and stakeholder needs.",
+          "Develops and implements strategic plans to ensure the sustainability of research infrastructures.",
+          "Advocates for the importance of research infrastructures and influencing decision-making processes."
+        ]
+      }
+    },
+    {
+      "id": "research-strategy-policy", "domain": "SME", "name": "Research, Strategy and Policy Development", "page": 28,
+      "description": "Facilitate and facilitate the development, implementation, monitoring and evaluation of research and/or knowledge valorisation policies and strategies.",
+      "levels": {
+        "Foundational": [
+          "Understands the fundamental concepts and importance of institutional research and/or knowledge valorisation policies and strategies.",
+          "Is aware of the key indicators relevant for the monitoring and evaluation of the research and/or knowledge valorisation policy and strategy.",
+          "Contributes the development and implementation of the institutional research and/or knowledge valorisation policy and strategy",
+          "Is aware of the key stakeholders relevant for the institutional research and/or knowledge valorisation policy and strategy.",
+          "Understands the fundamental concepts and purposes of research assessment, including basic assessment methods and metrics."
+        ],
+        "Intermediate": [
+          "Collects and examines data for research management intelligence, conducts analysis to evaluate the effectiveness and impact of existing research and/or knowledge valorisation policies and strategies.",
+          "Gather evidence enabling the monitoring and evaluation of the institutional research and/or knowledge valorisation policy and strategy.",
+          "Ensures that the institution is meeting its legal and quality assurance obligations.",
+          "Engages with stakeholders to gather input and build consensus on research and/or knowledge valorisation policies.",
+          "Executes detailed research assessment plans, ensuring they align with organisational goals and utilize appropriate metrics and methodologies."
+        ],
+        "Advanced": [
+          "Scans the environment to assess the impact and trends, develops long-term research and/or knowledge valorisation policies and strategies by setting clear, measurable goals.",
+          "Contributes to the assessment and development of indicators used for the monitoring and evaluation institutional research and/or knowledge valorisation policy and strategy.",
+          "Gathers intelligence to help develop research and/or knowledge valorisation policy and strategy.",
+          "Builds and manages strategic partnerships with key stakeholders and organisations to facilitate research and/or knowledge valorisation policy development.",
+          "Performs in-depth analysis and interpretation of assessment data, using advanced techniques to derive meaningful insights and inform strategic decisions."
+        ],
+        "Expert": [
+          "Conducts benchmarks, evaluation and impact assessment of institutional research and/or knowledge valorisation policies and strategies to gather evidence and enable their further development.",
+          "Leads the assessment and development of indicators used for the monitoring and evaluation institutional research and/or knowledge valorisation policy and strategy.",
+          "Developing strategies and policies to maximise the organisation's research and knowledge valorisation portfolio and promote the institutional research agenda.",
+          "Responds to differentiated thematic and sectorial stakeholder interests, influences political institutions and public officials for the benefit of the organisation.",
+          "Demonstrates expertise in leading comprehensive, innovative research assessment initiatives that influence policy, drive continuous improvement, and adhere to global best practices."
+        ]
+      }
+    },
+    {
+      "id": "managing-grant-office", "domain": "SME", "name": "Managing the Grant/Research Support Office", "page": 29,
+      "description": "Organise, structure, manage, monitor and review institutional Research Support service(s).",
+      "levels": {
+        "Foundational": [],
+        "Intermediate": [
+          "Co-ordinates research support services, develops staff and resources to provide effective research support services.",
+          "Manages a research support service structure that is cost-effective, 'joined up' and 'fit for purpose'.",
+          "Enables effective collaboration within the research team.",
+          "Gathers user feedback and implements quality control measures to ensure high standards in research support services.",
+          "Engages with researchers and stakeholders to understand their needs and provide tailored support."
+        ],
+        "Advanced": [
+          "Develops innovative systems and processes to implement the research support service strategy, and monitors key performance indicators.",
+          "Translates institutional and sectoral practices and policies, maps and reviews facilitation functions, mitigates risks and initiates adjustments, if necessary.",
+          "Develops leadership skills to guide and motivate the research support team including its professional development, identifies and develops talents.",
+          "Develops and implements continuous improvement processes to enhance the quality and efficiency of research support services, including benchmarking, the adoption of best practices, new working methods and technologies to improve research facilitation operations.",
+          "Builds and manages strategic partnerships with key stakeholders and organisations."
+        ],
+        "Expert": [
+          "Develops and implements evidence-based strategies to improve within the institution aligned with organisational goals. Influences research policies and standards at institutional, national, or international levels.",
+          "Maintains an effective, efficient and well-respected service and masters the management of resources to maximize efficiency and effectiveness of services.",
+          "Develops and implement strategies enabling the continuous upskilling and capacity building of the research support team, mentors the research facilitation staff.",
+          "Masters the allocation and management of resources to maximize facilitation for research activities and ensures the sustainability of research support services through strategic planning and resource management.",
+          "Creates an organisational culture where research support service is respected and valued, and influences decision-making processes."
+        ],
+        "_note": "Source PDF provides no Foundational-level descriptors for this competency (Intermediate is the first populated level on p.29)."
+      }
+    }
+  ]
+}

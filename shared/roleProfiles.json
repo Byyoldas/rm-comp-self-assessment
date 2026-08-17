@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "label": "Application-layer role profiles",
+    "disclaimer": "These 12 role profiles are NOT part of the RM Comp framework in the source PDF. They are an assessment-navigation / relevance-weighting layer created for this tool, used only to decide which competencies get more or fewer adaptive questions and to suggest (never impose) a starting target-level default. Users can always request the Full RM Comp Assessment mode, which ignores relevance weighting and assesses every competency equally.",
+    "relevanceLevels": ["High", "Medium", "Low"],
+    "targetLevelGuidanceNote": "targetLevelByExperience is only a starting suggestion shown to the user during the Target Role step. It is never applied automatically — the user explicitly confirms or overrides the target level for their current and/or desired role."
+  },
+  "profiles": [
+    {
+      "id": "research-support",
+      "name": "Research Support",
+      "description": "Provides general support to researchers and research projects, often across multiple stages of the research lifecycle, without deep specialisation in one area.",
+      "domainDefaults": { "COG": "High", "TECH": "Medium", "RPO": "Medium", "STK": "Medium", "LMT": "Low", "COM": "Medium", "SME": "Low" },
+      "overrides": { "pre-award": "Medium", "post-award": "Medium", "research-ethics-integrity": "Medium", "managing-grant-office": "Low" },
+      "targetLevelByExperience": { "0-2 years": "Foundational", "3-5 years": "Intermediate", "6-10 years": "Intermediate", "10+ years": "Advanced" }
+    },
+    {
+      "id": "grant-proposal-management",
+      "name": "Grant/Proposal Management",
+      "description": "Focuses on identifying funding opportunities and developing competitive, compliant funding proposals (pre-award).",
+      "domainDefaults": { "COG": "Medium", "TECH": "Low", "RPO": "Medium", "STK": "High", "LMT": "Low", "COM": "Medium", "SME": "Medium" },
+      "overrides": { "pre-award": "High", "post-award": "Low", "research-finance": "Medium", "research-ethics-integrity": "Medium", "key-stakeholder-engagement": "High", "funder-partner-relationships": "High" },
+      "targetLevelByExperience": { "0-2 years": "Foundational", "3-5 years": "Intermediate", "6-10 years": "Advanced", "10+ years": "Advanced" }
+    },
+    {
+      "id": "post-award-management",
+      "name": "Post-Award Management",
+      "description": "Manages funded projects after award: contracting, compliance, financial and consortium management, reporting.",
+      "domainDefaults": { "COG": "Medium", "TECH": "Low", "RPO": "High", "STK": "Medium", "LMT": "Low", "COM": "Medium", "SME": "Medium" },
+      "overrides": { "post-award": "High", "pre-award": "Low", "research-finance": "High", "legal-skills": "Medium", "monitoring-evaluation": "High" },
+      "targetLevelByExperience": { "0-2 years": "Foundational", "3-5 years": "Intermediate", "6-10 years": "Advanced", "10+ years": "Advanced" }
+    },
+    {
+      "id": "research-project-management",
+      "name": "Research Project Management",
+      "description": "Leads day-to-day delivery of research projects: planning, deliverables, risk, teams, and stakeholder coordination.",
+      "domainDefaults": { "COG": "High", "TECH": "Low", "RPO": "High", "STK": "Medium", "LMT": "Medium", "COM": "Medium", "SME": "Low" },
+      "overrides": { "research-project-management": "High", "managing-deliverables": "High", "establishing-project-plans": "High", "monitoring-evaluation": "High" },
+      "targetLevelByExperience": { "0-2 years": "Foundational", "3-5 years": "Intermediate", "6-10 years": "Advanced", "10+ years": "Expert" }
+    },
+    {
+      "id": "research-strategy-policy",
+      "name": "Research Strategy & Policy",
+      "description": "Shapes institutional research strategy, policy development, and research assessment frameworks.",
+      "domainDefaults": { "COG": "High", "TECH": "Low", "RPO": "Low", "STK": "Medium", "LMT": "Low", "COM": "Medium", "SME": "Medium" },
+      "overrides": { "research-strategy-policy": "High", "strategic-planning": "High", "decision-making": "High", "critical-thinking": "High" },
+      "targetLevelByExperience": { "0-2 years": "Intermediate", "3-5 years": "Advanced", "6-10 years": "Advanced", "10+ years": "Expert" }
+    },
+    {
+      "id": "research-infrastructure",
+      "name": "Research Infrastructure",
+      "description": "Plans, operates, and sustains physical, virtual, and data research infrastructures.",
+      "domainDefaults": { "COG": "Medium", "TECH": "Medium", "RPO": "Medium", "STK": "Medium", "LMT": "Low", "COM": "Low", "SME": "High" },
+      "overrides": { "research-infrastructure-management": "High", "data-stewardship": "Medium", "it-for-research": "Medium", "legal-skills": "Low" },
+      "targetLevelByExperience": { "0-2 years": "Foundational", "3-5 years": "Intermediate", "6-10 years": "Advanced", "10+ years": "Expert" }
+    },
+    {
+      "id": "research-finance",
+      "name": "Research Finance",
+      "description": "Oversees budgetary, financial planning, and compliance aspects of research funding and projects.",
+      "domainDefaults": { "COG": "Medium", "TECH": "Low", "RPO": "Medium", "STK": "Low", "LMT": "Low", "COM": "Low", "SME": "High" },
+      "overrides": { "research-finance": "High", "post-award": "Medium", "pre-award": "Medium", "data-statistical-analysis": "Low" },
+      "targetLevelByExperience": { "0-2 years": "Foundational", "3-5 years": "Intermediate", "6-10 years": "Advanced", "10+ years": "Expert" }
+    },
+    {
+      "id": "research-leadership",
+      "name": "Research Leadership",
+      "description": "Senior/director-level responsibility spanning strategy, people leadership, and organisational impact across the research management function.",
+      "domainDefaults": { "COG": "High", "TECH": "Low", "RPO": "Medium", "STK": "High", "LMT": "High", "COM": "Medium", "SME": "Medium" },
+      "overrides": { "strategic-planning": "High", "decision-making": "High", "people-management": "High", "change-management": "High", "research-strategy-policy": "High" },
+      "targetLevelByExperience": { "0-2 years": "Advanced", "3-5 years": "Advanced", "6-10 years": "Expert", "10+ years": "Expert" }
+    },
+    {
+      "id": "research-administration",
+      "name": "Research Administration",
+      "description": "Handles operational, administrative, and compliance processes underpinning research activity (contracts, records, systems, HR-adjacent processes).",
+      "domainDefaults": { "COG": "Medium", "TECH": "Medium", "RPO": "Medium", "STK": "Low", "LMT": "Low", "COM": "Low", "SME": "Medium" },
+      "overrides": { "hr-research": "Medium", "legal-skills": "Medium", "data-stewardship": "Medium", "managing-grant-office": "Medium" },
+      "targetLevelByExperience": { "0-2 years": "Foundational", "3-5 years": "Intermediate", "6-10 years": "Intermediate", "10+ years": "Advanced" }
+    },
+    {
+      "id": "research-talent-development",
+      "name": "Research Talent Development",
+      "description": "Focuses on developing research staff capability: coaching, mentoring, career pathways, and HR-aligned initiatives for researchers.",
+      "domainDefaults": { "COG": "Medium", "TECH": "Low", "RPO": "Low", "STK": "Low", "LMT": "High", "COM": "Low", "SME": "Medium" },
+      "overrides": { "coaching-skills": "High", "talent-identification-development": "High", "hr-research": "High", "team-building": "Medium" },
+      "targetLevelByExperience": { "0-2 years": "Foundational", "3-5 years": "Intermediate", "6-10 years": "Advanced", "10+ years": "Expert" }
+    },
+    {
+      "id": "research-communication-stakeholder",
+      "name": "Research Communication / Stakeholder Management",
+      "description": "Leads dissemination, media, communications planning, and relationship management with funders, partners, and communities.",
+      "domainDefaults": { "COG": "Medium", "TECH": "Low", "RPO": "Low", "STK": "High", "LMT": "Low", "COM": "High", "SME": "Low" },
+      "overrides": { "research-outreach": "High", "communication-plans": "High", "media-liaison": "Medium", "social-media-engagement": "Medium" },
+      "targetLevelByExperience": { "0-2 years": "Foundational", "3-5 years": "Intermediate", "6-10 years": "Advanced", "10+ years": "Expert" }
+    },
+    {
+      "id": "research-support-office-management",
+      "name": "Research Support Office Management",
+      "description": "Manages the research/grant support office itself: its structure, staff, service strategy, and continuous improvement.",
+      "domainDefaults": { "COG": "High", "TECH": "Low", "RPO": "Medium", "STK": "Medium", "LMT": "High", "COM": "Medium", "SME": "High" },
+      "overrides": { "managing-grant-office": "High", "people-management": "High", "pre-award": "Medium", "post-award": "Medium" },
+      "targetLevelByExperience": { "0-2 years": "Intermediate", "3-5 years": "Advanced", "6-10 years": "Advanced", "10+ years": "Expert" }
+    }
+  ]
+}

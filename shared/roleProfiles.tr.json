@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "label": "Uygulama katmanı rol profilleri",
+    "disclaimer": "Bu 12 rol profili, kaynak PDF'deki RM Comp çerçevesinin bir parçası DEĞİLDİR. Bunlar, yalnızca hangi yetkinliklerin daha fazla veya daha az uyarlanabilir soru aldığına karar vermek ve asla dayatılmayan, yalnızca önerilen bir başlangıç hedef düzeyi sunmak için bu araç için oluşturulmuş bir değerlendirme yönlendirme / ilgililik ağırlıklandırma katmanıdır. Kullanıcılar her zaman ilgililik ağırlıklandırmasını yok sayan Tam RM Comp Değerlendirmesi modunu talep edebilir.",
+    "relevanceLevels": ["High", "Medium", "Low"],
+    "targetLevelGuidanceNote": "targetLevelByExperience yalnızca Hedef Rol adımında kullanıcıya gösterilen başlangıç önerisidir. Asla otomatik olarak uygulanmaz — kullanıcı, mevcut ve/veya arzu edilen rolü için hedef düzeyi açıkça onaylar veya değiştirir."
+  },
+  "profiles": [
+    {
+      "id": "research-support",
+      "name": "Araştırma Desteği",
+      "description": "Araştırma yaşam döngüsünün birden fazla aşamasında, tek bir alanda derin uzmanlaşma olmaksızın araştırmacılara ve araştırma projelerine genel destek sağlar."
+    },
+    {
+      "id": "grant-proposal-management",
+      "name": "Hibe/Başvuru Yönetimi",
+      "description": "Fonlama fırsatlarının belirlenmesine ve rekabetçi, uyumlu fonlama başvurularının geliştirilmesine odaklanır (hibe öncesi)."
+    },
+    {
+      "id": "post-award-management",
+      "name": "Hibe Sonrası Yönetim",
+      "description": "Fonlanan projeleri hibe sonrasında yönetir: sözleşme, uyumluluk, finansal ve konsorsiyum yönetimi, raporlama."
+    },
+    {
+      "id": "research-project-management",
+      "name": "Araştırma Projesi Yönetimi",
+      "description": "Araştırma projelerinin günlük yürütülmesine liderlik eder: planlama, çıktılar, risk, ekipler ve paydaş koordinasyonu."
+    },
+    {
+      "id": "research-strategy-policy",
+      "name": "Araştırma Stratejisi ve Politikası",
+      "description": "Kurumsal araştırma stratejisini, politika geliştirmeyi ve araştırma değerlendirme çerçevelerini şekillendirir."
+    },
+    {
+      "id": "research-infrastructure",
+      "name": "Araştırma Altyapısı",
+      "description": "Fiziksel, sanal ve veri araştırma altyapılarını planlar, işletir ve sürdürür."
+    },
+    {
+      "id": "research-finance",
+      "name": "Araştırma Finansmanı",
+      "description": "Araştırma fonlaması ve projelerinin bütçesel, finansal planlama ve uyumluluk yönlerini denetler."
+    },
+    {
+      "id": "research-leadership",
+      "name": "Araştırma Liderliği",
+      "description": "Araştırma yönetimi fonksiyonu genelinde strateji, insan liderliği ve kurumsal etkiyi kapsayan üst düzey/direktör düzeyinde sorumluluk."
+    },
+    {
+      "id": "research-administration",
+      "name": "Araştırma İdaresi",
+      "description": "Araştırma faaliyetlerinin temelini oluşturan operasyonel, idari ve uyumluluk süreçlerini yürütür (sözleşmeler, kayıtlar, sistemler, İK ile ilişkili süreçler)."
+    },
+    {
+      "id": "research-talent-development",
+      "name": "Araştırma Yeteneği Geliştirme",
+      "description": "Araştırma personelinin kapasitesini geliştirmeye odaklanır: koçluk, mentorluk, kariyer yolları ve araştırmacılar için İK ile uyumlu girişimler."
+    },
+    {
+      "id": "research-communication-stakeholder",
+      "name": "Araştırma İletişimi / Paydaş Yönetimi",
+      "description": "Yayma, medya, iletişim planlaması ve fon sağlayıcılar, ortaklar ve topluluklarla ilişki yönetimine liderlik eder."
+    },
+    {
+      "id": "research-support-office-management",
+      "name": "Araştırma Destek Ofisi Yönetimi",
+      "description": "Araştırma/hibe destek ofisinin kendisini yönetir: yapısı, personeli, hizmet stratejisi ve sürekli iyileştirme."
+    }
+  ]
+}

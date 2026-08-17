@@ -1,0 +1,1521 @@
+{
+  "meta": {
+    "name": "Araştırma Yöneticileri için Avrupa Yetkinlik Çerçevesi (RM Comp)",
+    "source": "RM_Comp_Assesment.pdf",
+    "publisher": "Avrupa Komisyonu, Araştırma ve Yenilik",
+    "copyright": "© Avrupa Birliği, 2025",
+    "levels": ["Foundational", "Intermediate", "Advanced", "Expert"],
+    "levelLabels": { "Foundational": "Temel", "Intermediate": "Orta", "Advanced": "İleri", "Expert": "Uzman" },
+    "extractionNote": "Bu dosya, kaynak İngilizce çerçevenin (framework.json) profesyonel bir Türkçe çevirisidir; kaynak metnin yerini almaz, ona eklenen bir çeviri katmanıdır. Yapısal bütünlük (yetkinlik kimlikleri, seviye başına madde sayısı) otomatik olarak İngilizce sürümle karşılaştırılarak doğrulanır.",
+    "domains": [
+      { "id": "COG", "name": "Bilişsel Yetenekler / Kişisel Özellikler" },
+      { "id": "TECH", "name": "Teknik Yeterlilik" },
+      { "id": "RPO", "name": "Araştırma Projesi Gözetimi" },
+      { "id": "STK", "name": "Paydaş Katılımı" },
+      { "id": "LMT", "name": "Ekip Yönetimi ve Yetenek Geliştirme" },
+      { "id": "COM", "name": "İletişim" },
+      { "id": "SME", "name": "Konu Uzmanlığı / Uzmanlaşmış Bilgi" }
+    ]
+  },
+  "competencies": [
+    {
+      "id": "creativity", "domain": "COG", "name": "Yaratıcılık",
+      "description": "Problem çözmeye yardımcı olacak yenilikçi yaklaşımlar ve çözümler geliştirmek; dinamik bir araştırma ortamını teşvik eden metodolojiler ve/veya prosedürler tasarlamak.",
+      "levels": {
+        "Foundational": [
+          "Araştırmada yaratıcılığın önemi ve problem çözmedeki kritik rolü hakkında temel düzeyde anlayış.",
+          "Yeni fikirleri tutarlı bir şekilde üretme ve ifade etme konusunda potansiyel gösterir.",
+          "Yaratıcılık ile risk arasındaki ilişkiyi kabul eder.",
+          "Yaratıcılığa katkı sağlamak için bilgiyi analiz edebilir ve temel bileşenleri belirleyebilir."
+        ],
+        "Intermediate": [
+          "Çözümü geliştirmek ve inceltmek için metodolojiler ve/veya prosedürler kullanarak problem çözme becerisi.",
+          "Çözümler üretmek ve riski belirlemek için fikirlerle deney yapar ve işbirliği kurar.",
+          "Gerçek bir merak göstererek farklı disiplin ve alan perspektiflerinden fikirleri araştırır.",
+          "Yaratıcılığı engelleyebilecek kendi kişisel ve bilişsel önyargılarını sorgular."
+        ],
+        "Advanced": [
+          "Araştırma ekipleri ve/veya kurum içinde yaratıcılığı teşvik ederek çözüm odaklı bir düşünce kültürü oluşturur.",
+          "Araştırma ilerlemesini geliştirmek ve problem çözmek için yeni veya geliştirilmiş metodoloji, politika ya da uygulama getirir.",
+          "Kurumsal veya sistemik sorunları ele almak ve çözmek için disiplinler arası işbirlikleri ve birleşik yetkinlikleri kullanır.",
+          "Yaratıcı çözüm kararları alırken etik konuları göz önünde bulundurur."
+        ],
+        "Expert": [
+          "Ekip, kurum ve ulusal/uluslararası düzeyde yaratıcı problem çözmeye liderlik eder ve bunu kolaylaştırır.",
+          "Zorlu ve karmaşık sorunları yaratıcı biçimde ele alan, çeşitli alanlarda kapsamlı süreç ve stratejiler tasarlar ve uygular.",
+          "Yeni ve uzun vadeli olumlu etki yaratan çeşitli politika ve uygulamalar getirerek kurumda kalıcı bir olumlu iz bırakır.",
+          "Karmaşık problemleri değerlendirirken ve yenilikçi çözümler üretirken sürekli olarak yaratıcılık gösterir."
+        ]
+      }
+    },
+    {
+      "id": "critical-thinking", "domain": "COG", "name": "Eleştirel Düşünme",
+      "description": "Bilgiyi sistematik biçimde analiz edebilme, araştırma metodolojilerinin geçerliliğini değerlendirebilme ve bilinçli kararlar alabilme. Olası önyargıları belirlemek, kanıtları nesnel biçimde değerlendirmek ve karmaşık araştırma yönetimi zorluklarında stratejik biçimde yol almak.",
+      "levels": {
+        "Foundational": [
+          "Eleştirel düşünmenin önemini ve karar almadaki rolünü anlar.",
+          "Bilgiyi analiz edebilir, temel bileşenleri ve sorunları belirleyebilir.",
+          "Eleştirel düşünmede kişisel ve bilişsel önyargılara ilişkin zorlukların farkındadır.",
+          "Bilgiyi analiz ederek, mantıksal bağlantılar kurarak ve iyi gerekçelendirilmiş kararlar alarak eleştirel düşünmede temel düzeyde yeterlilik gösterir."
+        ],
+        "Intermediate": [
+          "Sağlanan bilginin güvenilirliğini ve ilgisini değerlendirir.",
+          "Kararları ve bu kararların sonuçlarını oluştururken farklı bakış açılarını dikkate alır.",
+          "Eleştirel düşüncedeki kendi kişisel ve bilişsel önyargılarını sorgular.",
+          "Karmaşık, birbirine bağlı veri/bilgi/politika arasındaki bağlantıları belirler ve değerlendirir."
+        ],
+        "Advanced": [
+          "Alınan kararların, olası kalıcı etkileri göz önünde bulundurarak uzun vadeli sonuçlarını değerlendirir.",
+          "Olası kararların öngörülemeyen sonuçlarını araştırmak için meslektaşlarıyla birlikte beyin fırtınası oturumlarına katılır.",
+          "İleri düzey kritik karar almada etik konuları dikkate alır.",
+          "Olası sistemik önyargıları belirlemek ve konuları nesnel biçimde değerlendirmek için disiplinler arası işbirliklerini kullanır."
+        ],
+        "Expert": [
+          "Bilinçli karar alınmasını sağlamak için üst yönetime ve kurumsal liderliğe uzman düzeyinde danışmanlık sağlar.",
+          "Kurumsal karar almayı yönlendirmek için kapsamlı stratejiler tasarlar ve uygular.",
+          "Karmaşık problemleri sistematik biçimde değerlendirerek, çeşitli bilgileri sentezleyerek ve yenilikçi çözümler üreterek gelişmiş karar alma süreçlerine katkıda bulunduğunu sürekli olarak gösterir.",
+          "Geliştirilmiş politika ve uygulamalar yoluyla kurumda/ulusal/uluslararası düzeyde kalıcı bir miras yaratır."
+        ]
+      }
+    },
+    {
+      "id": "cultural-sensitivity", "domain": "COG", "name": "Kültürel Duyarlılık",
+      "description": "Farklı kültürel bakış açılarına, değerlere ve normlara karşı farkındalık ve saygı. Kapsayıcı bir çalışma ortamı geliştirmek, kültürel nüansların araştırma tasarımı ve uygulamasına etkisini kabul etmek.",
+      "levels": {
+        "Foundational": [
+          "Çeşitli araştırma ortamlarında kültürel duyarlılığın önemi hakkında temel düzeyde anlayış.",
+          "Kültürel farklılıklara, geleneklere ve göreneklere ilişkin temel bir farkındalığa sahiptir.",
+          "Her türlü iletişimde saygılı biçimde iletişim kurar.",
+          "Farklı kültürel geçmişlere sahip bireylere karşı anlayış gösterir."
+        ],
+        "Intermediate": [
+          "İş birlikçiler, ortaklar ve ekiple olan tüm etkileşimlerde etkili kültürler arası iletişim planlar ve gerçekleştirir.",
+          "Farklı araştırma ekipleri ve/veya diğer ekiplerle çalışırken kültürel zekâ ve farkındalık sergiler.",
+          "İstenmeyen davranışlar yoluyla ortaya çıkan sorunları fark eder ve ele alır.",
+          "Farklı kültürel ortamlarda etkin biçimde yol alma ve iletişim kurma becerisi gösterir; farklı kültürel normlara ve uygulamalara karşı farkındalık, saygı ve uyum sağlama becerisi sergiler."
+        ],
+        "Advanced": [
+          "Araştırma ekibi ve/veya diğer ekipler içinde kültürel açıdan çeşitli ve kapsayıcı bir ortam oluşturur.",
+          "Kültürler arası araştırma iş birliklerinde ve ortak konsorsiyumlarda başarıyla etkileşim kurar.",
+          "Araştırma ekibi ve/veya diğer ekipler içinde prosedürler ve stratejiler oluşturarak kültürel farklılıkları güçlendirir.",
+          "Yüksek düzeyde kültürel farkındalık ve empati ile farklı kültürel ortamlarda sorunsuzca yol alma, kapsayıcı etkileşimler kurma ve kültürler arası iş birliklerine olumlu katkı sağlama becerisi sergiler."
+        ],
+        "Expert": [
+          "Araştırma ve kurumsal kültürel duyarlılığı artırmak için üst yönetime ve kurumsal liderliğe uzman düzeyinde danışmanlık sağlar.",
+          "Ekip, kurum, ulusal ve/veya uluslararası düzeyde kültürel duyarlılık stratejileri geliştirir ve uygular.",
+          "Kültürler arası anlayışı geliştirme, kültürel çatışmaları çözme ve içgörülü liderlik ve mentorluk yoluyla kapsayıcı ortamlar için bir katalizör olma konusunda ileri düzey beceriler sergiler.",
+          "Karmaşık kültürel dinamikleri anlama, bunlara saygı gösterme ve bunlarda yol alma konusunda olağanüstü bir yeterlilik gösterir."
+        ]
+      }
+    },
+    {
+      "id": "problem-solving", "domain": "COG", "name": "Problem Çözme",
+      "description": "Çok çeşitli bağlamlarda işin yürütülmesi sırasında ortaya çıkan pratik, operasyonel veya kavramsal sorunlara çözümler geliştirmek ve uygulamak.",
+      "levels": {
+        "Foundational": [
+          "Problem çözme kavramını ve çeşitli bağlamlardaki önemini anlar.",
+          "Sorunları tanıma ve tanımlama becerisine sahiptir; bunları bileşenlerine ayırmak için analitik becerileri de kullanır.",
+          "Bir sorunu çözmek için iş birliği yapma ilkesini anlar.",
+          "Sorunları açık biçimde belirlemek ve analiz etmek için yeni beceriler ve yaklaşımlar öğrenmeye açıktır."
+        ],
+        "Intermediate": [
+          "Sorunu gözden geçirdikten sonra, sorunun kök nedenini belirleyebilir.",
+          "Önerilen çözümlerin etkinliğini değerlendirir.",
+          "Sorunları tartışmak, ele almak ve çözmek için ağ bağlantılarını ve meslektaşlarını kullanır.",
+          "Problem çözme becerilerini geliştirmek ve beklenmedik sorunlarda yol almak için eğitim ve mesleki gelişime katılır."
+        ],
+        "Advanced": [
+          "Ekipleri karmaşık problem çözme süreçlerinde yönlendirir ve bunu kolaylaştırır.",
+          "Artık amaca uygun olmayan mevcut çözümleri sorgular ve alternatif yaklaşımlar önerir.",
+          "Birbirine bağlı ve karmaşık kurumsal veya (araştırma) ekip zorluklarını ele alır.",
+          "Karmaşık konuları sistematik biçimde analiz etme, çeşitli kaynaklardan bilgiyi sentezleme ve yenilikçi çözümler geliştirme becerisi sergiler."
+        ],
+        "Expert": [
+          "Liderlik ve kurumsal düzeyde problem çözme stratejilerinin tasarlanması ve uygulanmasında uzman düzeyinde düşünce liderliği sağlar.",
+          "Kurumsal, ulusal ve/veya uluslararası düzeyde sorunları ele alan ve çözen politika ve uygulamalar geliştirir ve uygular.",
+          "Kurumsal, araştırma ve uluslararası dinamikler konusunda derin bir anlayışla çok yönlü sorunları öngörme, bunlarda yol alma ve çözme becerisini sergileyerek, başkalarını karmaşık problem çözme süreçlerinde yönlendirmede liderlik sergiler.",
+          "Gelişmiş analitik teknikler kullanarak, disiplinler arası bilgiyi sentezleyerek ve yenilikçi biçimde çözümler üreterek son derece karmaşık zorlukları ele alma becerisi."
+        ]
+      }
+    },
+    {
+      "id": "strategic-planning", "domain": "COG", "name": "Stratejik Planlama",
+      "description": "Kabul edilmiş hedeflerle ve daha geniş kurumsal ve/veya ulusal/uluslararası stratejilerle uyumlu, kapsamlı bir araştırma planı öngörme ve uygulama becerisi. Fikirleri eyleme dönüştürecek bir vizyon geliştirmek. Uzun vadeli bir hedefe ulaşmak ve rekabetçi, değişen bir ortamda gelişmek için eğilimleri, fırsatları, tehditleri (sezgi ve yaratıcılığa da dayanarak) belirlemek ve keşfetmek amacıyla bilgi elde etmek ve sentezlemek. Fikirleri eyleme dönüştürmek için alternatif yollar belirlemek, en uygun yaklaşımı seçmek ve gerektiğinde ayarlamalar yapmak.",
+      "levels": {
+        "Foundational": [
+          "Stratejik planlamanın temel ilkelerini ve bir araştırma projesinin başarısına katkısını anlar.",
+          "SWOT analizi gibi araçları kullanarak temel stratejik planlama analizleri yapabilir.",
+          "Araştırma projesi hedeflerinin kurumsal strateji ile nasıl uyumlu olduğunu anlar.",
+          "Paydaşların kurum içindeki ve dışındaki stratejik rolüne ilişkin temel düzeyde anlayış."
+        ],
+        "Intermediate": [
+          "Araştırma girişimi içindeki eğilimleri ve tehditleri belirleyebilir.",
+          "Araştırma projesinin kurumsal strateji ve hedeflerle uyumlu olmasını sağlar.",
+          "Araştırmanın stratejisini kolaylaştırmak için onaylanmış kaynakları etkin biçimde tahsis eder.",
+          "Araştırma etkisini artıran stratejiler ve prosedürler uygular."
+        ],
+        "Advanced": [
+          "Kapsamlı ve ileriye dönük stratejik girişimler oluşturma becerisi gösterir.",
+          "Ulusal ve/veya uluslararası araştırma stratejileriyle bağlantı kurmak için ağları ve uzmanlığı kullanır.",
+          "Kapsamlı analiz yapma, temel fırsatları ve zorlukları belirleme ve kurumsal hedeflerle uyumlu uygulama planları geliştirme konusunda yeterlilik sergiler.",
+          "Araştırmanın etkisini artıracak stratejiler geliştirmek için iç ve dış paydaşlarla bağlantı kurar."
+        ],
+        "Expert": [
+          "İçgörüleri bütünleştirme, küresel eğilimleri analiz etme ve ortaya çıkan zorlukları öngörme kapasitesini gösterir; bu da çevik ve uyarlanabilir stratejik planların oluşturulmasıyla sonuçlanır.",
+          "Alanında düşünce lideri olarak tanınır; kurumları karmaşık stratejik karar alma süreçlerinde yönlendirir ve tutarlı biçimde olumlu sonuçlar elde eder.",
+          "Kurumsal başarıyı yönlendiren stratejiler geliştirir ve uygular.",
+          "Araştırmanın uzun vadeli değerini ve stratejik etkisini artırmak için hem kurum içindeki hem de dışındaki paydaşlarla yakın işbirliği içinde çalışır."
+        ]
+      }
+    },
+    {
+      "id": "decision-making", "domain": "COG", "name": "Karar Alma",
+      "description": "Bu bağlamda etkili karar alma, proje ivmesini sürdürmek, hedeflere ulaşmak ve araştırma sürecine özgü karmaşıklıklarda yol almak için hayati önem taşır.",
+      "levels": {
+        "Foundational": [
+          "Karar almayı bilgilendirmek için ilgili bilgileri toplamada temel beceriler sergiler.",
+          "Kararların olası sonuçlarını değerlendirmek için temel risk değerlendirme ilkelerini anlar.",
+          "Kararların ve sonuçlarının izlenmesine ilişkin temel ilkeyi anlar.",
+          "Bilinçli kararlar alırken iş birliğinin temel ilkesini anlar."
+        ],
+        "Intermediate": [
+          "Karmaşık durumları ve bilgileri eleştirel biçimde analiz etme becerisi gösterir.",
+          "Karar almadan önce birden fazla senaryoyu analiz eder.",
+          "Karar alma sürecine birleşik bir yaklaşım sağlamak için başkalarıyla iş birliği yapar.",
+          "Karar almadan önce tüm olası senaryolara bağlı riskleri anlar."
+        ],
+        "Advanced": [
+          "Belirsiz durumlarda yol almak için yenilikçi stratejiler kullanır.",
+          "Karar almayı bilgilendirmek için karmaşık, birbirine bağlı veri ve bilgileri kullanır.",
+          "Kararın kurum içindeki olası etkisini değerlendirir.",
+          "Önceden tanımlanmış bir dönem boyunca kurum içinde alınan kritik kararların etkisini eleştirel biçimde değerlendirir."
+        ],
+        "Expert": [
+          "Liderlik ve kurumsal düzeyde karar alma stratejilerine uzman düzeyinde düşünce liderliği sağlar.",
+          "Uzman düzeyinde karar alma için yenilikçi modeller ve metodolojiler getirir.",
+          "Kurumsal, ulusal ve uluslararası düzeyde alınan kritik kararların etkisini değerlendirmek için hem kurum içindeki hem de dışındaki paydaşlarla yakın işbirliği içinde çalışır.",
+          "Kurum için tutarlı biçimde olumlu sonuçlar ve stratejik hedefler elde etmek amacıyla keskin bir muhakeme gösterir."
+        ]
+      }
+    },
+    {
+      "id": "stress-management", "domain": "COG", "name": "Stres Yönetimi",
+      "description": "Stres yönetimi; başa çıkma mekanizmaları ve stratejileri geliştirmeyi, görevleri önceliklendirmeyi ve sağlıklı bir iş-yaşam dengesi sürdürmeyi içerir.",
+      "levels": {
+        "Foundational": [
+          "Sınırlı yönlendirme ve gözetimle yabancı ve rahatsız edici durumların üstesinden gelir.",
+          "Stresli ve baskılı durumlarda sınırlı destekle ilerlemeye devam eder.",
+          "Stresin ne olduğunun ve kendi stresini yönetmek için ek destek ve kaynaklara nasıl ulaşılacağının farkındadır.",
+          "Derin nefes alma, meditasyon ve farkındalık gibi gevşeme tekniklerini öğrenir ve uygular."
+        ],
+        "Intermediate": [
+          "Stres belirtilerini erken aşamada fark eder.",
+          "Aksiliklere ve başarısızlıklara dayanır.",
+          "Zorluklarla başa çıkar ve belirsizlik altında kararlar alır.",
+          "Refahı ve dayanıklılığı artırmak için pozitif psikoloji ilkelerini uygular. Stresle ilgili düşünceleri ve davranışları yönetmek için bilişsel-davranışçı stratejiler uygular."
+        ],
+        "Advanced": [
+          "Belirsizlik ve olumsuzluklarla başa çıkmak için stratejiler geliştirir.",
+          "Stresli durumlara proaktif tepkiler geliştirir.",
+          "Stres riskini azaltmak için eylem planlaması yapmanın ve mümkün olan en kısa sürede adım atmanın önemini bilir.",
+          "İş ile özel yaşam arasında sınırlar belirlemeye yönelik teknikleri öğretir ve uygular."
+        ],
+        "Expert": [
+          "Belirsiz ve olumsuz durumlarda kendinden emin bir karar alıcı olarak tanınır.",
+          "Zorlu ve olumsuz durumlarda başkalarına yardımcı olur.",
+          "Stres hakkında açık tartışmayı teşvik etmek için doğru psikolojik güvenlik ortamını yaratabilir.",
+          "Stresi azaltmak için etkili zaman yönetimi stratejileri uygular."
+        ]
+      }
+    },
+    {
+      "id": "prioritisation-time-management", "domain": "COG", "name": "Önceliklendirme, Zaman Yönetimi ve Çoklu Görev Yürütme",
+      "description": "En kritik görevleri belirlemeyi ve bunlara öncelik vermeyi içerir. Bu beceri, bireylerin en önemli olana odaklanmasına, hedeflerine ulaşmak için zamanlarını ve kaynaklarını verimli biçimde yönetmesine yardımcı olur.",
+      "levels": {
+        "Foundational": [
+          "Görevleri belirler ve işi verimli biçimde yürütmek için kişisel bir program oluşturmak amacıyla bunlara öncelik verir.",
+          "Bağımsız çalışır, ancak gerektiğinde aktif olarak yönlendirme talep eder.",
+          "Zaman yönetiminde kişisel güçlü ve zayıf yönlerini değerlendirebilir."
+        ],
+        "Intermediate": [
+          "Kendi zaman yönetimi sistemini kurar.",
+          "Büyük görevleri yönetilebilir görev planlarına ayırma becerisine sahiptir. İleri görüşlüdür.",
+          "Yaygın dikkat dağıtıcıları tanır ve bunları en aza indirmek için stratejiler öğrenir."
+        ],
+        "Advanced": [
+          "Kendi zamanını verimli ve üretken biçimde kullanmak için projeler arasındaki sinerjileri belirler.",
+          "Günlük görevleri ve projeleri uzun vadeli stratejik hedeflerle uyumlu hale getirir ve zamanında birden fazla karmaşık projeyi yönetir.",
+          "Görevleri günün en uygun zaman dilimleriyle eşleştirmek için kişisel enerji düzeylerini yönetme tekniklerini anlar ve uygular."
+        ],
+        "Expert": [
+          "Zaman yönetimi uygulamalarını kişisel ve mesleki yaşamın tüm yönlerine entegre eder.",
+          "Üretkenliği ve verimliliği ölçmek için gelişmiş metrikler geliştirir ve kullanır.",
+          "Zaman yönetimi konularında rol model ve koç işlevi görür."
+        ]
+      }
+    },
+    {
+      "id": "adaptability-flexibility", "domain": "COG", "name": "Uyum Sağlama ve Mesleki Esneklik",
+      "description": "Yeni durumlara, teknolojilere ve iş akışlarına uyum sağlamayı içerir. Uyum sağlayabilen bireyler dinamik ortamlarda gelişebilir, beklenmedik zorlukların üstesinden gelebilir ve rekabetçi bir avantajı sürdürebilir.",
+      "levels": {
+        "Foundational": [
+          "Değişimle ilişkili olası riskleri belirler ve azaltma stratejileri geliştirir; geçiş dönemlerinde açıklama isteyebilir veya ek bilgi ya da kaynak arayabilir.",
+          "Çevresindeki değişimlerin farkındadır, bunları kabul eder ve ayarlamalar yapmaya hazırdır.",
+          "Uyum sağlama alanında sürekli öğrenmeye ve mesleki gelişime bağlıdır."
+        ],
+        "Intermediate": [
+          "Yeni zorlukları olumlu biçimde üstlenmek ve geçiş sırasında yeni fırsatlar bulmak için bir gelişim zihniyeti geliştirir.",
+          "Değişim ve geçişlerin dinamiklerini anlar.",
+          "Değişiklik durumunda veya geçiş sırasında nasıl ayarlamalar veya iyileştirmeler yapılacağını gözlemleyebilir ve analiz edebilir."
+        ],
+        "Advanced": [
+          "Değişimi benimsemeye hazır olduğunu gösterir ve başkalarını da aynısını yapmaya teşvik eder.",
+          "Yeni olabilecek görevler üzerinde çalışma fırsatları talep eder veya yaratıcı yaklaşımlar gerektiren sorumluluklar üstlenmeyi teklif eder.",
+          "Yeni durumlara ve zorluklara uyum sağlamak için yeni yollar ve yaklaşımlar bulur ve geliştirir."
+        ],
+        "Expert": [
+          "Meslektaşların düşüncelerini, endişelerini ve fikirlerini paylaşabileceği güvenli ve destekleyici bir ortam yaratır.",
+          "Kendi öğrenme deneyimlerini tartışır ve değişime uyum sağlarken yaşadığı yolculuk ve zorluklar konusunda şeffaftır.",
+          "Değişime uyum sağlamakta zorlanabilecek kişilere mentorluk veya koçluk yoluyla destek sağlar."
+        ]
+      }
+    },
+    {
+      "id": "conflict-management", "domain": "COG", "name": "Çatışma Yönetimi",
+      "description": "Anlaşmazlıkları ve fikir ayrılıklarını yapıcı bir biçimde ele alma veya çözme uygulaması. Altta yatan sorunları belirlemeyi ve ele almayı; karşılıklı olarak kabul edilebilir çözümlere ulaşmak için müzakere, arabuluculuk ve problem çözme gibi stratejiler kullanmayı içerir.",
+      "levels": {
+        "Foundational": [
+          "Olumlu ve olumsuz çatışmaları belirler, çatışmayı ortaya çıkarmak için gerekli becerileri öğrenir ve uygular.",
+          "Ekip üyeleriyle nitelikli görüşmeler yürütmek için gereken temel sorgulama ve dinleme becerilerini anlar.",
+          "Çatışma durumlarına yönelik bir dizi tepkiyi değerlendirir ve erken müdahalenin önemini anlar."
+        ],
+        "Intermediate": [
+          "Çatışmayla başa çıkmak için gerekli becerileri öğrenir ve uygular.",
+          "Ekip üyeleriyle nitelikli görüşmeler yürütmek için gereken temel sorgulama ve dinleme becerilerini kullanır.",
+          "Yapısal, işlevsel ve süreç teorileri dahil olmak üzere çeşitli çatışma teori ve modellerini anlar."
+        ],
+        "Advanced": [
+          "İş yerindeki çatışma durumları için kişisel eylem planları geliştirir.",
+          "Stresli durumlara proaktif tepkiler geliştirir.",
+          "Olumlu bir sonuca doğru ilerlemek için iş birliğine dayalı bir yaklaşım kullanarak zor görüşmeleri hazırlar ve yürütür.",
+          "Çatışmanın altında yatan nedenleri, aktörleri ve aşamalarını analiz eder."
+        ],
+        "Expert": [
+          "Farklı çatışma yönetimi stratejileri geliştirir ve kullanır.",
+          "Çatışma ortaya çıktığında başkalarının bununla başa çıkma stratejileri geliştirmesini sağlar.",
+          "Çatışma yönetimi müdahalelerinin etkinliğini başarıyla değerlendirir."
+        ]
+      }
+    },
+    {
+      "id": "reliability-trustfulness", "domain": "COG", "name": "Güvenilirlik ve Güven Duyulabilirlik",
+      "description": "İşinde güvenilir ve itimat edilir olmayı içerir. Güvenilir bireyler tutarlı biçimde yüksek kaliteli sonuçlar sunar, son tarihlere uyar ve güçlü bir itibarı sürdürür. Eylemlerde ve iletişimde dürüstlük, bütünlük ve şeffaflık göstermeyi içerir. Güven duyulabilirlik, ister kişisel ister mesleki olsun, ilişkiler kurma ve sürdürmenin temel bir unsurudur.",
+      "levels": {
+        "Foundational": [
+          "Güvenilirlik, açıklık ve tutarlılık gibi güven inşa etmenin temel unsurlarını anlar.",
+          "Güvenme ve güven yaratma konusundaki kişisel kapasitesini değerlendirir.",
+          "Dürüstlük, bütünlük ve şeffaflık dahil olmak üzere yönetimdeki etik standartlara ve yönergelere aşinadır.",
+          "Süreçlere, kararlara ve iletişimlere ilişkin tutarlı ve kapsamlı belgeleri sürdürür."
+        ],
+        "Intermediate": [
+          "Güven veya güvensizlik oluşturan davranışları belirler.",
+          "Meslektaşlarla güvene dayalı ilişkiler geliştirir.",
+          "Tutarlılığı ve güvenilirliği sürdürmek için standart işletim prosedürleri geliştirir ve bunlara uyar.",
+          "Operasyonlar ve kararlar hakkında net ve doğru bir açıklama sunan ayrıntılı ve kapsamlı raporlar üretir."
+        ],
+        "Advanced": [
+          "Güven inşa etmek veya yeniden inşa etmek için stratejiler geliştirir.",
+          "Güven inşa etmek ve şeffaflık ile hesap verebilirliği sağlamak için paydaşlarla etkileşime girer.",
+          "Operasyonlarda güvenilirliği ve güveni artırmak için sürekli iyileştirme süreçleri uygular.",
+          "Güveni sürdüren ve güçlendiren bir biçimde çatışmaları etkin biçimde çözer."
+        ],
+        "Expert": [
+          "İnsanların değişimi kabul etmeye ve değişimin etkilerini başarıyla bütünleştirmek için birlikte çalışmaya daha istekli olduğu yüksek güvenli bir ortam yaratır.",
+          "Etkili iş birliğini sağlamak için diğer paydaşlarla yapıcı ilişkiler geliştirir.",
+          "Operasyonların tüm yönlerinde en yüksek düzeyde güvenilirlik ve güven duyulabilirliği sağlayan sistemler ve süreçler kurar.",
+          "Güvenilirliği ve güven duyulabilirliği artıran yenilikçi uygulamalar geliştirir ve teşvik eder."
+        ]
+      }
+    },
+    {
+      "id": "data-collection-collation", "domain": "TECH", "name": "Araştırma Verisi Toplama ve Derleme",
+      "description": "Sağlam veri toplama metodolojilerini uygulamak (ve geliştirmek), ekip üyeleri arasında veri edinme çabalarını koordine etmek ve kanıta dayalı karar almayı sağlayacak biçimde çeşitli araştırma veri kümelerinin düzenli derlenmesini denetlemek.",
+      "levels": {
+        "Foundational": [
+          "Anketler, görüşmeler ve gözlemler gibi temel veri toplama tekniklerini anlar ve uygular.",
+          "Verileri e-tablolara veya veritabanlarına doğru biçimde girme konusunda yeterlilik gösterir.",
+          "Verileri tanımlamak ve özetlemek için temel istatistiksel kavramları anlar.",
+          "Veri kalitesinin önemini kabul eder ve temel veri doğrulama ve temizleme tekniklerini uygular."
+        ],
+        "Intermediate": [
+          "Anketler ve sorgu formları gibi veri toplama için yapılandırılmış araçlar geliştirir.",
+          "Veri bütünlüğünü ve güvenliğini sağlayarak veritabanları kullanarak verileri etkin biçimde yönetir ve düzenler.",
+          "Nitel verileri kategorize etmek ve düzenlemek için kodlama şemaları ve diğer araçları uygular.",
+          "Kurumsal, ulusal ve uluslararası düzeyde veri yönetimi politikalarının (örn. GDPR) farkındadır."
+        ],
+        "Advanced": [
+          "Karmaşık, birbirine bağlı verilerin ileri düzey istatistiksel analizlerini yapar.",
+          "Nitel ve nicel veriler dahil olmak üzere çeşitli kaynaklardan gelen verileri entegre eder ve analiz eder.",
+          "Kurumsal veya sistemik sorunları ele almak ve çözmek için disiplinler arası işbirlikleri ve birleşik yetkinlikleri kullanır.",
+          "Ölçeklenebilirliği ve veri ilişkilerini göz önünde bulundurarak belirli araştırma projesi ihtiyaçlarına göre uyarlanmış veritabanları tasarlar ve uygular."
+        ],
+        "Expert": [
+          "Makine öğrenmesi ve yapay zekâ gibi araçları kullanarak büyük veri kümelerine ileri düzey analitik teknikler uygulama becerisi.",
+          "Etik ve sorumlu veri yönetimini sağlayan veri yönetişimi (governance) uygulamaları kurar ve bunlara liderlik eder.",
+          "Araştırma verilerinin sorumlu kullanımı ve yönetimiyle ilgili politika ve uygulamaların getirilmesi yoluyla kurumda kalıcı bir olumlu iz bırakır.",
+          "Birlikte çalışabilirlik ve farklı veri biçimleriyle ilgili zorlukları anlar ve ele alır."
+        ]
+      }
+    },
+    {
+      "id": "data-statistical-analysis", "domain": "TECH", "name": "Veri ve İstatistiksel Analiz",
+      "description": "Verinin ve yorumunun doğruluğunu ve güvenilirliğini sağlamak için titiz istatistiksel yöntemler uygulamak.",
+      "levels": {
+        "Foundational": [
+          "Veri, değişkenler ve veri kümeleriyle ilgili temel kavramları anlar.",
+          "Ortalama, medyan, mod ve standart sapma gibi temel betimsel istatistikleri hesaplar ve yorumlar.",
+          "Çubuk grafikler, histogramlar ve dağılım grafikleri dahil olmak üzere basit veri görselleştirmeleri oluşturabilir.",
+          "Veri ve istatistiksel analiz yöntemlerini öğrenmeye ve bunlarla ilgilenmeye isteklidir."
+        ],
+        "Intermediate": [
+          "Basit doğrusal regresyon analizi yürütür ve yorumlar.",
+          "Analiz yapmak ve rapor oluşturmak için istatistiksel yazılım (örn. R, Python, SPSS) kullanır.",
+          "Çoklu regresyon veya faktör analizi gibi temel çok değişkenli analiz tekniklerini uygulayabilir.",
+          "Temel deneysel ve gözlemsel çalışma tasarımlarını anlar ve tasarlar."
+        ],
+        "Advanced": [
+          "Lojistik regresyon veya hiyerarşik doğrusal modelleme gibi ileri regresyon tekniklerini uygular.",
+          "Zamansal veri örüntülerini modellemek ve yorumlamak için zaman serisi analizi yürütür.",
+          "Öngörücü modelleme ve sınıflandırma görevleri için makine öğrenmesi algoritmaları uygular.",
+          "Birden fazla çalışmanın bulgularını sentezleyen meta-analizleri anlar ve yürütür."
+        ],
+        "Expert": [
+          "Yapısal eşitlik modellemesi veya küme analizi gibi ileri çok değişkenli teknikleri uygulayabilir.",
+          "Karmaşık araştırma sorularına Bayesçi istatistiksel yöntemler uygulayabilir.",
+          "Gözlemsel çalışmalarda nedensel çıkarım için stratejiler tasarlar ve uygular.",
+          "Çalışma tasarımı, veri analizi planlaması ve yorumlama dahil olmak üzere uzman düzeyinde istatistiksel danışmanlık sağlar."
+        ]
+      }
+    },
+    {
+      "id": "legal-skills", "domain": "TECH", "name": "Hukuki Beceriler",
+      "description": "Araştırma ekosistemiyle ilgili olduğu ölçüde, hukuki kavramların ve etik değerlendirmelerin incelikli bir biçimde anlaşılması ile hukuki ortama dair keskin bir farkındalık.",
+      "levels": {
+        "Foundational": [
+          "Hukuki ilkelerin temel kavramlarını ve uygulamalarını anlar.",
+          "Temel hukuki terminoloji bilgisi geliştirir.",
+          "Sözleşme analizi ve yorumlamanın temel ilkelerini anlar.",
+          "Temel hukuki belgeleri hazırlama becerisi."
+        ],
+        "Intermediate": [
+          "Karmaşık sözleşmeleri analiz eder ve hazırlar.",
+          "Çeşitli durumlarda hukuki durum tespiti (due diligence) yürütür.",
+          "Hukuki bağlamlarda müzakere kullanır.",
+          "Hukuki nüansları açık ve kesin biçimde iletir."
+        ],
+        "Advanced": [
+          "Araştırma projesi veya kurumsal düzeyde hukuki riskleri belirler ve yönetir.",
+          "Hukuki dilekçe veya belge hazırlama becerisi.",
+          "Zaman çizelgelerini, kaynakları ve araştırma ekibi üyeleriyle iş birliğini denetleyerek birden fazla hukuki davayı aynı anda yönetir.",
+          "Karmaşık hukuki sorunları teşhis eder ve giderir."
+        ],
+        "Expert": [
+          "Alandaki gelişmelere katkıda bulunan yenilikçi hukuki teknikler ve metodolojiler getirir.",
+          "Hukuki süreçleri ve etik değerlendirmeleri, disiplinler arası ekiplerle iş birliği yaparak daha geniş araştırma ortamına entegre eder.",
+          "Metodolojileri ve sonuçları etkin biçimde ileterek araştırma bulgularının yayımlanmasına katkıda bulunur.",
+          "Genç araştırmacılara ve araştırma yöneticilerine hukuki prosedürler ve sorun giderme konusunda rehberlik ederek mentorluk sağlar."
+        ]
+      }
+    },
+    {
+      "id": "it-for-research", "domain": "TECH", "name": "Araştırma Faaliyetleri için BT",
+      "description": "Veri yönetimini, analizi, güvenliği ve iş birliğini geliştirmek için Bilgi Teknolojisini (BT) kullanmak ve gelişmiş teknolojilerin entegrasyonunu denetlemek. Araştırma süreçlerini optimize etmek için veri depolama çözümleri, analitik araçlar, yapay zekâ ve iş birliği platformları gibi sağlam BT altyapısının uygulanması.",
+      "levels": {
+        "Foundational": [
+          "İşletim sistemleri, dosya yönetimi ve yazılım kurulumu konusunda yeterlilik dahil olmak üzere temel bilgisayar okuryazarlığı gösterir.",
+          "Araştırma konularıyla ilgili bilgi toplamak için temel internet araştırması yapar.",
+          "Temel belge oluşturma ve biçimlendirme için kelime işlem yazılımı kullanır.",
+          "Araştırma verilerini e-tablolar veya temel veritabanı uygulamaları kullanarak girer ve yönetir."
+        ],
+        "Intermediate": [
+          "Veri analizi, istatistiksel hesaplamalar ve görselleştirme için özel araştırma yazılımlarından yararlanır.",
+          "Araştırma verilerini düzenlemek ve depolamak için veritabanları tasarlar ve yönetir.",
+          "Otomasyon ve veri işleme için bir programlama dilinde (örn. Python, R) yeterlilik geliştirir.",
+          "Literatür taraması ve atıf yönetimi için bibliyografik yönetim araçları kullanır."
+        ],
+        "Advanced": [
+          "İleri istatistiksel yöntemler ve makine öğrenmesi teknikleri kullanarak karmaşık veri analizleri yürütür.",
+          "Tekrarlayan araştırma görevlerini otomatikleştirmek için betikler veya iş akışları geliştirir ve uygular.",
+          "Ekip tabanlı araştırma projeleri için iş birliği platformları ve sürüm kontrol sistemleri kullanır.",
+          "Araştırma verilerini ve sistemlerini korumak için siber güvenlik en iyi uygulamaları konusunda farkındalık gösterir."
+        ],
+        "Expert": [
+          "Belirli araştırma ihtiyaçlarına göre uyarlanmış özel yazılım uygulamaları geliştirir.",
+          "Büyük veri kümelerini (büyük veri) işlemek ve analiz etmek için ileri teknikler uygular.",
+          "Büyük ölçekli araştırma projeleri için BT altyapısını yönetir ve optimize eder.",
+          "Yapay zekâ veya blok zinciri gibi ortaya çıkan teknolojileri takip eder ve bunları araştırma iş akışlarına entegre eder."
+        ]
+      }
+    },
+    {
+      "id": "artificial-intelligence", "domain": "TECH", "name": "Yapay Zekâ",
+      "description": "Araştırma süreçlerini optimize etmek, karmaşık veri kümelerini analiz etmek ve bilinçli karar alma için anlamlı içgörüler elde etmek amacıyla yapay zekâ teknolojilerinden ve algoritmalarından yararlanma becerisi.",
+      "levels": {
+        "Foundational": [
+          "Yapay zekânın ne olduğunu ve araştırma yönetimindeki temel uygulamalarını anlar.",
+          "Temel yapay zekâ araçlarını ve bunların araştırmada nasıl kullanılabileceğini bilir.",
+          "Araştırmada yapay zekâ kullanımıyla ilgili etik kaygıları fark eder.",
+          "Yapay zekâ ve bunun araştırma iş akışlarına entegrasyonu hakkında öğrenmeye isteklilik gösterir."
+        ],
+        "Intermediate": [
+          "Araştırma görevleri için farklı yapay zekâ teknolojilerini değerlendirebilir.",
+          "Araştırma yönetimini kolaylaştırmak için temel yapay zekâ araçlarını (örn. veri görselleştirme, öngörücü analitik) uygular.",
+          "Veri Yorumlama: Karar almak için yapay zekâ tarafından üretilen içgörülerin nasıl yorumlanacağını anlar.",
+          "Yapay zekânın araştırma görevlerinde nerede yardımcı olabileceğini belirleyebilir."
+        ],
+        "Advanced": [
+          "Karmaşık araştırma zorlukları için özel yapay zekâ çözümleri oluşturabilir.",
+          "Yapay zekâ çözümlerini ve tedarikçilerini eleştirel biçimde değerlendirerek hangi teknolojilerin benimseneceğine dair bilinçli kararlar alır.",
+          "Araştırma yönetiminde sorumlu yapay zekâ kullanımı için kurallar belirler.",
+          "Yapay zekâyı etkin biçimde entegre etmek için yapay zekâ uzmanları ve ekipleriyle çalışır."
+        ],
+        "Expert": [
+          "Sorumlu ve adil yapay zekâ uygulamalarını sağlayan kapsamlı politikalar ve etik yönergeler geliştirir ve uygular.",
+          "Araştırma uygulamalarını dönüştürebilecek ve önemli ilerlemeleri teşvik edebilecek yenilikçi yapay zekâ çözümlerini belirler ve kolaylaştırır.",
+          "Araştırma yönetimi için yapay zekânın etkin kullanımı konusunda başkalarına rehberlik eder.",
+          "Yapay zekânın araştırma yönetiminde gerçek bir fark yaratabileceğini gösterir. (Sektör forumları, yayınlar ve çalıştaylar aracılığıyla bilgi paylaşarak araştırma yönetiminde yapay zekâ entegrasyonunda lider olarak hareket eder.)"
+        ]
+      }
+    },
+    {
+      "id": "research-project-management", "domain": "RPO", "name": "Araştırma Projesi Yönetimi",
+      "description": "Araştırma projelerinin tüm yaşam döngüsünü denetlemek. Hedefleri tanımlamak, zaman çizelgeleri geliştirmek, İnsan Kaynakları dahil kaynakları tahsis etmek ve projenin rotasında kalmasını sağlamak. Proje yürütmenin çeşitli yönlerini koordine etmek, iş birliğini teşvik etmek ve zorlukların üstesinden gelmek için stratejileri uyarlamak.",
+      "levels": {
+        "Foundational": [
+          "Araştırma bağlamında proje yönetiminin temel kavramlarını ve ilkelerini kavrar.",
+          "Hedeflerin, kapsamın ve paydaşların tanımlanması dahil olmak üzere bir araştırma projesi başlatmanın temellerini anlar.",
+          "Proje zaman çizelgeleri oluşturma ve araştırma projesi görevlerini yönetme konusunda temel beceriler geliştirir.",
+          "Proje güncellemeleri, koordinasyon ve yayma için temel iletişim becerileri gösterir."
+        ],
+        "Intermediate": [
+          "Ayrıntılı görev listeleri, kaynak tahsisi ve risk değerlendirmesi dahil olmak üzere proje planlarını geliştirir ve iyileştirir.",
+          "Harcama takibi, tahmin ve finansal raporlama dahil olmak üzere proje bütçelerini yönetir.",
+          "Araştırma ekipleri, fon sağlayıcılar ve iş birlikçiler dahil olmak üzere paydaşlarla etkin biçimde etkileşime girer.",
+          "Araştırma projesi sonuçlarının bütünlüğünü ve güvenilirliğini sağlamak için kalite güvence süreçlerini yönetir."
+        ],
+        "Advanced": [
+          "Olası sorunları azaltmak için stratejiler uygulayarak riskleri proaktif biçimde belirler, değerlendirir ve yönetir.",
+          "Kesintiyi en aza indirerek proje kapsamı, zaman çizelgesi veya hedeflerindeki değişiklikleri yönetir.",
+          "Büyük ölçekli projeler ve portföyler için üst yönetime stratejik fırsatlar, proje ve portföy tasarımı ile risk yönetimi konusunda rehberlik sağlar.",
+          "İş birliğine dayalı proje planlaması ve takibi için ileri proje yönetimi araçlarını ve yazılımlarını kullanır."
+        ],
+        "Expert": [
+          "Birden fazla araştırma projesi için stratejik planlamaya katkıda bulunur, bunları kurumsal hedeflerle uyumlu hale getirir.",
+          "Proje ekipleri içinde liderlik sağlayarak iş birlikçi ve yenilikçi bir proje kültürünü teşvik eder.",
+          "Kaynak tahsisini ve proje sinerjilerini optimize ederek bir araştırma projeleri portföyünü yönetir.",
+          "Önceki projelerden alınan dersleri mevcut uygulamalara dahil ederek sürekli iyileştirme stratejileri uygular."
+        ]
+      }
+    },
+    {
+      "id": "managing-deliverables", "domain": "RPO", "name": "Araştırma Projesi Çıktılarını Yönetme",
+      "description": "Proje kilometre taşlarının ve sonuçlarının belirlenen hedeflerle uyumlu olmasını sağlamak. Açık çıktılar oluşturmak, ilerlemeyi izlemek ve proje planından sapmaları derhal ele almak.",
+      "levels": {
+        "Foundational": [
+          "Projenin hedeflerine ve bunların daha geniş araştırma hedefleriyle nasıl uyumlu olduğuna dair temel düzeyde anlayış.",
+          "Proje planlarına göre bireysel görevleri yerine getirmede temel beceriler gösterir.",
+          "İlerlemeyi ve sonuçları kaydetmek için temel belgeleme becerileri geliştirir.",
+          "Zamanında çıktı teslimi için proje zaman çizelgesini anlar ve buna uyar."
+        ],
+        "Intermediate": [
+          "Proje hedefleriyle uyumlu olmalarını sağlayarak birden fazla görevi aynı anda koordine eder ve yönetir.",
+          "Kalite, doğruluk ve proje gereksinimlerine bağlılığa odaklanarak çıktıların üretilmesine yardımcı olur.",
+          "Bir yetkinlik portföyü kullanarak, proje sırasında ortaya çıkabilecek zorlukları ele almak için problem çözme becerileri geliştirir.",
+          "İlerlemeyi ve zorlukları araştırma ekibi üyeleri ve paydaşlarla etkin biçimde iletir."
+        ],
+        "Advanced": [
+          "Proje çıktılarının genel araştırma hedefleriyle stratejik biçimde uyumlu olmasını sağlar.",
+          "Çıktıların elde edilmesini etkileyebilecek olası riskleri belirleyebilir ve proaktif biçimde ele alabilir.",
+          "Çeşitli bakış açılarını ve uzmanlığı çıktı yürütmesine entegre ederek işlevler arası ekiplerle iş birliği yapar.",
+          "Bir yetkinlik portföyü kullanarak, proje çıktılarının kalitesini veya etkisini artırmak için yenilikçi yaklaşımlar veya yöntemler getirir."
+        ],
+        "Expert": [
+          "Ekibi mükemmelliğe yönlendirerek yüksek etkili çıktıların teslimine liderlik sağlar.",
+          "Çıktıların daha geniş araştırma ve kurumsal hedeflere katkıda bulunmasını sağlayarak çıktıların geliştirilmesine stratejik biçimde katkıda bulunur.",
+          "Proje çıktılarının anlık proje ötesinde bir etkiye sahip olmasını sağlayarak daha geniş bilimsel topluluğa veya topluma katkıda bulunur.",
+          "Araştırma projesi çıktılarına ulaşmak için kullanılan süreç ve metodolojilerde sürekli iyileştirme girişimlerine liderlik eder."
+        ]
+      }
+    },
+    {
+      "id": "monitoring-evaluation", "domain": "RPO", "name": "İzleme ve Değerlendirme Çerçeveleri ve Göstergeleri",
+      "description": "Araştırma projelerinin ve girişimlerinin ilerlemesini ve etkisini değerlendirmek için sistematik süreçleri yönetmek. Temel performans göstergelerini tanımlamak, veri toplama yöntemlerini belirlemek ve proje başarısını ölçmek için değerlendirme çerçeveleri uygulamak. Araştırma sonuçlarının etkin biçimde izlenmesini sağlayarak veri odaklı karar almayı ve araştırma sürecinde sürekli iyileştirmeyi kolaylaştırmak.",
+      "levels": {
+        "Foundational": [
+          "İzleme ve değerlendirmenin (İ&D) temel kavramlarını ve araştırma proje sonuçlarındaki önemini anlar.",
+          "Bir izleme ve değerlendirme çerçevesinin temel bileşenlerini belirler ve anlar.",
+          "Araştırma projesi hedefleriyle uyumlu temel göstergeler oluşturmada temel beceriler geliştirir.",
+          "İzleme ve değerlendirmeyle ilgili veri toplama için temel yöntemleri anlar."
+        ],
+        "Intermediate": [
+          "İlgililik, uygulanabilirlik ve ölçülebilirliğe dayalı olarak göstergeleri seçer ve iyileştirir.",
+          "Yöntemleri, sıklığı ve sorumlu tarafları göz önünde bulundurarak sistematik veri toplama planları geliştirir.",
+          "Toplanan verinin güvenilirliğini ve geçerliliğini sağlamak için kararlaştırılmış kalite güvence önlemlerini uygular.",
+          "İzleme ve değerlendirme yönetişim çerçevelerinin ve politikalarının uygulanmasına katılır."
+        ],
+        "Advanced": [
+          "İ&D'yi proje sonuçları ve etkisiyle uyumlu hale getirerek sonuç odaklı yönetim yaklaşımları uygular.",
+          "İlerlemeyi ve başarıları izlemek için gelişmiş performans ölçüm çerçeveleri yönetir.",
+          "Etki değerlendirmeleri ve biçimlendirici değerlendirmeler dahil olmak üzere değerlendirmeler uygular.",
+          "Karmaşık araştırma programları için kapsamlı izleme ve değerlendirme planlarını tasarlama, uygulama ve eleştirel biçimde değerlendirme becerisi gösterir."
+        ],
+        "Expert": [
+          "Performans göstergelerini seçip iyileştirebilir ve bu göstergelerin etkinliğini, verimliliğini ve etkisini değerlendirmek için karmaşık metodolojiler uygulayabilir.",
+          "Bakış açılarının dikkate alınmasını sağlayarak paydaşları İ&D çerçevelerinin tasarımına ve uygulanmasına dahil eder.",
+          "Birden fazla değişken, metodoloji ve veri kaynağını içeren karmaşık değerlendirmelere liderlik eder.",
+          "Gelişmiş İ&D uygulamalarının ve metodolojilerinin uygulanması yoluyla araştırma ekiplerinin ve kurumların kapasitesinin oluşturulmasına katkıda bulunur."
+        ]
+      }
+    },
+    {
+      "id": "establishing-project-plans", "domain": "RPO", "name": "Araştırma Projesi Planları Oluşturma",
+      "description": "Proje hedeflerini, zaman çizelgelerini ve kaynak tahsisini ana hatlarıyla belirlemek. Net hedefleri tanımlamak, görevleri belirlemek ve kilometre taşları oluşturmak için araştırma ekibi üyeleriyle iş birliği yapmak. Projenin başarılı yürütülmesi için bir yol haritası sağlamak amacıyla kapsamlı proje planları geliştirmek. Araştırma ekibi üyeleri arasında etkin koordinasyonu kolaylaştırmak.",
+      "levels": {
+        "Foundational": [
+          "Proje planlamasının araştırmadaki önemi dahil olmak üzere temel kavramlarını anlar.",
+          "Temel düzeyde bir araştırma projesinin kapsamını ve hedeflerini tanımlamaya yardımcı olur.",
+          "Proje görevlerini ana hatlarıyla belirlemek için basit bir iş kırılım yapısı geliştirir.",
+          "Bir araştırma projesi için gereken temel kaynakları belirler."
+        ],
+        "Intermediate": [
+          "İlgili tüm yönleri dikkate alarak ayrıntılı ve kapsamlı bir proje kapsamı geliştirebilir.",
+          "Kilometre taşları ve son tarihler dahil gerçekçi bir proje zaman çizelgesi oluşturabilir.",
+          "Personel, ekipman, seyahat ve bütçe kısıtlamalarını dikkate alarak kaynakları etkin biçimde tahsis eder.",
+          "Bir yetkinlik portföyü kullanarak, projeyi etkileyebilecek olası riskleri belirler ve belgeler."
+        ],
+        "Advanced": [
+          "Proje planını daha geniş araştırma ve kurumsal stratejilerle uyumlu hale getirir.",
+          "Bakış açılarının proje planında dikkate alınmasını sağlamak için paydaşlarla girdi toplamak üzere etkileşime girer.",
+          "Planlamayı ve izlemeyi geliştirmek için proje yönetimi araçlarını ve metodolojilerini kullanır.",
+          "Tüm proje maliyetlerini ve fon kaynaklarını dikkate alarak ayrıntılı ve doğru bir bütçenin geliştirilmesine yardımcı olur."
+        ],
+        "Expert": [
+          "Kurumsal hedeflere katkıda bulunan araştırma projesi planları geliştirmede liderlik sağlar.",
+          "Bir yetkinlik portföyü kullanarak, verimliliği ve etkinliği artırmak için proje planlamasına yenilikçi yaklaşımlar ve metodolojiler getirir.",
+          "İnsan, finansal ve teknik kaynaklar dahil olmak üzere karmaşık kaynak tahsislerini yönetir.",
+          "Proje planlarının oluşturulmasında farklı ekipler ve paydaşlar arasında iş birliğini kolaylaştırır."
+        ]
+      }
+    },
+    {
+      "id": "research-outreach", "domain": "STK", "name": "Araştırma Erişimi (Outreach)",
+      "description": "Araştırma bulgularını yaymak ve çeşitli paydaşlarla etkileşim kurmak için stratejiler geliştirmek. Etkili iletişim kanallarını, dış ortaklarla iş birliklerini ve araştırma sonuçlarının ilgili kitlelere yayılmasını kapsayan erişim planları oluşturmak. Anlamlı bağlantılar kurmak ve araştırma girişimlerinin görünürlüğünü artırmak; böylece araştırmanın araştırma topluluğu içindeki ve ötesindeki daha geniş etkisine ve ilgililiğine katkıda bulunmak.",
+      "levels": {
+        "Foundational": [
+          "Araştırma erişiminin temel kavramları ve yaymadaki önemi hakkında bilgi gösterir.",
+          "Çeşitli kitlelerle etkileşim kurmak için temel sözlü ve yazılı iletişim becerileri uygular.",
+          "Araştırma erişimi için hedef kitleleri belirleyebilir ve anlayabilir.",
+          "Sosyal medya, sunumlar ve yazılı materyaller dahil olmak üzere temel erişim kanallarına aşinalık kazanır."
+        ],
+        "Intermediate": [
+          "İlgi alanlarını, bilgi düzeylerini ve geçmişlerini dikkate alarak farklı kitlelere yönelik iletişim mesajlarını uyarlama becerileri geliştirir.",
+          "Çalıştaylar, web seminerleri veya seminerler gibi orta düzey araştırma erişim etkinliklerini planlar ve koordine eder.",
+          "Araştırma bulgularının yayılması için birden fazla medya kanalıyla etkileşim kurar.",
+          "Erişim için çevrimiçi platformları etkin biçimde kullanır, örn. bloglar, podcast'ler ve web içeriği."
+        ],
+        "Advanced": [
+          "EDI (eşitlik, çeşitlilik, kapsayıcılık) ve etik ilkeleri de içeren bir yetkinlik portföyü kullanarak, araştırma erişimi için stratejik planlar geliştirir ve uygular; bunları kurumsal hedeflerle uyumlu hale getirir.",
+          "Erişim girişimleri için dış kuruluşlarla iş birliği yapar.",
+          "Araştırma erişim faaliyetlerinin etkisini ölçmek için metrikler ve değerlendirme stratejileri uygular.",
+          "Politika erişimine katılır, karar alıcıları etkiler ve politika tartışmalarına katkıda bulunur."
+        ],
+        "Expert": [
+          "Eğilimleri etkileyerek ve erişimin önemine ilişkin tartışmalara liderlik ederek alanda düşünce liderliği sağlar.",
+          "Kültürel nüansları ve uluslararası bağlamları dikkate alarak kurumsal düzeyde erişim stratejileri geliştirir ve uygular.",
+          "Etkili araştırma erişimi için farklı paydaşları bir araya getiren iş birlikçi girişimlere liderlik eder.",
+          "Bir yetkinlik portföyü kullanarak, iletişim eğilimlerinin en önünde kalırken araştırma erişimi için yenilikçi teknikler ve teknolojiler getirir."
+        ]
+      }
+    },
+    {
+      "id": "academic-community-collaboration", "domain": "STK", "name": "Akademik Toplulukla İlişki İş Birliği",
+      "description": "Akademik kurumlarla, akademisyenlerle ve araştırmacılarla güçlü ilişkiler kurmak ve sürdürmek. Araştırma ekosistemini geliştirmek için ortaklıkları, ortak girişimleri ve bilgi alışverişini kolaylaştırmak. Akademik topluluk içinde ve ötesinde yeniliği, kaynak paylaşımını ve araştırma gündemlerinin ilerletilmesini teşvik eden iş birlikçi bir ortama katkıda bulunmak.",
+      "levels": {
+        "Foundational": [
+          "Akademik ve topluluk bağlamlarında iş birliğinin önemini anlar.",
+          "Akademik akranlarla ve topluluk paydaşlarıyla etkileşim kurmak için iletişim becerileri sergiler.",
+          "Akademik ortaklarla karşılıklı çıkarları tanıyarak temel ilişkiler kurar.",
+          "İlk etkileşim yoluyla temel akademik topluluk ihtiyaçları ve zorlukları hakkında farkındalık geliştirir."
+        ],
+        "Intermediate": [
+          "Akademik ve topluluk hedefleriyle uyumlu iş birlikçi programlar başlatır.",
+          "İş birlikçi projelerde akademik personel, öğrenciler ve topluluk liderleri dahil çeşitli paydaşlarla etkileşim kurar.",
+          "Bir yetkinlik portföyü kullanarak, akademik toplulukla üretken bir ilişki geliştirir.",
+          "İlgili araştırma dernekleriyle iletişim kurar, ayrıca konferanslara ve ağ oluşturma etkinliklerine katılır."
+        ],
+        "Advanced": [
+          "Akademik toplulukla stratejik ortaklıkların geliştirilmesine liderlik eder.",
+          "İş birlikçi girişimlerin etkisini ölçer ve değerlendirir.",
+          "Akademik topluluk ihtiyaçlarını ele alan yöntem ve uygulamalar birlikte tasarlar ve/veya bunlara iş birliği yapar.",
+          "Araştırma derneklerinde temsili roller üstlenerek araştırma kültürü ve topluluklarının gelişimine katkıda bulunur."
+        ],
+        "Expert": [
+          "Akademiyi, araştırma derneklerini ve araştırma topluluklarını içeren iş birlikçi ağlar kurar ve bunlara liderlik eder.",
+          "Karmaşık araştırma ve toplumsal zorlukları ele alan iş birlikleri için stratejiler geliştirir ve uygular.",
+          "Alanın ilerlemesine katkıda bulunan yenilikçi modelleri ve akademi-topluluk iş birliğine yaklaşımları getirir.",
+          "Disiplinler arası araştırma girişimlerini teşvik etmek, hibe fonlaması sağlamak ve bilgi alışverişini kolaylaştırmak için geniş ağlardan yararlanarak sağlam iş birliklerini stratejik biçimde geliştirme ve sürdürme becerisini gösterir."
+        ]
+      }
+    },
+    {
+      "id": "community-engagement", "domain": "STK", "name": "Araştırmayla Topluluk Katılımı",
+      "description": "Araştırmadan etkilenen veya araştırmayla ilgilenen çeşitli topluluklarla anlamlı bağlantılar kurmak. Kapsayıcı iletişim için stratejiler geliştirmek, topluluk girdisi almak ve araştırmanın topluluk ihtiyaçları ve değerleriyle uyumlu olmasını sağlamak. Açık diyaloğu ve iş birliğini teşvik etmek, araştırmanın etik ve toplumsal açıdan etkili biçimde yürütülmesine katkıda bulunmak, topluluk katılımını ve araştırma sonuçlarının daha geniş topluluk için somut faydalara dönüştürülmesini teşvik etmek.",
+      "levels": {
+        "Foundational": [
+          "Araştırma bağlamında topluluk katılımının temel kavramlarını anlar.",
+          "Araştırma hakkında çeşitli topluluklarla etkileşim kurmak için iletişim becerileri sergiler.",
+          "Çeşitli topluluk gruplarıyla etkileşim kurarken kültürel duyarlılığı kullanır ve uygular.",
+          "Araştırmanın topluluklar üzerindeki ve tam tersi yöndeki olası etkisini anlar."
+        ],
+        "Intermediate": [
+          "Araştırma ve araştırma projelerinde topluluk katılımı için tutarlı planlar geliştirir.",
+          "Araştırma iş birliği için topluluklar içindeki çeşitli paydaşları belirler, bağlantılar geliştirir ve bunlarla etkileşim kurar.",
+          "Topluluk girdisinin araştırma tasarımına ve uygulamasına dahil edilmesi için geri bildirim mekanizmaları ve kanalları kurar.",
+          "Araştırma katılımı için topluluk kapasitesi oluşturma çabalarına katkıda bulunur."
+        ],
+        "Advanced": [
+          "Toplulukları araştırma süreci boyunca katılıma dahil eden gelişmiş katılımcı teknikler uygulayabilir.",
+          "Bir yetkinlik portföyü kullanarak, araştırma ortaklıkları yoluyla toplulukları güçlendirir.",
+          "Topluluk katılımı ve daha geniş araştırma etkisiyle ilgili politika eğilimlerinin ve çerçevelerinin farkındadır.",
+          "Topluluk girdisinin çalışma tasarımına, uygulamasına ve bulguların yayılmasına ayrılmaz bir parça olmasını sağlayarak şeffaf ve çift yönlü iletişimi teşvik eder."
+        ],
+        "Expert": [
+          "Toplumsal açıdan etkili araştırmanın ilerlemesine katkıda bulunmak için topluluk katılımı çerçevelerini araştırma stratejisiyle uyumlu hale getirir.",
+          "Tüm bakış açılarının dikkate alınmasını sağlayarak paydaşları topluluk katılımı çerçevelerinin tasarımına ve uygulanmasına dahil eder.",
+          "Birden fazla değişken, metodoloji ve veri kaynağını içeren karmaşık katılım süreçlerine liderlik eder.",
+          "Araştırmacılar ile hizmet ettikleri topluluklar arasında sürdürülebilir, karşılıklı yararlı ilişkilerin kurulmasına katkıda bulunmak için etik değerlendirmeleri, kültürel duyarlılığı ve iş birlikçi yaklaşımları kullanır."
+        ]
+      }
+    },
+    {
+      "id": "key-stakeholder-engagement", "domain": "STK", "name": "Kilit Paydaşlarla Katılım",
+      "description": "Akademik kurumlar, sektör liderleri, politika yapıcılar, fon sağlayıcılar, sanayi ve topluluk temsilcileri dahil olmak üzere etkili ortaklarla iş birlikçi ilişkiler kurmak ve sürdürmek.",
+      "levels": {
+        "Foundational": [
+          "Paydaş katılımının temel kavramlarını ve araştırma ekosistemi için önemini anlar.",
+          "Kilit paydaşları belirleme ve haritalandırma becerileri geliştirir.",
+          "Paydaşlarla etkili iletişimin temel ilkelerini anlar.",
+          "Farklı paydaş gruplarının çıkarları ve endişeleri hakkında farkındalık geliştirir."
+        ],
+        "Intermediate": [
+          "Güç dinamiklerini ve etkiyi dikkate alarak stratejik paydaş haritalaması konusunda beceriler geliştirir.",
+          "Kilit paydaşları içeren iş birlikçi karar alma süreçlerini teşvik etmek için çalışır.",
+          "Çok sayıda paydaşın çıkarlarını müzakere edebilir ve ele alabilir.",
+          "Paydaş katılımı sırasında ortaya çıkabilecek sorunları ele almak için çatışma çözme becerileri uygular."
+        ],
+        "Advanced": [
+          "Kilit paydaşlarla stratejik ilişkiler kurar ve sürdürür.",
+          "Farklı paydaş grupları arasında işlevler arası iş birliğini kolaylaştırır.",
+          "Bir yetkinlik portföyü kullanarak, paydaş katılımı stratejileri için veri ve analitikten yararlanır.",
+          "Farklı paydaş ihtiyaçlarına göre uyarlanmış karmaşık iletişim stratejileri uygular."
+        ],
+        "Expert": [
+          "Kurumsal hedeflerle uyumlu paydaş katılımı stratejilerinin tasarlanması ve uygulanmasında liderlik sağlar.",
+          "Uzman düzeyinde paydaş katılımı için yenilikçi modeller ve yaklaşımlar getirir.",
+          "Paydaş katılımı çabalarının sürdürülebilirliğini sağlar ve paydaş ilişkilerinde olumlu bir miras bırakır.",
+          "Geniş ağlardan yararlanarak, diyaloğu kolaylaştırarak ve kurumun misyonunu ve hedeflerini ilerleten uzun vadeli ilişkileri teşvik ederek dönüştürücü bir etki yaratır."
+        ]
+      }
+    },
+    {
+      "id": "building-trust-partnerships", "domain": "STK", "name": "İlgili Araştırma ve Stratejik Ortaklıklarda Güven İnşa Etme",
+      "description": "Başarılı iş birliği için ilgili araştırma ve stratejik ortaklıklarda güven inşa etmek. Taahhütleri yerine getirmek, şeffaf iletişimi teşvik etmek ve ortakların karşılıklı çıkarlarına öncelik vermek.",
+      "levels": {
+        "Foundational": [
+          "Araştırmada, stratejik ortaklar dahil olmak üzere kilit paydaşlarla mesleki ilişkilerde güvenin önemine dair temel düzeyde anlayış.",
+          "Ağ kurma ve olumlu mesleki ilişkiler geliştirme becerisinde potansiyel gösterir.",
+          "Ortaklıklarda güvenilirlik ve tutarlılığın önemine dair farkındalık gösterir.",
+          "Araştırma ortamını ve etkili iletişimin önemini anlar."
+        ],
+        "Intermediate": [
+          "Kurumsal ve araştırma hedefleriyle uyumlu stratejik ortaklıkları belirleme becerisi gösterir.",
+          "Araştırma hedefleri ve sonuçlarıyla uyumlu kuruluşlar ve fon sağlayıcılarla anlamlı ortaklıklar geliştirir.",
+          "Güven inşa etmek için açık ve şeffaf iletişimin önemini anlar.",
+          "Önerilen bir ortaklığın karşılıklı faydalarını tutarlı biçimde iletir."
+        ],
+        "Advanced": [
+          "Güveni artıran stratejik iş birliklerini teşvik etmek için stratejiler geliştirir.",
+          "Karmaşık ortaklıklarda güveni sürdürmek için risk azaltma stratejileri kullanır.",
+          "Güveni koruyarak çatışmaları ve zorlukları çözer.",
+          "Bir yetkinlik portföyü kullanarak, bilinçli güven inşası için tüm iletişim biçimlerinden yararlanır."
+        ],
+        "Expert": [
+          "Stratejik ortaklıklar içinde güveni sağlamak için liderlik ve doğrudan ilişki yönetimi girişimleri sağlar.",
+          "Kurumun ortaklarla yapılan anlaşmalardaki taahhütleri yerine getirmesini sağlar.",
+          "Uzun vadeli olumlu etkiye sahip iyi uygulamaların getirilmesi yoluyla kurumda kalıcı bir olumlu iz bırakır.",
+          "Karmaşık dinamiklerde yol almak için ileri düzey kişilerarası ve müzakere becerileri kullanır; karşılıklı saygı ve ortak hedefler kültürü oluşturur."
+        ]
+      }
+    },
+    {
+      "id": "diplomacy-negotiation-mediation", "domain": "STK", "name": "Diplomasi, Müzakere ve Arabuluculuk Becerileri",
+      "description": "Araştırma ekibi üyeleri veya paydaşlar arasında farklı bakış açılarını uzlaştırmak ve çıkarları uyumlu hale getirmek için nazik iletişim, ustaca müzakere stratejileri ve etkili arabuluculuk kullanmak.",
+      "levels": {
+        "Foundational": [
+          "Diplomasi, müzakere ve arabuluculuğun temel kavramlarına sahiptir.",
+          "Diplomatik ve müzakere ortamlarında etkili etkileşim için temel iletişim becerilerine sahiptir.",
+          "Çeşitli bağlamlardaki çatışmaların ve arabuluculuk ihtiyacının farkındadır.",
+          "Müzakerelerde aktif dinlemenin temel ilkelerini bir beceri olarak anlar."
+        ],
+        "Intermediate": [
+          "Araştırma ekipleri içinde nazik iletişim stratejilerini planlama ve uygulama konusunda yeterlidir.",
+          "Uzlaşma yeteneğiyle çeşitli müzakere tekniklerinden yararlanır.",
+          "Arabuluculuk süreçlerini ve tekniklerini kullanır.",
+          "Farklı ortamlarda etkili diplomasi için kültürel duyarlılık sergiler."
+        ],
+        "Advanced": [
+          "Araştırma ekibi üyeleri ve paydaşlar arasında çıkarları uyumlu hale getirir.",
+          "Araştırma ekibi içinde öngörülemeyen farklı bakış açılarını diplomasi ve arabuluculuk yoluyla çözer.",
+          "Başkalarını etkili ve kurumla uyumlu müzakere ve arabuluculuk stratejileri kullanmaya teşvik eder.",
+          "Karşılıklı yararlı sonuçlara ulaşmak için ileri düzey taktikler kullanarak karmaşık müzakerelerde yol alır."
+        ],
+        "Expert": [
+          "Yenilikçi çatışma çözüm modelleri ve yaklaşımları getirir.",
+          "Araştırma ekibi, kurum veya paydaşlar içindeki farklı bakış açılarının etkisini azaltmak için kurumsal düzeyde stratejiler uygular.",
+          "Müzakereleri etkileyen kültürel nüanslar, güç dinamikleri ve psikolojik faktörler konusunda sofistike bir anlayış sergiler.",
+          "Kurumsal hedefleri ilerleten çok yönlü anlaşmazlıkları başarıyla çözme ve anlaşmalar müzakere etme konusunda kanıtlanmış bir geçmişe sahiptir."
+        ]
+      }
+    },
+    {
+      "id": "difficult-conversations", "domain": "STK", "name": "Zor Görüşmeleri ve Ortaklıkları Yönetme",
+      "description": "Zorlu tartışmalarda incelik, empati ve problem çözme becerileriyle yol almak. Çatışmaları ele almak, beklentileri yönetmek ve araştırma ekibi/kurum ve/veya dış ortaklar içinde olumlu ilişkileri sürdürmek için çözümler aramak.",
+      "levels": {
+        "Foundational": [
+          "Yapılandırılmış zor görüşmelerin öneminin ve bunların ortaklıklardaki önemi hakkında temel düzeyde anlayış.",
+          "Zor görüşmelerde yol almak için iletişim becerilerini uyarlar.",
+          "Her türlü iletişim yoluyla saygılı ve etik biçimde iletişim kurar.",
+          "Zor görüşmeleri yönetirken duygusal zekâ kanıtı gösterir."
+        ],
+        "Intermediate": [
+          "Araştırma ekibi üyeleriyle zorlu tartışmalar için önceden hazırlık yapar.",
+          "Zorlukların üstesinden gelmek için çatışma çözme tekniklerini kullanır.",
+          "Çatışmayı ele alırken, beklentileri yönetirken ve çözümler ararken ortak zemin bulmak için müzakere eder.",
+          "Gerektiğinde çatışma çözme prosedürlerine ve politikasına yükseltir."
+        ],
+        "Advanced": [
+          "Ekip içinde ve dış ortaklarla güveni ve iş birliğini sürdürmek için stratejiler uygular.",
+          "Bir yetkinlik portföyü kullanarak, ekip içinde beklentileri yönetir ve çatışma çözümü arar.",
+          "Karmaşık sorunları ele almak ve farklılıkları çözmek için çeşitli paydaşlar ve ortaklarla etkileşim kurar.",
+          "Duyarlılık, incelik ve başkalarına saygı ile zorlu tartışmalarda yol alma becerisi gösterir."
+        ],
+        "Expert": [
+          "Zor ortaklıklar için kapsamlı stratejilerin tasarlanmasında ve uygulanmasında liderlik sağlar.",
+          "Kurumsal düzeyde yenilikçi çatışma çözüm modelleri ve yaklaşımları getirir.",
+          "Açık ve şeffaf uygulama ile olumlu ilişkilerin sürdürülmesi yoluyla kalıcı bir olumlu iz bırakır.",
+          "Yüksek karmaşıklıktaki ve hassas tartışmalarda incelik ve stratejik keskinlikle yol alma konusunda eşsiz bir beceri gösterir."
+        ]
+      }
+    },
+    {
+      "id": "business-commercial-liaison", "domain": "STK", "name": "İş ve Ticari İlişkiler Yönetimi",
+      "description": "Araştırma ekibi ile sanayi ortakları veya ticari kuruluşlar arasındaki iş birliklerini kolaylaştırmak. Akademi ile iş dünyasının kesişiminde yol almak; bilgi değerlendirmesi (knowledge valorisation), lisanslama veya ortak girişimler için fırsatları belirlemek.",
+      "levels": {
+        "Foundational": [
+          "Araştırma gündemi içinde iş ve ticari ilişkilerin önemini anlar.",
+          "İş ortaklarıyla etkin iş birliği için iletişim becerileri geliştirir.",
+          "İşle ilgili etkileşimler için müzakerenin temel ilkelerini anlar.",
+          "Ticari ortaklarla ilk bağlantılar kurma, temel sözleşme değerlendirmelerini anlama ve tanıtıcı görüşmelere katılma konusunda yeterlilik kazanır."
+        ],
+        "Intermediate": [
+          "Stratejik iş ortaklıklarını planlama ve yapılandırma konusunda yeterlilik gösterir.",
+          "İş ve araştırma hedeflerini etkin biçimde uyumlu hale getirmek için işlevler arası iş birliğine katılır.",
+          "Karmaşık iş ve araştırma etkileşimlerinde yol almak için müzakere tekniklerini kullanır.",
+          "İş ve ticari ortaklarla karar almaya rehberlik etmek için veri ve içgörüler kullanır."
+        ],
+        "Advanced": [
+          "Stratejik ticari iş birliklerini teşvik etmek ve geliştirmek için stratejiler oluşturur.",
+          "Farklı ve uluslararası bakış açılarını dikkate alarak sanayiyle ortaklık stratejileri yürütür.",
+          "Araştırma yayma ve çıktı bağlamında sanayi ilişkilerini yükseltmek ve zenginleştirmek için ileri görüşlü ilişki modelleri ve yaklaşımları getirir.",
+          "Karmaşık iş dinamikleri, piyasa eğilimleri ve stratejik ortaklık geliştirme konusunda incelikli bir anlayış sergiler."
+        ],
+        "Expert": [
+          "Kapsamlı iş ilişkileri stratejilerinin tasarımına ve uygulanmasına liderlik eden liderlik becerileri gösterir.",
+          "Ortaklıklarda yenilik ve etkinliği yönlendiren ticari iş birliği modelleri ve yaklaşımlarına öncülük eder.",
+          "Küresel iş ve araştırma eğilimlerinin değişen ortamını dikkate alarak iş ilişkileri stratejilerini formüle eder ve uygular.",
+          "Karmaşık iş ortamlarında yol alma, ortaklık geliştirme için son derece sofistike stratejiler formüle etme ve uygulama, uzun vadeli ticari ilişkileri teşvik etme becerisine sahiptir."
+        ]
+      }
+    },
+    {
+      "id": "people-management", "domain": "LMT", "name": "İnsan Yönetimi ve Ekip Performansı Yönetimi",
+      "description": "Araştırma projelerinin başarılı yürütülmesini sağlamak için bir ekibe etkin biçimde liderlik etmek ve onu koordine etmek, yönlendirme sağlamak ve iş birlikçi bir ortamı teşvik etmek. Açık beklentiler belirlemeyi, ilerlemeyi izlemeyi, yapıcı geri bildirim sunmayı ve araştırma hedefleri bağlamında bireysel ve toplu üretkenliği artıracak stratejiler uygulamayı içerir.",
+      "levels": {
+        "Foundational": [
+          "Ekip kavramlarını ve araştırma başarısındaki rollerini anlar.",
+          "Bir ekip içindeki yaygın çatışma kaynaklarını belirleyebilir.",
+          "Ekip için net ve ulaşılabilir hedefler belirleyebilir ve bunları iletebilir.",
+          "Temel performans metriklerini izleme ve raporlama becerisi."
+        ],
+        "Intermediate": [
+          "Ekip oluşturma etkinliklerini planlar ve gerçekleştirir.",
+          "İletişim tarzlarını farklı ekip üyelerine ve durumlara göre uyarlar.",
+          "Ekip içindeki çatışmayı proaktif biçimde ele alır ve çözmeye çalışır.",
+          "Kurumsal ödüllendirme ve takdir politikalarını uygular."
+        ],
+        "Advanced": [
+          "Ekip içindeki gelecekteki zorlukları öngörür ve bunlara hazırlanır.",
+          "Ekip içinde uyum sağlama ve dayanıklılığı teşvik eder.",
+          "Ekip ve bireysel performansı izlemek için kurumsal performans analitiği araçlarını ve metodolojilerini kullanır.",
+          "Ekip veya kurum içinde bir öğrenme kültürünü teşvik eder."
+        ],
+        "Expert": [
+          "Kültürel açıdan çeşitli ve coğrafi olarak dağınık ekipleri yönetir.",
+          "Karmaşık küresel araştırma ortamlarında yol alır.",
+          "Zorlu ekip ve/veya kurumsal koşullarda dayanıklılık ve uyum sağlama gösterir.",
+          "Eğitim girişimlerini de içeren öncü ve son teknoloji liderlik uygulamalarını hayata geçirir."
+        ]
+      }
+    },
+    {
+      "id": "team-building", "domain": "LMT", "name": "Ekip Oluşturma",
+      "description": "Olumlu bir çalışma kültürünü teşvik ederek, ekip üyelerini ortak hedeflerle uyumlu hale getirerek ve bireysel güçlü yönleri tanıyıp bunlardan yararlanarak iş birlikçi ve yüksek performanslı bir araştırma ekibi oluşturmak.",
+      "levels": {
+        "Foundational": [
+          "Ekip oluşturmanın temel kavramları ve kurumun araştırma gündemindeki önemi hakkında bilgi gösterir.",
+          "Temel ekip dinamikleri hakkında farkındalık gösterir.",
+          "Temel çatışma çözme uygulamalarını anlar.",
+          "Etkili ekip etkileşimi için temel iletişim becerilerine sahiptir."
+        ],
+        "Intermediate": [
+          "Ekip gelişim modellerini (örn. Tuckman Ekip Gelişim Modeli) anlar ve uygular.",
+          "Daha iyi koordinasyon için araştırma ekibi içindeki rolleri ve sorumlulukları netleştirir.",
+          "Araştırma ekibi içinde iş birliğini sağlamak ve teşvik etmek için iletişim stratejileri uygular.",
+          "Araştırma ekibi içinde problem çözme becerilerini geliştirmek ve teşvik etmek için çalışır."
+        ],
+        "Advanced": [
+          "Ekip hedeflerini kurumun hedefleriyle uyumlu hale getirir.",
+          "Farklı bakış açılarını dikkate alarak ekip içinde kültürel yeterliliği teşvik eder.",
+          "Araştırma ekibi içindeki karmaşık sorunları ele alabilir ve çözebilir.",
+          "Ekip üyelerini araştırma görevlerinin sahipliğini üstlenmeye ve karar almaya katkıda bulunmaya güçlendirir."
+        ],
+        "Expert": [
+          "Çok uluslu bağlamlarda çok ortaklı projeler üzerinde çalışan ekipler için iş birlikçi stratejiler geliştirir ve bunlara liderlik eder.",
+          "Kültürel nüansları ve uluslararası bağlamları dikkate alarak kurumsal düzeyde olumlu çalışma kültürü stratejileri geliştirir ve uygular.",
+          "Ortak hedefler içinde etkili araştırma için çeşitli paydaşları bir araya getiren iş birlikçi girişimlere liderlik eder.",
+          "Bir yetkinlik portföyü kullanarak, araştırma ekibi çıktısını artırmak için bireysel güçlü yönleri tanıma ve bunlardan yararlanma konusunda yenilikçi teknikler getirir."
+        ]
+      }
+    },
+    {
+      "id": "change-management", "domain": "LMT", "name": "Değişim Yönetimi",
+      "description": "Araştırma ortamı/kurumu içindeki geçişlerde yol almak ve bunları kolaylaştırmak. Değişiklikleri etkin biçimde iletmek, endişeleri ele almak ve araştırma ekibinin/kurumun yeni metodolojilere veya proje yönlerine uyum sağlamasını kolaylaştırmak.",
+      "levels": {
+        "Foundational": [
+          "Değişim yönetiminin bağlamını ve araştırma veya kurum üzerindeki olası etkisini anlar.",
+          "Temel değişim modelleri ve çerçeveleri hakkında farkındalık geliştirir.",
+          "İş yerinde veya araştırma ekibi içinde değişim sırasındaki yaygın endişeleri anlar.",
+          "Değişim sürecindeki kilit paydaşları ve rollerini belirleyebilir."
+        ],
+        "Intermediate": [
+          "Ekip ve/veya kurumsal değişimi yönetmek için planlar geliştirir.",
+          "Önerilen değişim girişimlerine destek toplamak için çeşitli paydaşlarla etkileşim kurar.",
+          "Önerilen değişiklikleri ekibe veya kuruma basit ve etkin biçimde iletir.",
+          "Olası engelleri belirleyebilir ve değişime direnci azaltmak için stratejiler geliştirebilir."
+        ],
+        "Advanced": [
+          "Değişimi kurumsal kültüre yerleştirmek için kültürel dönüşüm çabalarına liderlik eder.",
+          "Değişim girişimlerinin yürütülmesinde ve denetlenmesinde liderlik sağlar.",
+          "Bir yetkinlik portföyü kullanarak, değişim yönetimi stratejilerini bilgilendirmek ve geliştirmek için ileri veri analizinden yararlanır.",
+          "Bireysel ve kurumsal düzeyde değişime direnci azaltmak için ileri stratejiler geliştirir."
+        ],
+        "Expert": [
+          "Üst düzey değişim yönetimi için yenilikçi değişim modelleri ve metodolojileri getirir.",
+          "Araştırma ekosistemi içindeki karmaşık değişiklikleri ele alan stratejiler geliştirir ve uygular.",
+          "Alanın ilerlemesine katkıda bulunan değişim yönetimine yenilikçi modeller ve yaklaşımlar getirir.",
+          "Karmaşık kurumsal dinamikleri analiz etme, olası zorlukları belirleme ve dirence etkin biçimde ele almak için özel müdahaleler tasarlama konusunda ileri düzey yeterlilik sergiler."
+        ]
+      }
+    },
+    {
+      "id": "coaching-skills", "domain": "LMT", "name": "Koçluk Becerileri",
+      "description": "Araştırma ekibi üyelerinin ve/veya araştırma liderliğinin mesleki yeteneklerini yönlendirmek ve geliştirmek.",
+      "levels": {
+        "Foundational": [
+          "Koçluğun temel kavramlarını ve araştırmacı veya ekip üyesi gelişimindeki önemini anlar.",
+          "Akran gelişimini kolaylaştırmak için yapıcı geri bildirim sağlar.",
+          "Etkili koçluk için gerekli güven inşa etme becerilerini geliştirir.",
+          "Koçluğun bireysel araştırmacı ve akranlar üzerindeki olumlu etkisi için çalışır."
+        ],
+        "Intermediate": [
+          "Koçluk modellerini ve çerçevelerini (örn. GROW modeli) anlar ve uygular.",
+          "Ekip üyelerinin ve/veya çalışanların performans ve gelişim hedefleri belirlemesine ve bunlara ulaşmasına yardımcı olur.",
+          "Çalışan yansımasını yönlendirmek için etkili sorgulama tekniklerini kullanır.",
+          "Bireylerin güçlü yönlerinin ve gelişim alanlarının içgörülü değerlendirmelerini yapma, yapıcı geri bildirim ve rehberlik sağlama becerisi geliştirir."
+        ],
+        "Advanced": [
+          "Kurumsal ve bireysel hedeflerle uyumlu koçluk planları geliştirir.",
+          "Farklı bakış açılarını karşılamak için koçlukta kültürel duyarlılık uygular.",
+          "Öz-yansımayı ve anlamlı değişimi teşvik eden derinlemesine değerlendirmeler ve nüanslı geri bildirimler yapar.",
+          "Koçluk yaklaşımlarını farklı bireylere ve karmaşık durumlara uyarlar."
+        ],
+        "Expert": [
+          "Ekip ve kurumsal düzeyde yenilikçi koçluk yaklaşımları ve metodolojileri getirir.",
+          "Kapasite oluşturmak için kurum ve araştırma liderlerini kurum genelinde koçluk çerçevelerinin uygulanmasına dahil eder.",
+          "Araştırmacılara, araştırma yöneticilerine ve ekiplere etkin biçimde yardımcı olmak için kurumsal karmaşıklıklarda yol alır.",
+          "Yeni metodolojilerin geliştirilmesi, etkili çalışmaların yayımlanması ve diğer koçluk profesyonellerine mentorluk yoluyla koçluğun bir disiplin olarak ilerlemesine katkıda bulunur."
+        ]
+      }
+    },
+    {
+      "id": "talent-identification-development", "domain": "LMT", "name": "Araştırma Yeteneği Belirleme ve Geliştirme",
+      "description": "Bireysel araştırmacıların potansiyelini tanımak ve geliştirmek. Temel becerileri belirlemek, hedeflenmiş eğitim sağlamak ve ekip/kurum içinde mesleki gelişim için fırsatlar yaratmak amacıyla stratejiler uygulamak.",
+      "levels": {
+        "Foundational": [
+          "Araştırma bağlamında yetenek belirleme, edinme ve geliştirmenin önemini anlar.",
+          "Bireysel araştırmacıların potansiyelini değerlendirme becerilerini geliştirir.",
+          "Araştırma ekosistemi içindeki ve ötesindeki çeşitli araştırma kariyer yollarının farkındadır.",
+          "Erken kariyer araştırmacıları ve akranlar için gelişim planları oluşturmanın temel ilkelerini anlar."
+        ],
+        "Intermediate": [
+          "Araştırma ekipleri ve projeleri için stratejik yetenek haritalaması konusunda beceriler geliştirir.",
+          "Araştırma ve araştırma yönetiminde liderlik potansiyeline sahip bireyleri belirler ve destekler.",
+          "Araştırma yeteneğini kolaylaştırmak için mentorluk programlarına katkıda bulunur.",
+          "Araştırmacılara ve araştırma yöneticilerine kariyer hedeflerine dayalı bireysel gelişim planları oluşturmalarında yardımcı olur."
+        ],
+        "Advanced": [
+          "Araştırma ekiplerinde ve kurum içinde ardıllık planlaması için stratejiler geliştirir.",
+          "Araştırma yeteneğini destekleyen ve disiplinler arası beceri gelişimini kolaylaştıran mentorluk programları dahil programlar geliştirir ve uygular.",
+          "Yükselen araştırma liderleri için liderlik gelişim fırsatları sağlar.",
+          "Ekip veya kurum içindeki yetenek geliştirme girişimlerinin etkisini değerlendirmek için çeşitli metrikler uygular."
+        ],
+        "Expert": [
+          "Kurum içindeki araştırmacılar ve araştırma yöneticileri için yetenek yönetimi stratejileri tasarlar ve uygular.",
+          "Bir yetkinlik portföyü kullanarak, yetenek geliştirme ve mesleki gelişim için yenilikçi modeller ve yaklaşımlar getirir.",
+          "Temel becerilerin belirlenmesi ve hedeflenmiş eğitim girişimleri yoluyla kurumun genel araştırma kapasitesinin oluşturulmasına katkıda bulunur.",
+          "Bireysel ve kurumsal düzeyde çeşitli araştırma beceri kümeleri ve potansiyeli konusunda sofistike bir anlayış sergiler."
+        ]
+      }
+    },
+    {
+      "id": "funder-partner-relationships", "domain": "COM", "name": "Araştırma Fon Sağlayıcıları, Ortakları veya Diğer Paydaşlarla İlişkiler Kurma ve Sürdürme",
+      "description": "Açık iletişim sağlayarak, taahhütleri yerine getirerek ve iş birlikçilerin ihtiyaçlarını anlayarak güçlü bağlantılar geliştirmek. Güveni teşvik etmek, sürekli desteği sağlamak ve iş birlikçi bir araştırma ortamına katkıda bulunmak.",
+      "levels": {
+        "Foundational": [
+          "Fon sağlayıcılar ve ortaklar dahil olmak üzere araştırmadaki kilit paydaşların önemine dair temel düzeyde anlayış.",
+          "Ağ kurma ve mesleki ilişkileri başlatma ve sürdürme becerisinde potansiyel gösterir.",
+          "Araştırma gündemlerini ve sonuçlarını açık biçimde iletebilir.",
+          "Fonlama ve iş birliklerini de içeren araştırma ortamını anlar."
+        ],
+        "Intermediate": [
+          "Araştırma fon sağlayıcıları, ortaklar ve paydaşlarla stratejik biçimde etkileşim kurma becerilerine dair kanıt sunar.",
+          "Araştırma hedefleriyle uyumlu kuruluşlar ve fon sağlayıcılarla anlamlı ortaklıklar geliştirir.",
+          "Paydaşlarla anlaşmaları tartışır ve müzakere eder.",
+          "Karmaşık ve nüanslı araştırma politikasını/önceliklendirmesini/eğilimlerini vb. tutarlı biçimde iletir."
+        ],
+        "Advanced": [
+          "Araştırma hedeflerini, fonlama fırsatlarını da içeren stratejik ortaklıkların kurulmasıyla uyumlu hale getirir.",
+          "Çeşitli paydaşlarla etkileşim kurarak sektörler arası iş birliğini kolaylaştırır.",
+          "Araştırma ortakları ve fon sağlayıcılarla çatışmaları çözer ve anlaşmalar müzakere eder.",
+          "Bir yetkinlik portföyü kullanarak, bilinçli ilişki yönetimi ve karar alma için veri ve analitikten yararlanır."
+        ],
+        "Expert": [
+          "Araştırma başarısı için liderlik ve doğrudan ilişki yönetimi girişimleri sağlar.",
+          "Ulusal ve uluslararası düzeyde ilişkileri ve iş birliklerini yönetmek için stratejiler geliştirir ve uygular.",
+          "Uzun vadeli olumlu etkiye sahip iyi uygulamaların getirilmesi yoluyla kurumda kalıcı bir olumlu iz bırakır.",
+          "Karmaşık dinamiklerde yol alma ve uzun vadeli iş birlikleri geliştirme konusunda eşsiz bir beceri sergiler."
+        ]
+      }
+    },
+    {
+      "id": "communication-plans", "domain": "COM", "name": "Araştırma İletişim Planları Tasarlama ve Uygulama",
+      "description": "Araştırma bulgularını etkin biçimde yaymak için stratejiler oluşturarak araştırma iletişim planları tasarlamak ve uygulamak. Hedef kitleleri belirlemek, uygun iletişim kanallarını seçmek ve etkiyi en üst düzeye çıkarmak için mesajları uyarlamak. Araştırma sonuçlarının görünürlüğünü artırmak, iş birliğini teşvik etmek ve akademik, araştırma, mesleki ve kamu/özel alanlarda araştırmanın daha geniş biçimde anlaşılmasına ve uygulanmasına katkıda bulunmak için açık ve ilgi çekici iletişim yaratmak.",
+      "levels": {
+        "Foundational": [
+          "Araştırmayı iletmenin önemini anlar.",
+          "Araştırma iletişimi için hedef kitleleri belirleyebilir.",
+          "Geleneksel ve dijital medya dahil olmak üzere temel iletişim kanalları hakkında farkındalık gösterir.",
+          "Araştırma iletişiminde etik değerlendirmelere ilişkin genel bir farkındalığa sahiptir."
+        ],
+        "Intermediate": [
+          "Araştırma hedefleriyle uyumlu stratejik iletişim planları hazırlar.",
+          "Araştırma mesajlarını güçlendirmek için geleneksel ve dijital medyayı kullanır.",
+          "Çok sayıda paydaşla etkileşim kurmak için stratejiler uygular.",
+          "Araştırma bulgularının etkin iletişimi için veri görselleştirme tekniklerini dikkate alır ve kullanır."
+        ],
+        "Advanced": [
+          "Genel kurumsal hedeflerle uyumlu entegre iletişim stratejileri geliştirir.",
+          "Öngörülemeyen zorlukları ele almak için kriz iletişim planları geliştirir.",
+          "Araştırma etkisini en üst düzeye çıkarmak için mevcut iletişim stratejilerinin kullanımında yenilik yapar.",
+          "Açık ve şeffaf iletişim uygulamaları yoluyla uzun vadeli ilişkileri teşvik eder."
+        ],
+        "Expert": [
+          "Araştırma etkisini yönlendiren iletişim stratejileri tasarlar ve uygular.",
+          "Uzman düzeyde yenilikçi iletişim modelleri ve yaklaşımlar getirir.",
+          "Genel kurumsal araştırma iletişimini ulusal ve uluslararası düzeyde yönetmek için stratejiler geliştirir ve uygular.",
+          "Farklı iletişim stratejileri ve kanalları konusunda sofistike bir anlayışı tutarlı biçimde gösterir."
+        ]
+      }
+    },
+    {
+      "id": "media-liaison", "domain": "COM", "name": "Medya İlişkileri ve İlgili Faaliyetler",
+      "description": "Araştırma faaliyetlerini ve sonuçlarını tanıtmak için medya ile ilişkiler kurmak ve yönetmek. Gazetecilerle etkileşim kurmak, röportajları kolaylaştırmak ve araştırma bulgularını kamuoyuna stratejik biçimde iletmek. Doğru bilginin yayılmasına katkıda bulunmak, araştırma projelerinin görünürlüğünü artırmak ve araştırma grubu, kurum veya organizasyon hakkında olumlu bir kamu algısını teşvik etmek.",
+      "levels": {
+        "Foundational": [
+          "Medyayla ilişki kurmanın önemine ve araştırma sonuçlarının yayılmasındaki rolüne dair temel düzeyde anlayış.",
+          "Çevrimiçi ve çevrimdışı medya ortamına dair anlayış ve farkındalık gösterir.",
+          "Her türlü iletişim yoluyla saygılı ve etik biçimde iletişim kurar.",
+          "Medya temsilcileriyle etkili araştırma iletişiminin temel ilkeleri konusunda iyi bir kavrayışa sahiptir."
+        ],
+        "Intermediate": [
+          "Medyayla etkileşim için stratejik yaklaşımlar hazırlar.",
+          "Medyayla etkin iletişim için temel mesajlar oluşturur ve uyarlar.",
+          "Basılı, yayın ve çevrimiçi dahil olmak üzere çeşitli medya kanallarıyla etkileşim kurar.",
+          "Araştırmayla ilgili medya sorularına ve taleplerine etkin ve doğru biçimde yanıt verebilir."
+        ],
+        "Advanced": [
+          "Medyayla kriz iletişimi için planlar geliştirir.",
+          "Araştırmacılar, araştırma yöneticileri ve diğerleri için medya eğitim programları uygular.",
+          "Bir yetkinlik portföyü kullanarak, bilinçli medya katılım stratejileri için veri ve analitikten yararlanır.",
+          "Medya kanalları aracılığıyla çeşitli paydaşlarla ileri düzeyde etkileşim kurar."
+        ],
+        "Expert": [
+          "Kurumsal ihtiyaçlar ve hedeflerle uyumlu medya katılım stratejilerinin tasarlanmasında ve uygulanmasında liderlik sağlar.",
+          "Ekip, kurum, ulusal ve/veya uluslararası düzeyde medya katılım stratejileri geliştirir ve uygular.",
+          "Açık ve şeffaf uygulama yoluyla medyayla kalıcı bir olumlu iz bırakır.",
+          "Doğru ve içgörülü bilgi için güvenilir bir kaynak olarak konumlanarak medya kuruluşlarıyla ilişkiler geliştirmede öne çıkar."
+        ]
+      }
+    },
+    {
+      "id": "reports-writing", "domain": "COM", "name": "Rapor Hazırlama ve Yazma (Değerlendirme Raporları ve Fon Sağlayıcı Raporları Dahil)",
+      "description": "Karmaşık araştırma bulgularını açık ve ikna edici anlatılara dönüştürmek. Raporların yönergelerle uyumlu olmasını sağlamak, proje sonuçlarını etkin biçimde iletmek ve araştırma girişimlerinin etkisini göstermek.",
+      "levels": {
+        "Foundational": [
+          "Araştırmayı çeşitli kitlelere yaymak için açık ve ikna edici anlatılar yazmanın önemini anlar.",
+          "Araştırma sonuçlarını fon sağlayıcılara ve diğer paydaşlara etkin ve tutarlı biçimde sunabilir.",
+          "Çeşitli rapor türlerine ilişkin yönergeler ve standartlar konusunda farkındalığa sahiptir.",
+          "Farklı kitlelere ikna edici araştırma anlatıları sunar."
+        ],
+        "Intermediate": [
+          "Doğruluk ve güvenilirlik için atıf ve referans tekniklerini kullanır.",
+          "Raporları hızlı ve doğru biçimde planlayabilir ve ana hatlarıyla belirleyebilir.",
+          "Raporlarda ve anlatılarda anlamlı veri sunumu için veri analizi becerilerini kullanır.",
+          "Karmaşık araştırma projesi sonuçlarını ve anlatılarını farklı kitlelere etkin biçimde sunar."
+        ],
+        "Advanced": [
+          "Karmaşık bilgiyi raporlarda açık ve doğru biçimde sentezleyebilir.",
+          "Raporlarda gelişmiş veri iletişimi için görsel unsurlar kullanır.",
+          "Paydaş geri bildirimini raporlara etkin biçimde dahil eder.",
+          "Tüm raporlar ve anlatılar için etik ve kalite güvence yaklaşımı uygular."
+        ],
+        "Expert": [
+          "Liderlik ve kurumsal düzeyde anlatım tekniklerinin ve stratejilerinin tasarlanması ve uygulanmasında uzman düzeyinde düşünce liderliği sağlar.",
+          "Kurum içindeki tüm araştırmacıların ve araştırma yöneticilerinin raporları ve araştırma sonucu anlatılarını kurumsal hedeflerle uyumlu hale getirmesine yardımcı olacak net adımlar ve yönergeler sağlar.",
+          "Kitle beklentileriyle uyum sağlayan ve araştırma sonuçlarını, etkisini ve önerilerini etkin biçimde ileten stratejik rapor tasarımı konusunda beceriler gösterir.",
+          "Karmaşık araştırma bulgularını, yalnızca en yüksek mesleki standartları karşılamakla kalmayıp aynı zamanda stratejik karar almaya da katkıda bulunan açık raporlara damıtma becerisini gösterir."
+        ]
+      }
+    },
+    {
+      "id": "social-media-engagement", "domain": "COM", "name": "Sosyal Medya Katılımı",
+      "description": "Araştırma bulgularını yaymak, kamuoyuyla etkileşim kurmak ve daha geniş bir kitle oluşturmak için dijital platformlardan yararlanmak. İlgi çekici içerik oluşturma, ilgili tartışmalara katılma ve farklı paydaşlarla bağlantılar kurma dahil olmak üzere sosyal medyada etkili iletişim için stratejiler geliştirmek ve uygulamak.",
+      "levels": {
+        "Foundational": [
+          "Farklı sosyal medya platformlarını kullanmanın önemini anlar.",
+          "Araştırma projesi için sosyal medya profilleri oluşturur ve yönetir.",
+          "Sosyal medyada belirli kitleleri belirleme, anlama ve hedefleme becerisi gösterir."
+        ],
+        "Intermediate": [
+          "Sosyal medya içeriğini stratejik biçimde planlar ve zamanlar.",
+          "Sosyal medyada kitlelerle etkileşim kurmak ve iletişim kurmak için stratejiler uygular.",
+          "Sosyal medya performansını ölçmek ve analiz etmek için analitik araçlar kullanır.",
+          "Birden fazla platformda bağlantılar ve içerik referansları yoluyla sosyal medya etkisini en üst düzeye çıkarır."
+        ],
+        "Advanced": [
+          "Kurumsal hedeflerle uyumlu sosyal medya kampanyaları geliştirir ve yürütür.",
+          "Sosyal medya erişimini artırmak için etkileyicilerle ve kilit paydaşlarla iş birliği yapar.",
+          "Sosyal medyada zorlu konuları ele almak için kriz yönetimi stratejileri uygular.",
+          "Sosyal medya stratejilerinde bilinçli karar alma için ileri veri ve içgörüler kullanır."
+        ],
+        "Expert": [
+          "Kurumsal düzeyde kapsamlı sosyal medya stratejileri tasarlar ve yürütür.",
+          "Araştırma bulgularını farklı kitlelere etkin biçimde ileten son derece sofistike ve hedeflenmiş sosyal medya kampanyaları geliştirir ve yürütür.",
+          "Kurum üyelerinin sosyal medya kullanımı için davranış kuralları ve etik yönergeler tanımlar ve/veya oluşturur.",
+          "Gelişen dijital ortamlar, algoritmalar ve kitle davranışları konusunda derin bir anlayış gösterir."
+        ]
+      }
+    },
+    {
+      "id": "pre-award", "domain": "SME", "name": "Hibe Öncesi (Pre-Award)",
+      "description": "Fonlama fırsatlarını belirlemek ve yaymak; fonlama optimizasyon stratejileri geliştirmek ve uygulamak; paydaş gereksinimleriyle uyum, bütçeleme ve maliyetlendirme ile inceleme dahil olmak üzere hibe başvurularının yazılmasını kolaylaştırmak; onayların ve başvuruların koordinasyonunu sağlamak.",
+      "levels": {
+        "Foundational": [
+          "Araştırma ortamı ve ekosistemi hakkında temel düzeyde anlayışa sahiptir; araştırma başvuruları ve hibe başvurularıyla ilgili düzenleyici ve fon sağlayıcı uyumluluğunun temel yönlerini anlar.",
+          "Araştırma başvurusunun ana bileşenlerini, yani araştırma beyanını, hedefleri ve bütçeyi kavrar; araştırma başvurularının sunumu için kullanılan çevrimiçi ve e-platformlara aşinadır.",
+          "Araştırma başvurusunun geliştirilmesi ve sunulmasıyla ilgili temel idari görevleri etkin biçimde yürütür ve belgeleri doğru biçimde saklar.",
+          "Araştırmacılar, paydaşlar ve ekip üyeleriyle etkileşim için temel iletişim becerilerine uyar.",
+          "Ana bütçe kalemleri ve maliyet uygunluğu dahil olmak üzere fonlama programlarının finansal gereksinimlerine aşinadır."
+        ],
+        "Intermediate": [
+          "Araştırma fonlama fırsatlarını düzenli olarak analiz eder, güncel çağrıların farkındadır ve bilgiyi ilgili araştırmacılara ve araştırma gruplarına yayar.",
+          "Hibe başvurusu hakkında derinlemesine bilgiye sahiptir, kendi başına danışmanlık yapabilir veya belirli bir uzmanlık için kiminle iletişime geçilmesi gerektiğini bilir.",
+          "Araştırma ekibi üyelerinin belirlenmesi, bütçenin hazırlanması, metnin yazılması ve gözden geçirilmesini içerebilecek hibe başvurularının geliştirilmesini kolaylaştırır ve değerlendirir.",
+          "Başvuru için gerekli bilgileri toplamak ve kolaylaştırmak için paydaşlarla etkileşim kurar.",
+          "Ortak düzeyinde hibe başvurusunun bütçesinin hazırlanmasını proaktif biçimde kolaylaştırabilir ve karmaşık bütçeleri yönetebilir."
+        ],
+        "Advanced": [
+          "Kurumsal araştırma fırsatlarını ve önceliklerini fonlama fırsatlarıyla uyumlu hale getirir; araştırmacılar ve araştırma ekipleri için başvuru sahibi hibe başarısını sağlayacak bireysel planlar geliştirir.",
+          "Emilen fonlamayı en üst düzeye çıkarmak, hibe başvurusu mobilizasyonunda en iyi uygulamaları kıyaslamak için bireylerin ve ekibin ardışık başvurularını koordineli bir biçimde geliştirir ve kolaylaştırır.",
+          "Başvurunun rekabetçiliğini artırmak için rakip başvuruları ve fonlama eğilimlerini analiz eder.",
+          "Fon sağlayıcı kuruluşlar, devlet organları, sanayi ortakları ve diğer ilgili paydaşlarla yapılan görüşmelerde kurumu yönlendirir ve/veya temsil eder.",
+          "Konsorsiyum düzeyinde hibe başvurusunun bütçesinin hazırlanmasını proaktif biçimde kolaylaştırabilir ve karmaşık bütçeleri yönetebilir."
+        ],
+        "Expert": [
+          "Kurumsal, ulusal ve uluslararası hedeflerle uyumlu hale getirerek kurumsal araştırma fonlama stratejilerinin geliştirilmesine katkıda bulunur.",
+          "Hibe başvurusu sunumu için standartlar ve hedefler belirleyerek başvuru geliştirmeye yönelik yenilikçi yaklaşımların geliştirilmesine ve uygulanmasına liderlik eder.",
+          "Stratejilere karşı mükemmelliği ve performansı teşvik etmek için finansal ve diğer teşvik/araştırma gelir tahsis modelleri tasarlar.",
+          "Başvuru geliştirmeyi ve fonlama mobilizasyonunu kolaylaştırmak için kilit paydaşlar ve kuruluşlarla stratejik ortaklıklar kurar ve yönetir.",
+          "Üçüncü akım gelirler dahil olmak üzere stratejik, sürdürülebilir ve öngörülebilir kurumsal fonlamayı güvence altına almak için dengeli ve çeşitlendirilmiş bir fonlama portföyü sağlar."
+        ]
+      }
+    },
+    {
+      "id": "post-award", "domain": "SME", "name": "Hibe Sonrası (Post-Award)",
+      "description": "Sözleşmeleri müzakere etmek, değişiklikleri yönetmek; projenin, konsorsiyumun ve içindeki iletişimin dahili kurulumunu yönetmek; fon sağlayıcılarla ilişki kurmak; idari kolaylaştırma, ilerleme yönetimi, muhasebe sağlamak; proje değerlendirmesi, fon sağlayıcı raporlaması ve hukuki danışmanlık yürütmek.",
+      "levels": {
+        "Foundational": [
+          "Planlama, yürütme, izleme ve kapatma dahil olmak üzere araştırma yönetimindeki süreçler hakkında temel düzeyde anlayışa sahiptir.",
+          "Hibe sonrası süreçler ve gereksinimler hakkında temel düzeyde anlayışa sahiptir; sözleşme türlerini, maddelerini ve sonuçlarını anlar.",
+          "Araştırma proje yönetimiyle ilgili idari görevleri etkin biçimde yürütür, proje faaliyetlerine ve kilometre taşlarına ilişkin doğru ve düzenli belgeleri saklar, ilerleme ve nihai raporlamaya katkıda bulunabilir.",
+          "Ekip üyeleri, konsorsiyum ortakları, paydaşlar ve fon sağlayıcı kuruluşlarla etkileşim için temel iletişim becerilerine sahiptir.",
+          "Araştırma projeleri için bütçeleme ve finansal yönetimin temellerini anlar ve proje maliyetlerini belgeleyebilir."
+        ],
+        "Intermediate": [
+          "Görev zaman çizelgeleri, kilometre taşları ve çıktılar dahil olmak üzere ayrıntılı araştırma projesi planları geliştirir; proje hedeflerine ulaşmak için kaynakları verimli biçimde yönetir.",
+          "Araştırma yaşam döngüsü boyunca ilgili düzenlemelere ve yönergelere uyumu sağlar ve ilerleme ile nihai raporları hazırlar.",
+          "Araştırma portföyü hakkında ilerleme güncellemeleri dahil kurumsal raporlar oluşturmak için bilgiyi kullanır.",
+          "Araştırma hibelerinin yönetiminde diğer birimlerden meslektaşlarla iletişim kurma ve ekip üyeleri, konsorsiyum ortakları, paydaşlarla etkileşim kurma becerisi gösterir.",
+          "Fonlama programlarının finansal gereksinimlerine uyumu sağlar; tahmin ve finansal raporlama dahil ayrıntılı proje bütçelerini yönetir."
+        ],
+        "Advanced": [
+          "Araştırma projelerinin kurumun stratejik hedefleri ve öncelikleriyle uyumlu olmasını sağlar; hibe sonrasında iyi uygulamaları kıyaslar ve uygular.",
+          "Şartları, koşulları ve bütçe değerlendirmelerini ele alarak fon sağlayıcı kuruluşlarla hibe anlaşmalarını müzakere eder ve sonuçlandırır.",
+          "Üst yönetime ve fon sağlayıcı kuruluşlara kapsamlı araştırma projesi raporları hazırlar ve sunar.",
+          "Anlaşmalar, uyumluluk ve raporlama dahil olmak üzere ortak ve konsorsiyum ilişkilerini etkin biçimde yönetir.",
+          "Karmaşık proje bütçelerini yönetir, kararları hazırlamak ve finansal performansı artırmak için finansal analiz yürütür."
+        ],
+        "Expert": [
+          "Araştırma proje yönetiminde uzman düzeyinde rehberlik sağlar ve yenilikçi proje yönetimi uygulamalarının ve çözümlerinin geliştirilmesine ve uygulanmasına liderlik eder.",
+          "Çeşitli fonlama kaynaklarına sahip çok kurumlu veya çok disiplinli araştırma projelerini denetler; kurumsal, ulusal veya uluslararası düzeyde araştırma politikalarını ve standartlarını etkiler.",
+          "Araştırma proje sonuçlarını ve verimliliğini artırmak için süreçler başlatır ve uygular; fonlanan araştırmayı yönetmek için temel performans göstergelerini/metriklerini ifade eder ve ödüllendirir.",
+          "Fon sağlayıcı kuruluşlar, devlet organları, sanayi ortakları ve diğer ilgili paydaşlarla yapılan görüşmelerde kurumu yönlendirir ve/veya temsil eder.",
+          "Proje yönetiminde verimliliği ve etkinliği en üst düzeye çıkarmak için kaynakların tahsisinde ve yönetiminde ustalık gösterir."
+        ]
+      }
+    },
+    {
+      "id": "edi-management", "domain": "SME", "name": "Eşitlik, Çeşitlilik ve Kapsayıcılık Yönetimi (Cinsiyet, Engellilik ve Irkçılık Dahil)",
+      "description": "Araştırma ekiplerinde çeşitliliği teşvik etmek, farklı bakış açılarına değer vermek ve tüm üyeler için eşit fırsatlar sağlamak. EDI (eşitlik, çeşitlilik, kapsayıcılık) ilkelerini savunmak ve daha kapsayıcı bir araştırma kültürüne katkıda bulunmak.",
+      "levels": {
+        "Foundational": [
+          "Kilit terimler ve tanımlar dahil olmak üzere eşitlik, çeşitlilik ve kapsayıcılıkla (EDI) ilgili temel kavramları anlar.",
+          "Kişisel önyargıları ve klişeleri tanır ve kabul eder; bunların iş yeri dinamikleri üzerindeki olası etkisini anlar.",
+          "İş yerindeki eşitlik, çeşitlilik ve kapsayıcılıkla ilgili ilgili yasalar ve politikalar konusunda farkındalık kazanır.",
+          "Kapsayıcılığı teşvik eden ve istemeden oluşan önyargılardan kaçınan temel iletişim becerileri geliştirir."
+        ],
+        "Intermediate": [
+          "Geçmişlerdeki, deneyimlerdeki ve bakış açılarındaki farklılıkları anlayarak ve takdir ederek kültürel yeterliliği artırır.",
+          "Daha kapsayıcı ve saygılı bir çalışma ortamını teşvik etmek için kapsamlı uygulamalar uygulayabilir.",
+          "Kapsayıcılığa ve çeşitliliğe saygı gösteren ekiplerde ve iş birliği ortaklıklarında münhasıran çalışır.",
+          "Çeşitlilikle ilgili zorlukları analiz etme ve değerlendirme, kapsayıcı çözümler önerme becerisi sergiler."
+        ],
+        "Advanced": [
+          "Ekipler ve kurum içinde çeşitliliği ve kapsayıcılığı aktif olarak teşvik ederek kapsayıcı liderlik becerileri geliştirir.",
+          "Karar alma süreçlerindeki önyargıları azaltmak için çeşitli ve gelişmiş stratejiler uygular.",
+          "Kurumun çeşitli düzeylerindeki çalışanlar için çeşitlilik ve kapsayıcılık konusunda eğitim programlarının sunumuna ve organizasyonuna yardımcı olur.",
+          "Daha az deneyimli meslektaşlara çeşitlilikle çalışma konusunda tavsiyelerde bulunur."
+        ],
+        "Expert": [
+          "Araştırma kültürü ve uygulamalarında çeşitliliği, eşitliği ve kapsayıcılığı yerleştirmek için kurumsal değişim girişimlerine liderlik eder ve bunları yönlendirir.",
+          "Kapsamlı çeşitlilik ve kapsayıcılık politikalarının ve uygulamalarının geliştirilmesine ve uygulanmasına katkıda bulunur.",
+          "Ulusal ve uluslararası düzeyde çeşitliliği, eşitliği ve kapsayıcılığı teşvik etmek için dış topluluklarla ve tüm araştırma paydaşlarıyla etkileşim kurar.",
+          "Çeşitlilik ve kapsayıcılık alanında düşünce liderliğine katkıda bulunur; uygulamaları ve standartları etkiler."
+        ]
+      }
+    },
+    {
+      "id": "data-stewardship", "domain": "SME", "name": "Veri Sorumluluğu (Data Stewardship)",
+      "description": "Araştırma verilerinin yaşam döngüsü boyunca sorumlu ve etik biçimde ele alınması. Sağlam veri yönetimi uygulamaları, veri güvenliği, gizlilik düzenlemelerine uyum ve şeffaf belgeleme.",
+      "levels": {
+        "Foundational": [
+          "Araştırma Veri Yönetimini (AVY) tanımlayabilir ve ilgililiğini ile faydalarını açıklayabilir. Veri yönetim planlarına aşinadır.",
+          "Araştırma verisiyle ilgili politika ve yasal ortamın farkındadır. (veri koruma, HRR, bilgi edinme hakkı, FAIR, CARE, fikri mülkiyet, lisanslama).",
+          "Veri kalitesinin temel ilkelerini ve düşük veri kalitesinin sonuçlar üzerindeki etkisini tanır.",
+          "Temel veri uyumluluğu gereksinimlerini ve bunların sorumluluk (stewardship) açısından etkilerini anlar."
+        ],
+        "Intermediate": [
+          "Araştırma veri yaşam döngüsünü ve araştırmanın farklı aşamalarında hangi AVY önlemlerinin alındığını anlar. Bir Veri Yönetim Planının geliştirilmesine katkıda bulunur.",
+          "Bir birim veya proje genelinde mevzuat ve politikaya uyum gereksinimini uygular veya ana hatlarıyla belirler.",
+          "Mevcut kontrol panellerini ve veri kaynaklarını kullanarak raporlar çalıştırma ve metrikleri yakalama becerisi.",
+          "Veri kalitesinin nasıl belirleneceğini ve tekrarlanabilir iş akışları gibi kalite kontrol yöntemlerinin nasıl uygulanacağını açıklayabilir."
+        ],
+        "Advanced": [
+          "AVY ilke ve uygulamalarını bir proje veya birime uygulama konusunda kendinden emindir.",
+          "Araştırma verisiyle ilgili ilgili metrikleri belirleyebilir ve yakalayabilir. Metriklerin sorumlu kullanımı konusunda tavsiyede bulunabilir.",
+          "Veri modellerini, şemalarını ve standartlarını doğrular; veri kalitesini ve bütünlüğünü doğrulama becerisine sahiptir.",
+          "Bir Veri Yönetim Planının (VYP) proje boyunca güncellenmesi gereken canlı bir belge olduğunu tanır."
+        ],
+        "Expert": [
+          "Fon sağlayıcı gereksinimlerine ve yükümlülüklerine, ilgili mevzuata ve ulusal/uluslararası politikalara (GDPR, DPIA, Etik, fikri mülkiyet vb.) atıfla bir birim veya proje genelinde bir veri yönetim planı geliştirebilir ve uygulayabilir.",
+          "Uyumu değerlendirebilir ve analiz edebilir; ilgili uzmanlara danışarak bunları çözebilir.",
+          "Kurumsal veri yönetişimi girişimlerinin kurulmasında ve yönetilmesinde liderlik sağlar; veri yönetişimini bir kurumda başarıyla yerleştirmek için stratejiler geliştirir.",
+          "Makine tarafından okunabilir veri ve meta veri dahil olmak üzere ortaya çıkan teknolojilerin entegrasyonu da dahil olmak üzere veri yönetimine yenilikçi yaklaşımlar getirir."
+        ]
+      }
+    },
+    {
+      "id": "knowledge-valorisation", "domain": "SME", "name": "Bilgi Değerlendirmesi (Teknoloji Transferi)",
+      "description": "Araştırma yeniliklerinin akademik, araştırma veya laboratuvar ortamından piyasadaki pratik uygulamalara başarılı geçişini kolaylaştırmak. Ticarileştirme fırsatlarını belirlemek, sanayi ortaklarıyla iş birlikleri kurmak ve toplumsal etkiye ve araştırma sonuçlarının ekonomik değerine yol açan teknoloji transferinin hukuki ve düzenleyici yönlerinde yol almak.",
+      "levels": {
+        "Foundational": [
+          "Bilgi değerlendirmesinin temel kavramlarını ve ilkelerini, araştırma ve yenilikteki rolünü kavrar.",
+          "Patentler, telif hakları ve ticari markalar dahil olmak üzere fikri mülkiyet (FM) haklarının temellerini anlar.",
+          "Bilgi değerlendirmesi faaliyetleriyle ilgili hukuki ve düzenleyici çerçeveler konusunda farkındalık kazanır.",
+          "Bilgi değerlendirmesi süreçlerini kaydetmek ve yönetmek için temel belgeleme becerileri geliştirir."
+        ],
+        "Intermediate": [
+          "Fikri mülkiyet varlıklarının ve teknolojilerin ticari potansiyelini değerlendirir.",
+          "Bilgi değerlendirmesi için lisanslama anlaşmalarını müzakere etme ve hazırlama sürecini anlar.",
+          "Bir teknolojiyi belirli sektörlere transfer etmenin uygulanabilirliğini ve potansiyelini değerlendirmek için piyasa analizinin uygulanması konusunda tavsiyede bulunur.",
+          "İhtiyaçlarını anlamak ve başarılı bilgi değerlendirmesini kolaylaştırmak için sanayi paydaşlarıyla etkileşim kurar."
+        ],
+        "Advanced": [
+          "Bir kurum veya kuruluş içinde bilgi değerlendirmesi için stratejik planlar geliştirir ve uygular.",
+          "Bilgi değerlendirmesi anlaşmalarındaki karmaşık sorunları ele almak için geliştirilmiş müzakere becerilerini kullanır.",
+          "Teknoloji ticarileştirmesi için yeni fırsatları belirleyebilir ve bunların peşine düşebilir.",
+          "Hukuki, finansal ve teknik riskleri ele alan bilgi değerlendirmesi projeleri için risk yönetimi stratejileri uygulayabilir."
+        ],
+        "Expert": [
+          "Kurum için kapsamlı teknoloji ticarileştirme stratejilerinin geliştirilmesinde ve uygulanmasında liderlik sağlar.",
+          "Bilgi değerlendirmesiyle ilgili kurumsal ve ulusal politikaların geliştirilmesine katkıda bulunur.",
+          "Kültürel ve hukuki farklılıkları dikkate alarak bilgi değerlendirmesini uluslararası ölçekte yürütür ve kolaylaştırır.",
+          "Kesintisiz bilgi değerlendirmesini ve ticarileştirmeyi kolaylaştıran yenilik ekosistemleri ve politikaları oluşturmaya katkıda bulunur."
+        ]
+      }
+    },
+    {
+      "id": "hr-research", "domain": "SME", "name": "Araştırma için İnsan Kaynakları – İstihdam, Eğitim ve Çalışma Koşulları",
+      "description": "Araştırma ekiplerinin, gruplarının ve/veya kurumlarının işleyişini kolaylaştıran insan kaynakları yönlerinin etkin işleyişini sağlamak. Buna sözleşme yönetimi, maaş yönetimi, yetenek edinimi, performans yönetimi, eğitim ve gelişim, Araştırmada İK Mükemmelliği (HR Excellence in Research) gibi girişimlerle uyumlu olumlu bir çalışma ortamını teşvik etmek dahil olabilir. Kurumsal ve araştırma hedeflerini uyumlu hale getirmek, bireysel ve araştırma ekibi dinamiklerini optimize etmek ve araştırmacıların mesleki gelişimini kolaylaştırmak.",
+      "levels": {
+        "Foundational": [
+          "Araştırma personeliyle ilgili olduğu ölçüde istihdam yasaları ve kurumsal politikalar dahil olmak üzere insan kaynaklarının temel kavramlarını kavrar.",
+          "İş ilanları, başvuru sahibi tarama ve mülakat koordinasyonu dahil olmak üzere işe alım sürecinin temellerini anlar.",
+          "Yeni araştırma personelinin işe alıştırılmasında, oryantasyon ve politikalara giriş dahil olmak üzere temel beceriler gösterir.",
+          "Personel kayıtlarını tutar ve İK ile kurumsal düzenlemelere uyumu sağlar."
+        ],
+        "Intermediate": [
+          "İstihdam sözleşmeleri düzenler ve maaş yerleştirmeyi sağlar. Kurum içi İK BT sistemlerini buna göre günceller.",
+          "Araştırma ekipleri ve/veya personel içindeki çatışmaları çözme becerileri geliştirir; olumlu bir çalışma ortamını teşvik eder.",
+          "Araştırma personelinin becerilerini ve kariyer gelişimini artırmak için eğitim ve gelişim fırsatlarını kolaylaştırır.",
+          "Kurumdaki araştırmacıların istihdam döngüsüyle ilgili rutin ve rutin olmayan sorguları ele alır."
+        ],
+        "Advanced": [
+          "Bir yetkinlik portföyü kullanarak, kurumdaki araştırma personelinin istihdam döngüsüyle ilgili rutin olmayan sorunların çözümü için çalışır.",
+          "İnsan kaynaklarını araştırma hedefleri ve kurumsal stratejiyle uyumlu hale getirerek stratejik iş gücü planlamasına katkıda bulunur.",
+          "Araştırmada İK Mükemmelliği gibi girişimleri kullanarak araştırma bağlamında çalışan bağlılığını ve iş memnuniyetini artırmak için kararlaştırılmış stratejiler uygular.",
+          "Araştırmacılar ve araştırma yöneticileri için kariyer gelişim programlarına katkıda bulunur."
+        ],
+        "Expert": [
+          "Araştırma ortamı içinde olumlu bir kurumsal insan kültürünü şekillendirmek ve geliştirmek için girişimlere liderlik eder.",
+          "Araştırma personelinin benzersiz ihtiyaçlarına göre uyarlanmış İK politikalarının geliştirilmesine ve iyileştirilmesine katkıda bulunur.",
+          "Özellikle araştırma bağlamlarında İK yönetiminde hukuki ve etik değerlendirmelerde yol alma konusunda uzmanlığa sahiptir.",
+          "Ulusal ve uluslararası düzeyde politikayı, uygulamaları ve standartları etkileyerek Araştırma için İK alanında düşünce liderliğine katkıda bulunur."
+        ]
+      }
+    },
+    {
+      "id": "research-finance", "domain": "SME", "name": "Araştırma Finansmanı",
+      "description": "Araştırma projeleri içinde ve/veya kurumsal düzeyde bütçe yönlerini, finansal planlamayı ve uyumu denetlemek. Fonların etkin tahsisi, harcamaların izlenmesi ve mali düzenlemelere, fonlama yönergelerine uyulması; yerel ve/veya kurumsal düzeyde araştırma projelerinde genel mali sorumluluğa sahip olmak.",
+      "levels": {
+        "Foundational": [
+          "Bütçeleme, finansal tablolar ve maliyet muhasebesi dahil olmak üzere finansın temel kavramlarını kavrar.",
+          "Temel araştırma fonlama kaynağı türlerini ve bunların finansal yönetim açısından etkilerini anlar.",
+          "Araştırma hibeleri ve projeleriyle ilgili temel finansal uyumluluk gereksinimlerini kavrar.",
+          "Araştırma projeleri için finansal belgeleme ve kayıt tutma konusunda temel beceriler geliştirir."
+        ],
+        "Intermediate": [
+          "Hem doğrudan hem de dolaylı maliyetleri dikkate alarak araştırma projesi bütçelerini yönetir.",
+          "Araştırma projeleri için doğruluğu ve uyumu sağlayan finansal raporlar oluşturur ve yorumlar.",
+          "Finansal planları proje hedefleriyle uyumlu hale getirerek hibe başvuruları için bütçe geliştirmeye katkıda bulunur.",
+          "Araştırma projeleri içindeki ortakların ve iş birliklerinin finansal yönlerini anlar."
+        ],
+        "Advanced": [
+          "Uzun vadeli finansal etkileri dikkate alarak araştırma projeleri için ileri finansal tahmin modelleri geliştirir.",
+          "Maliyetleri araştırma projeleri genelinde doğru biçimde tahsis etmek için ileri maliyet muhasebesi metodolojileri uygular.",
+          "Finansal düzenlemelere ve fon sağlayıcı gereksinimlerine uyumu sağlayarak denetimlere hazırlanır ve katılır.",
+          "Araştırma projeleriyle ilişkili finansal riskler için azaltma konusunda değerlendirme yapar ve tavsiyede bulunur."
+        ],
+        "Expert": [
+          "Uzun vadeli finansal etkileri dikkate alarak kurum için ileri finansal tahmin modelleri geliştirir.",
+          "Araştırma finansmanının benzersiz ihtiyaçlarına göre uyarlanmış finansal politikaların geliştirilmesine katkıda bulunur.",
+          "Araştırma fon sağlayıcıları ve iş birlikçi ortaklar ile kuruluşların şart ve koşulları dahil olmak üzere karmaşık finansal anlaşmaların sonuçlandırılmasına katkıda bulunur.",
+          "Genç araştırma finansmanı profesyonellerine mentorluk ve rehberlik dahil olmak üzere araştırma finansmanında kurumsal liderlik sağlar."
+        ]
+      }
+    },
+    {
+      "id": "clinical-research-management", "domain": "SME", "name": "Klinik Araştırma Yönetimi",
+      "description": "Bir sağlık veya ilaç ortamında klinik araştırma faaliyetlerini denetlemek ve koordine etmek. Araştırma protokollerinin başarılı uygulanmasını sağlamak, çalışma bütçelerini yönetmek ve düzenleyici yönergelere uyumu sürdürmek. Paydaşlarla iletişimi kolaylaştırmak ve klinik denemelerin etik ve verimli yürütülmesine katkıda bulunmak.",
+      "levels": {
+        "Foundational": [
+          "Dahil etme/hariç tutma kriterleri ve çalışma sonlanım noktaları gibi temel bileşenler dahil olmak üzere klinik araştırma protokollerini anlamada temel bilgi gösterir.",
+          "Bilgilendirilmiş onamın ve katılımcı gizliliğinin korunmasının önemi dahil olmak üzere klinik araştırmadaki temel etik değerlendirmeleri anlar.",
+          "Katılımcı kayıtları ve düzenleyici sunumlar gibi doğru ve düzenli çalışma belgelerinin sürdürülmesinde temel beceriler geliştirir.",
+          "Araştırma ekipleriyle etkin biçimde iş birliği yapabilir; çalışma güncellemelerini iletmeyi ve rutin operasyonel zorlukları ele almayı öğrenir."
+        ],
+        "Intermediate": [
+          "Klinik araştırmanın tüm yönlerinin ilgili yönergelere ve standartlara uymasını sağlayarak düzenleyici gereksinimler konusunda nüanslı bir anlayış sergiler.",
+          "Katılımcı işe alımı, veri toplama ve çalışma zaman çizelgeleri dahil olmak üzere klinik denemelerin birden fazla yönünü koordine etme konusunda yeterlilik gösterir.",
+          "Klinik çalışmaların günlük yönetiminde rehberlik sağlayabilir.",
+          "Bütçe yönetiminde beceriler kazanır; klinik denemelerin çalışma kalitesini korurken finansal kısıtlamalar ve politika dahilinde yürütülmesini sağlar."
+        ],
+        "Advanced": [
+          "Bilimsel, düzenleyici ve lojistik faktörleri dikkate alarak karmaşık klinik araştırma çalışmalarını tasarlama ve planlama konusunda ileri düzey yetenekler geliştirir.",
+          "Baş araştırmacılar, sponsorlar ve düzenleyici otoriteler dahil olmak üzere kilit paydaşlarla etkileşim kurar; stratejik karar almaya katkıda bulunur.",
+          "Kalite kontrol önlemlerini denetler, kapsamlı iç denetimlere yardımcı olur ve araştırma süreci boyunca yüksek veri bütünlüğü standartlarını sağlar.",
+          "Çalışma tasarımına en son metodolojileri ve teknolojileri dahil ederek yenilikçi araştırma protokollerinin uygulanmasına katkıda bulunur."
+        ],
+        "Expert": [
+          "Düzenleyici işlerde uzman olarak hizmet eder; onayların alınması ve sürekli uyumun sağlanması için kapsamlı stratejiler geliştirir ve uygular.",
+          "Birden fazla klinik çalışmayı denetler ve bunları daha geniş kurumsal hedeflerle uyumlu hale getirir.",
+          "Saygın dergilerde yayın ve/veya konferanslarda sunum yoluyla araştırma bulgularının yayılmasına katkıda bulunur; bilimsel bilginin ilerlemesine katkıda bulunur.",
+          "Genç meslektaşlara mentorluk yapar; eğitim girişimleri yoluyla ekibin mesleki gelişimine ve daha geniş klinik araştırma topluluğunu etkilemeye aktif olarak katkıda bulunur."
+        ]
+      }
+    },
+    {
+      "id": "research-ethics-integrity", "domain": "SME", "name": "Araştırma Etiği ve Bütünlüğü",
+      "description": "Tüm araştırma faaliyetlerinin etik standartlara uymasını, katılımcıların haklarını ve refahını korumasını sağlamak. Araştırma ekibi içinde bütünlük kültürünü teşvik ederken şeffaflığı, dürüstlüğü ve hesap verebilirliği teşvik etmek.",
+      "levels": {
+        "Foundational": [
+          "Veri toplama ve analizde bütünlüğü korur; araştırma uygulamalarında yerleşik etik yönergelere uyar.",
+          "Araştırma etiğinin temel ilkelerini anlar; intihal ve veri uydurma dahil olmak üzere araştırma suistimali biçimlerini önlemek için kendini eğitir.",
+          "Araştırma uygulamalarında dürüstlüğün, şeffaflığın ve gizliliğin önemini kavrar.",
+          "Araştırma süreci boyunca sorumlu davranışa bağlılığı teşvik eder."
+        ],
+        "Intermediate": [
+          "Araştırma faaliyetleri sırasında ortaya çıkabilecek çıkar çatışmalarını belirleyebilir ve yönetebilir.",
+          "Araştırma verisinin gizliliğini ve bütünlüğünü sağlayan güvenli veri yönetimi ve depolama uygulamalarını hayata geçirir.",
+          "Yazarlık, fikri mülkiyet ve yayın etiğiyle ilgili konuları, doğru atıf uygulamaları dahil olmak üzere anlar.",
+          "Etik ilkeleri çeşitli araştırma senaryolarına uygulayabilir."
+        ],
+        "Advanced": [
+          "Araştırma sırasında ortaya çıkabilecek karmaşık etik ikilemleri analiz edebilme ve ele alabilme becerisi.",
+          "Savunmasız popülasyonları içeren araştırmaların yönetiminde uzmanlık geliştirir; ek güvenceler ve değerlendirmeler sağlar.",
+          "Araştırma bağlamında bütünlüğü ve etik standartlara uyumu koruyan bilgilendirilmiş çözümler önerebilir.",
+          "Çeşitli araştırma metodolojilerinin etik etkileri konusunda sofistike bir anlayış sergiler ve bu içgörüyü etik açıdan sağlam çalışmaları tasarlamak ve yürütmek için uygular."
+        ],
+        "Expert": [
+          "Başkalarına mentorluk yapmak dahil olmak üzere bir araştırma bütünlüğü kültürünü teşvik etmede liderlik sergiler; daha geniş araştırma topluluğunda etik standartların ilerlemesine katkıda bulunur.",
+          "Araştırma bütünlüğü ve etik konularda kurumsal, ulusal ve uluslararası politika ve uygulamaların geliştirilmesine katkıda bulunur.",
+          "Bilimsel çalışma, sunumlar ve liderlik yoluyla etik bilginin ilerlemesine katkıda bulunur.",
+          "Disiplinler arası ve son teknoloji araştırmalardaki etik etkiler konusunda derin bir anlayış sergiler; politika geliştirme ve uygulamayı etkiler."
+        ]
+      }
+    },
+    {
+      "id": "research-infrastructure-management", "domain": "SME", "name": "Araştırma Altyapısı Yönetimi",
+      "description": "Güvenlik ve risk yönetiminden sorumludur; araştırma altyapısını planlar ve sürdürülebilir bir fonlama modeli, altyapı ve kaynak yönetimi geliştirir; ayrıca araştırma altyapısında iş geliştirme ve yenilikten sorumludur.",
+      "levels": {
+        "Foundational": [
+          "Araştırma altyapılarının temel kavramlarını ve önemini anlar. Farklı araştırma altyapısı türlerine (fiziksel, sanal ve veri altyapıları) aşinadır.",
+          "Araştırma altyapılarının temel bileşenlerini ve işlevlerini belirler; araştırma altyapıları için temel bakım ve operasyonel prosedürleri anlar. Temel güvenlik protokolleri ve prosedürlerine aşinadır.",
+          "Araştırma altyapısıyla ilgili temel düzenleyici ve uyumluluk gereksinimlerini anlar; araştırma altyapısı ve ilgili faaliyetlerin belgeleme ve raporlama gereksinimlerine aşinadır.",
+          "Araştırmacılara, yenilikçilere ve araştırma altyapılarının diğer kullanıcılarına etkin destek sağlar."
+        ],
+        "Intermediate": [
+          "Araştırma altyapılarının etkin işleyişi için kaynakları (insan, finansal ve maddi) verimli biçimde yönetir; operasyonel planlar geliştirir ve uygular.",
+          "Altyapı operasyonlarında yüksek standartları sağlamak için kalite kontrol önlemleri uygular; altyapı yönetiminin sürekli iyileştirilmesi için süreçler oluşturur.",
+          "Düzenleyici gereksinimlere ve sektör standartlarına uyumu sağlar; araştırma altyapılarının işletilmesiyle ilişkili riskleri belirler ve yönetir.",
+          "İhtiyaçlarını anlamak ve altyapının bu ihtiyaçları karşılamasını sağlamak için paydaşlarla etkileşim kurar; altyapı yönetimi ekibi içinde iş birliğini artırır."
+        ],
+        "Advanced": [
+          "Araştırma altyapısı dahil finanse edilen araştırma için kaynak tahsislerini onaylar; araştırma altyapılarının uzun vadeli gelişimi ve sürdürülebilirliği için stratejik planlar geliştirir ve uygular.",
+          "Araştırma tesislerinin ve altyapısının planlamasını ve gözetimini geliştirir ve izler.",
+          "Araştırma altyapılarının performansını ölçmek ve iyileştirmek için gelişmiş metrikler geliştirir ve uygular.",
+          "Kilit paydaşlar ve kuruluşlarla stratejik ortaklıklar kurar ve yönetir."
+        ],
+        "Expert": [
+          "Araştırma altyapılarının yönetiminde Avrupa/küresel standartları ve en iyi uygulamaları uygulayarak altyapı yönetiminde yenilikçi uygulamaların geliştirilmesine ve uygulanmasına liderlik eder.",
+          "Sürekli iyileştirmeyi ve kurumsal ile paydaş ihtiyaçlarıyla uyumu sağlamak için araştırma altyapısı yönetim hizmetlerinin değerlendirilmesine yönelik stratejik planlar başlatır ve uygular.",
+          "Araştırma altyapılarının sürdürülebilirliğini sağlamak için stratejik planlar geliştirir ve uygular.",
+          "Araştırma altyapılarının önemini savunur ve karar alma süreçlerini etkiler."
+        ]
+      }
+    },
+    {
+      "id": "research-strategy-policy", "domain": "SME", "name": "Araştırma, Strateji ve Politika Geliştirme",
+      "description": "Araştırma ve/veya bilgi değerlendirmesi politikalarının ve stratejilerinin geliştirilmesini, uygulanmasını, izlenmesini ve değerlendirilmesini kolaylaştırmak.",
+      "levels": {
+        "Foundational": [
+          "Kurumsal araştırma ve/veya bilgi değerlendirmesi politikalarının ve stratejilerinin temel kavramlarını ve önemini anlar.",
+          "Kurumsal araştırma ve/veya bilgi değerlendirmesi politikası ve stratejisinin izlenmesi ve değerlendirilmesiyle ilgili temel göstergelerin farkındadır.",
+          "Kurumsal araştırma ve/veya bilgi değerlendirmesi politikasının ve stratejisinin geliştirilmesine ve uygulanmasına katkıda bulunur.",
+          "Kurumsal araştırma ve/veya bilgi değerlendirmesi politikası ve stratejisiyle ilgili kilit paydaşların farkındadır.",
+          "Araştırma değerlendirmesinin temel kavramlarını ve amaçlarını, temel değerlendirme yöntemleri ve metrikleri dahil olmak üzere anlar."
+        ],
+        "Intermediate": [
+          "Araştırma yönetimi istihbaratı için veri toplar ve inceler; mevcut araştırma ve/veya bilgi değerlendirmesi politikalarının ve stratejilerinin etkinliğini ve etkisini değerlendirmek için analiz yürütür.",
+          "Kurumsal araştırma ve/veya bilgi değerlendirmesi politikasının ve stratejisinin izlenmesini ve değerlendirilmesini sağlayacak kanıtları toplar.",
+          "Kurumun yasal ve kalite güvence yükümlülüklerini karşıladığından emin olur.",
+          "Araştırma ve/veya bilgi değerlendirmesi politikaları hakkında girdi toplamak ve fikir birliği oluşturmak için paydaşlarla etkileşim kurar.",
+          "Kurumsal hedeflerle uyumlu olmalarını sağlayarak ve uygun metrikleri ve metodolojileri kullanarak ayrıntılı araştırma değerlendirme planları yürütür."
+        ],
+        "Advanced": [
+          "Etkiyi ve eğilimleri değerlendirmek için ortamı tarar; net, ölçülebilir hedefler belirleyerek uzun vadeli araştırma ve/veya bilgi değerlendirmesi politikaları ve stratejileri geliştirir.",
+          "Kurumsal araştırma ve/veya bilgi değerlendirmesi politikasının ve stratejisinin izlenmesi ve değerlendirilmesi için kullanılan göstergelerin değerlendirilmesine ve geliştirilmesine katkıda bulunur.",
+          "Araştırma ve/veya bilgi değerlendirmesi politikası ve stratejisi geliştirmeye yardımcı olacak istihbarat toplar.",
+          "Araştırma ve/veya bilgi değerlendirmesi politikası geliştirmeyi kolaylaştırmak için kilit paydaşlar ve kuruluşlarla stratejik ortaklıklar kurar ve yönetir.",
+          "Anlamlı içgörüler elde etmek ve stratejik kararları bilgilendirmek için ileri teknikler kullanarak değerlendirme verilerinin derinlemesine analizini ve yorumlanmasını gerçekleştirir."
+        ],
+        "Expert": [
+          "Kurumsal araştırma ve/veya bilgi değerlendirmesi politikaları ve stratejilerinin kıyaslamalarını, değerlendirmesini ve etki değerlendirmesini yürüterek kanıt toplar ve bunların daha da geliştirilmesini sağlar.",
+          "Kurumsal araştırma ve/veya bilgi değerlendirmesi politikasının ve stratejisinin izlenmesi ve değerlendirilmesi için kullanılan göstergelerin değerlendirilmesine ve geliştirilmesine liderlik eder.",
+          "Kurumun araştırma ve bilgi değerlendirmesi portföyünü en üst düzeye çıkarmak ve kurumsal araştırma gündemini teşvik etmek için stratejiler ve politikalar geliştirir.",
+          "Farklılaşmış tematik ve sektörel paydaş çıkarlarına yanıt verir; kurumun yararına siyasi kurumları ve kamu görevlilerini etkiler.",
+          "Politikayı etkileyen, sürekli iyileştirmeyi yönlendiren ve küresel en iyi uygulamalara bağlı kalan kapsamlı, yenilikçi araştırma değerlendirme girişimlerine liderlik etme konusunda uzmanlık gösterir."
+        ]
+      }
+    },
+    {
+      "id": "managing-grant-office", "domain": "SME", "name": "Hibe/Araştırma Destek Ofisini Yönetme",
+      "description": "Kurumsal Araştırma Destek hizmet(ler)ini düzenlemek, yapılandırmak, yönetmek, izlemek ve gözden geçirmek.",
+      "levels": {
+        "Foundational": [],
+        "Intermediate": [
+          "Araştırma destek hizmetlerini koordine eder; etkili araştırma destek hizmetleri sağlamak için personel ve kaynaklar geliştirir.",
+          "Maliyet etkin, 'bütünleşik' ve 'amaca uygun' bir araştırma destek hizmet yapısını yönetir.",
+          "Araştırma ekibi içinde etkin iş birliğini sağlar.",
+          "Kullanıcı geri bildirimi toplar ve araştırma destek hizmetlerinde yüksek standartları sağlamak için kalite kontrol önlemleri uygular.",
+          "İhtiyaçlarını anlamak ve özel destek sağlamak için araştırmacılar ve paydaşlarla etkileşim kurar."
+        ],
+        "Advanced": [
+          "Araştırma destek hizmeti stratejisini uygulamak için yenilikçi sistemler ve süreçler geliştirir; temel performans göstergelerini izler.",
+          "Kurumsal ve sektörel uygulamaları ve politikaları çevirir; kolaylaştırma işlevlerini haritalandırır ve gözden geçirir; riskleri azaltır ve gerekirse ayarlamalar başlatır.",
+          "Araştırma destek ekibine rehberlik etmek ve onu motive etmek için liderlik becerileri geliştirir; mesleki gelişimini de içerir, yetenekleri belirler ve geliştirir.",
+          "Kıyaslama, en iyi uygulamaların benimsenmesi, araştırma kolaylaştırma operasyonlarını iyileştirmek için yeni çalışma yöntemleri ve teknolojiler dahil olmak üzere araştırma destek hizmetlerinin kalitesini ve verimliliğini artırmak için sürekli iyileştirme süreçleri geliştirir ve uygular.",
+          "Kilit paydaşlar ve kuruluşlarla stratejik ortaklıklar kurar ve yönetir."
+        ],
+        "Expert": [
+          "Kurumsal hedeflerle uyumlu olarak kurum içinde iyileştirmek için kanıta dayalı stratejiler geliştirir ve uygular. Kurumsal, ulusal veya uluslararası düzeyde araştırma politikalarını ve standartlarını etkiler.",
+          "Etkin, verimli ve saygın bir hizmeti sürdürür; hizmetlerin verimliliğini ve etkinliğini en üst düzeye çıkarmak için kaynakların yönetiminde ustalık gösterir.",
+          "Araştırma destek ekibinin sürekli beceri geliştirmesini ve kapasite oluşturmasını sağlayan stratejiler geliştirir ve uygular; araştırma kolaylaştırma personeline mentorluk yapar.",
+          "Araştırma faaliyetlerini kolaylaştırmak için kaynakların tahsisinde ve yönetiminde ustalık gösterir; stratejik planlama ve kaynak yönetimi yoluyla araştırma destek hizmetlerinin sürdürülebilirliğini sağlar.",
+          "Araştırma destek hizmetinin saygı gördüğü ve değer verildiği bir kurumsal kültür yaratır; karar alma süreçlerini etkiler."
+        ],
+        "_note": "Kaynak PDF, bu yetkinlik için Temel düzey tanımlayıcıları içermez (Orta, s.29'daki ilk dolu düzeydir)."
+      }
+    }
+  ]
+}
