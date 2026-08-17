@@ -41,7 +41,8 @@ function computeProgress(session: ReturnType<typeof loadSession>) {
 
 sessionRouter.post("/sessions", (req, res) => {
   const lang: Lang = req.body?.lang === "tr" ? "tr" : "en";
-  const session = createSession(lang);
+  const participantName: string | undefined = typeof req.body?.participantName === "string" ? req.body.participantName : undefined;
+  const session = createSession(lang, participantName);
   res.json(session);
 });
 

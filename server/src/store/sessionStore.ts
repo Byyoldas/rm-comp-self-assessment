@@ -17,7 +17,7 @@ function sessionPath(id: string): string {
   return path.join(SESSIONS_DIR, `${id}.json`);
 }
 
-export function createSession(lang: Lang = "en"): AssessmentSession {
+export function createSession(lang: Lang = "en", participantName?: string): AssessmentSession {
   const now = new Date().toISOString();
   const session: AssessmentSession = {
     id: randomUUID(),
@@ -25,6 +25,7 @@ export function createSession(lang: Lang = "en"): AssessmentSession {
     updatedAt: now,
     step: 1,
     lang,
+    participantName: participantName?.trim() || undefined,
     mode: "standard",
     documents: [],
     competencyStates: {},
@@ -47,4 +48,18 @@ export function saveSession(session: AssessmentSession): void {
 
 export function listSessionIds(): string[] {
   return fs.readdirSync(SESSIONS_DIR).filter((f) => f.endsWith(".json")).map((f) => f.replace(/\.json$/, ""));
+}
+
+/** Loads every session on disk. Skips (and logs) any file that fails to parse rather than failing the whole listing. */
+export function listSessions(): AssessmentSession[] {
+  const sessions: AssessmentSession[] = [];
+  for (const id of listSessionIds()) {
+    try {
+      const session = loadSession(id);
+      if (session) sessions.push(session);
+    } catch (err) {
+      console.warn(`[sessionStore] Failed to load session ${id}, skipping:`, err);
+    }
+  }
+  return sessions;
 }

@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import Admin from "./pages/Admin";
 import "./styles/index.css";
 
+const isAdmin = window.location.pathname.replace(/\/+$/, "") === "/admin";
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <React.StrictMode>{isAdmin ? <Admin /> : <App />}</React.StrictMode>
 );

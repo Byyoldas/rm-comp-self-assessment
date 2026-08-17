@@ -78,12 +78,15 @@ export default function App() {
     return s;
   }, [session]);
 
-  const startNewSession = useCallback(async () => {
-    const s = await api.createSession(lang);
-    localStorage.setItem(SESSION_KEY, s.id);
-    setSession(s);
-    setPage("mode");
-  }, [lang]);
+  const startNewSession = useCallback(
+    async (participantName: string) => {
+      const s = await api.createSession(lang, participantName);
+      localStorage.setItem(SESSION_KEY, s.id);
+      setSession(s);
+      setPage("mode");
+    },
+    [lang]
+  );
 
   const resetSession = useCallback(() => {
     localStorage.removeItem(SESSION_KEY);

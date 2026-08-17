@@ -1,4 +1,5 @@
 import type {
+  AdminSessionSummary,
   AssessmentMode,
   AssessmentReport,
   AssessmentSession,
@@ -30,7 +31,8 @@ export const api = {
   getRoleProfiles: (lang: Lang = "en") => req<RoleProfilesFile>(`/role-profiles?lang=${lang}`),
   getFidelity: () => req<Record<string, unknown>>("/fidelity"),
 
-  createSession: (lang: Lang = "en") => req<AssessmentSession>("/sessions", { method: "POST", body: JSON.stringify({ lang }) }),
+  createSession: (lang: Lang = "en", participantName?: string) =>
+    req<AssessmentSession>("/sessions", { method: "POST", body: JSON.stringify({ lang, participantName }) }),
   getSession: (id: string) => req<AssessmentSession>(`/sessions/${id}`),
 
   setMode: (id: string, mode: AssessmentMode, targetedCompetencyIds?: string[]) =>
@@ -69,4 +71,10 @@ export const api = {
 
   exportJsonUrl: (id: string) => `${BASE}/sessions/${id}/export.json`,
   exportCsvUrl: (id: string) => `${BASE}/sessions/${id}/export.csv`,
+
+  admin: {
+    listSessions: (token: string) => req<AdminSessionSummary[]>(`/admin/sessions?token=${encodeURIComponent(token)}`),
+    exportAllJsonUrl: (token: string) => `${BASE}/admin/export.json?token=${encodeURIComponent(token)}`,
+    exportAllCsvUrl: (token: string) => `${BASE}/admin/export.csv?token=${encodeURIComponent(token)}`,
+  },
 };

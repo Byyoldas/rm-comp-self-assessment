@@ -16,6 +16,8 @@ export interface Strings {
     body: string;
     howItWorksTitle: string;
     bullets: string[];
+    namePrompt: string;
+    namePlaceholder: string;
     start: string;
     footnote: string;
   };
@@ -153,6 +155,8 @@ export const STRINGS: Record<Lang, Strings> = {
         "📊 You'll get a level (Foundational / Intermediate / Advanced / Expert) per competency, with a confidence and evidence-strength rating — never a fake percentage score.",
         "🧭 A gap analysis compares your current level to what your role requires, with specific development priorities.",
       ],
+      namePrompt: "Your name",
+      namePlaceholder: "So your results can be identified if this is shared with a team lead",
       start: "Start the assessment",
       footnote: "Takes 10–30 minutes depending on the mode you choose. You can pause and resume at any time.",
     },
@@ -302,6 +306,8 @@ export const STRINGS: Record<Lang, Strings> = {
         "📊 Her yetkinlik için Temel, Orta, İleri veya Uzman düzeylerinden biri belirlenir; buna bir güven ve kanıt gücü derecesi eşlik eder — asla uydurma bir yüzde puanı görmezsiniz.",
         "🧭 Bir açık analizi mevcut düzeyinizi rolünüzün gerektirdiğiyle karşılaştırır ve nerede gelişmeniz gerektiğini somut biçimde gösterir.",
       ],
+      namePrompt: "Adınız",
+      namePlaceholder: "Bu bir ekip lideriyle paylaşılırsa sonuçlarınız tanınabilsin diye",
       start: "Değerlendirmeyi başlat",
       footnote: "Seçtiğiniz moda göre 10-30 dakika sürer. İstediğiniz an duraklatıp kaldığınız yerden devam edebilirsiniz.",
     },

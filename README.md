@@ -32,6 +32,44 @@ cd server && npm test        # vitest: engine unit tests + automated fidelity ch
 cd server && npm run fidelity  # standalone framework coverage report (also at GET /api/fidelity)
 ```
 
+## Running a shared assessment for a team
+
+If several colleagues need to take the assessment and have their results land in one place, run
+**one** copy of the app yourself and have everyone use that — don't have each person run their own
+copy, since each copy only knows about its own local sessions.
+
+1. **Enable the admin dashboard.** Copy `server/.env.example` to `server/.env` and set
+   `ADMIN_TOKEN` to any long random string. Keep this value private — it's the password to see
+   everyone's results.
+2. **Start both servers as usual** (`npm run dev` in `server/` and `client/`).
+3. **Expose your machine to your colleagues.** If they're on the same network, share your local IP
+   and the client's port (e.g. `http://192.168.1.23:5173`). If they're remote, use a tunnel — e.g.
+   [ngrok](https://ngrok.com) (`ngrok http 5173`) — which gives you a temporary public URL with no
+   domain or hosting account needed. The tunnel only needs to stay up while people are taking the
+   assessment; it doesn't need to be permanent.
+4. **Send colleagues the URL.** Each person enters their name on the welcome screen (this is what
+   identifies their submission to you later), works through the assessment, and can close the tab
+   at any point — their session id is remembered in their own browser's `localStorage`, so they can
+   come back to the same URL later and resume automatically.
+5. **View results at `/<your-url>/admin`.** Enter your `ADMIN_TOKEN` once (it's remembered in your
+   browser) to see a table of every submission on the server — name, role, completion status, how
+   many competencies got a defensible level, and high-priority gap count — updating live as people
+   finish. From there you can export everyone's results together as one CSV or JSON, or open/export
+   any individual person's full report.
+
+This needs no database and no hosting account. The trade-off is that it only works while your
+machine (or wherever you're running the server) is on and the tunnel is active — if you need a
+permanent link people can return to independently of your laptop, you'd deploy `server/` and
+`client/` to a small persistent host instead (e.g. Render/Railway), which is a separate step not
+covered here.
+
+**Privacy note:** competency self-assessment is sensitive, appraisal-adjacent information. The
+`/admin` route is the only place that aggregates multiple people's results, and it's useless
+without the token — never share `ADMIN_TOKEN` with anyone who shouldn't see the whole team's
+results. Individual `/api/sessions/:id/*` links are not admin-gated (a session id is that person's
+own private key to their own results, the same way the rest of the app works), so don't post a
+completed session's direct link somewhere public.
+
 ## What was built
 
 | Deliverable | Where |
@@ -54,6 +92,7 @@ cd server && npm run fidelity  # standalone framework coverage report (also at G
 | Turkish translation (framework + role profiles) | `shared/framework.tr.json`, `shared/roleProfiles.tr.json` |
 | Bilingual question/report text + Turkish-aware evidence heuristics | `server/src/i18n/*.ts` |
 | Language toggle + full client i18n dictionary | `client/src/i18n/strings.ts`, `components/Layout.tsx` |
+| Admin dashboard — token-gated multi-participant collection | `server/src/routes/admin.ts`, `client/src/pages/Admin.tsx` |
 
 ## Architecture
 
@@ -204,6 +243,10 @@ heuristic evaluator alone.
   counts) is enforced by the fidelity checker, but nuance/register wasn't independently audited.
 - Role-profile relevance weighting (`roleProfiles.json`) is a reasonable first-pass design, built
   for this tool, not validated against real RM Comp usage data.
+- The admin dashboard (`/admin`) uses a single shared token, not per-user accounts — fine for one
+  team lead collecting a small group's results, not designed for larger or multi-team deployments
+  where you'd want individual admin logins and audit trails. It's English-only (an internal tool,
+  not part of the bilingual participant-facing flow).
 
 ## Framework fidelity
 

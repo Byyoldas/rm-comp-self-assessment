@@ -202,6 +202,7 @@ export interface AssessmentSession {
   updatedAt: string;
   step: number;
   lang: Lang;
+  participantName?: string;
   mode: AssessmentMode;
   targetedCompetencyIds?: string[];
   roleAnswers?: UserRoleAnswers;
@@ -256,4 +257,22 @@ export interface AssessmentReport {
   topDevelopmentPriorities: DevelopmentGap[];
   uncertaintyNotes: string[];
   executiveSummary: string;
+}
+
+// ---------------- Admin (multi-participant collection) ----------------
+
+export interface AdminSessionSummary {
+  id: string;
+  participantName: string;
+  jobTitle?: string;
+  organisationType?: string;
+  lang: Lang;
+  mode: AssessmentMode;
+  completed: boolean;
+  step: number;
+  createdAt: string;
+  updatedAt: string;
+  competencyCount: number;
+  demonstratedCount: number;
+  highPriorityGapCount: number;
 }
